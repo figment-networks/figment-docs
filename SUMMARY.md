@@ -331,6 +331,10 @@
   * [Getting started with dotenv and .env files](network-documentation/extra-guides/dotenv-and-.env.md)
   * [Rust Learning Resources](network-documentation/extra-guides/rust-learning-resources.md)
 
+---
+
+* [Learn v2 Test](learn-v2-test.md)
+
 ## 🤔 Other
 
 * [🧾 Glossary](other/glossary.md)

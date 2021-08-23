@@ -14,8 +14,6 @@ Don't forget that you can try them out [**via Datahub**](https://datahub.figment
 
 ## Token contracts
 
-{% page-ref page="token-contracts.md" %}
-
 ## Oracle contracts
 
 {% page-ref page="oracle-contracts.md" %}

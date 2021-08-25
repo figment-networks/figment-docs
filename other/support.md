@@ -1,12 +1,12 @@
 ---
-description: Reach out if you have any questions or enquiries
+description: Reach out if you have any questions or inquiries
 ---
 
 # 🗳 Support
 
-**Sign up to** [**DataHub**](https://figment.io/datahub-waitlist/) **today to start building amazing applications!**
+**Sign up with** [**DataHub**](https://datahub.figment.io) **today to start building amazing applications!**
 
-If you are encountering any issues, need more information, or have some feedback to share you can reach out via our [**community Discord**](https://discord.gg/fszyM7K) \_\*\*\_or directly via email.
+If you are encountering any issues, need more information, or have some feedback to share you can reach out via our [**community Discord**](https://discord.gg/fszyM7K) or directly via email.
 
 Pro and Enterprise customers also have unique Telegram channels to chat in real-time with our team.
 
@@ -18,5 +18,5 @@ You will find dedicated channels for each network we support and we will make su
 
 ## Email Support
 
-For more urgent inquiries, you can email us at datahub@figment.io and we will make sure to get back to you as soon as possible.
+For more urgent inquiries, you can email us at [datahub@figment.io](mailto:datahub@figment.io) and we will make sure to get back to you as soon as possible!
 

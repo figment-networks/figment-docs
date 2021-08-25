@@ -4,9 +4,9 @@ description: Learn what makes Web 3 protocols unique and how to use them
 
 # 👋 Welcome to Figment Docs
 
-## ![](.gitbook/assets/vhhp1wl4_400x400-1-.jpg) The Web 3 Knowledge Base.
+![](.gitbook/assets/vhhp1wl4_400x400-1-.jpg) At Figment, our mission is to support the adoption, growth and long term success of the Web 3 ecosystem. This is Figment’s unique approach: we make it simple to build on the next generation of blockchain technology. We provide enterprise grade node and staking infrastructure, the Hubble Web 3 explorer, and developer tools while also actively participating in community & governance.
 
-**Figment has embarked on a mission to introduce more developers to Web 3 by simplifying the experience for its users and shining the light on Web 3’s potential.**
+Here you'll find the documentation of all protocols which we support on DataHub. 
 
 ## 📚 Explore Network Documentation
 

@@ -22,5 +22,3 @@ Be sure to check out the [**official Avalanche documentation**](https://docs.ava
 
 {% page-ref page="rpc-and-rest-api/" %}
 
-{% page-ref page="tutorials/" %}
-

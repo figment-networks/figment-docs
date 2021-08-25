@@ -20,9 +20,5 @@ Be sure to check out the[ **official Solana documentation**](https://docs.solana
 
 {% page-ref page="solana-101.md" %}
 
-{% page-ref page="resources.md" %}
-
-{% page-ref page="solana-pathway/" %}
-
 {% page-ref page="rpc-and-rest-api/" %}
 

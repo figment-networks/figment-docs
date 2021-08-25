@@ -22,5 +22,3 @@ Be sure to check out the [**official Tezos documentation**](https://tezos.gitlab
 
 {% page-ref page="tezos-101.md" %}
 
-{% page-ref page="tutorials/" %}
-

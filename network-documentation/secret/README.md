@@ -24,7 +24,3 @@ We also invite you to join the Secret community on their [Discord](http://chat.s
 
 {% page-ref page="rpc-and-rest-api/" %}
 
-{% page-ref page="secret-pathway.md" %}
-
-{% page-ref page="tutorials/" %}
-

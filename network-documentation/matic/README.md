@@ -23,7 +23,3 @@ Be sure to check out the[ **official Polygon \(Matic\) documentation**](https://
 
 {% page-ref page="rpc-and-rest-api/" %}
 
-{% page-ref page="polygon-matic-pathway/" %}
-
-{% page-ref page="tutorials/" %}
-

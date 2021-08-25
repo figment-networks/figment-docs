@@ -22,9 +22,5 @@ Be sure to check out the [**official NEAR documentation**](https://docs.near.org
 
 {% page-ref page="rpc-and-rest-api/" %}
 
-{% page-ref page="near-pathway.md" %}
-
-{% page-ref page="tutorials/" %}
-
 {% page-ref page="near-wallet.md" %}
 

@@ -24,5 +24,3 @@ Be sure to check out the [**official Cosmos documentation**](https://docs.cosmos
 
 {% page-ref page="enriched-apis/" %}
 
-{% page-ref page="tutorials/" %}
-

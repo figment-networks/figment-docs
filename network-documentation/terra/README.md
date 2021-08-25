@@ -24,5 +24,3 @@ Be sure to check out the [**official Terra documentation**](https://docs.terra.m
 
 {% page-ref page="enriched-apis/" %}
 
-{% page-ref page="tutorials/" %}
-

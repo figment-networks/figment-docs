@@ -22,7 +22,3 @@ Be sure to check out the [**official Celo documentation**](https://docs.celo.org
 
 {% page-ref page="rpc-and-rest-api/" %}
 
-{% page-ref page="celo-pathway.md" %}
-
-{% page-ref page="tutorial/" %}
-

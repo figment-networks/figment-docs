@@ -60,17 +60,42 @@ The Oasis Network is the first privacy-enabled blockchain platform for open fina
 
 {% page-ref page="oasis/" %}
 
+## ![](../.gitbook/assets/osmo.png) Osmosis
+
+Osmosis is an advanced AMM protocol built using the Cosmos SDK that will allow developers to design, build, and deploy their own customized AMMs.
+
+{% page-ref page="osmosis/" %}
+
 ## ![](../.gitbook/assets/4129.png) Polkadot
 
 Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, trust-free environment. It is built to connect and secure unique blockchains, whether they be public, permission-less networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet where independent blockchains can exchange information under common security guarantees.
 
 {% page-ref page="polkadot/" %}
 
+## ![](../.gitbook/assets/polygon.png) Polygon
+
+Polygon \(Matic\) Network is a sidechain-based scaling solution for public blockchains. It is based on an adapted implementation of Plasma framework. Polygon \(Matic\) provides scalability while ensuring a superior user experience in a secured and decentralized manner.
+
+{% page-ref page="matic/" %}
+
+## ![](../.gitbook/assets/provenance.jpg) Provenance
+
+Provenance is a public blockchain network designed and developed to support [financial service industry](https://docs.provenance.io/ecosystem/financial-services-blockchain) needs by providing a **ledger**, **registry**, and **exchange** across multiple financial assets and markets.   
+The Provenance blockchain is based on the Cosmos SDK and the Tendermint blockchain application platforms.
+
+{% page-ref page="provenance/" %}
+
 ## ![](../.gitbook/assets/logo1.png) Secret
 
 Secret Network is the first blockchain with privacy-preserving smart contracts. That means applications built on Secret can utilize encrypted data without revealing it to anyone, even the nodes in the network. For the first time, Secret Network allows developers to build powerful, permissionless, privacy-preserving applications - Secret Apps.
 
 {% page-ref page="secret/" %}
+
+## ![](../.gitbook/assets/solana%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png) Solana
+
+Solana is an open-source project implementing a new, high-performance, permissionless blockchain. Solana features a new timestamp system called Proof-of-History \(PoH\) that enables automatically ordered transactions. It also uses a Proof of Stake \(PoS\) consensus algorithm to help secure the network.
+
+{% page-ref page="solana/" %}
 
 ## ![](../.gitbook/assets/rsz_terra-logo%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%283%29.jpg) Terra
 

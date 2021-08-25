@@ -182,7 +182,7 @@ Blockchain governance is a process that allows participants to vote on-chain usi
 
 **Gwei**
 
-Gwei is a denomination of Ether. One gwei equals 0.000000001 or 10-9 ETH.
+Gwei is a denomination of Ether. One gwei equals 0.000000001 or 10^-9 ETH.
 
 ## H
 

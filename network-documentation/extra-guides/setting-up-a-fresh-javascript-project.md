@@ -88,7 +88,9 @@ For anybody unfamiliar with environment variables, refer to our guide on ****[**
 
 * _**If we are choosing to use the older, slightly more common**_ **`require()`** _**syntax**_, then it is unnecessary to add this line to `package.json` . 
 
-With these steps completed, we now have a project directory that is prepared to have other dependencies installed into it using `npm install` or `yarn add` .  
+With these steps completed, we now have a project directory that is prepared to have other dependencies installed into it using `npm install` or `yarn add` .
+
+  
 This basic setup is a sufficient start to be able to write and execute further JavaScript code using Node.js, the next step being to install whichever dependencies we would like to learn about. This is a good way to experiment and become familiar with particular JavaScript libraries.
 
 ## References

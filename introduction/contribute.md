@@ -46,8 +46,6 @@ Then please check our Learn Tutorial Guidelines for more details - [**HERE**](ht
 
 **See examples of community tutorials below.**
 
-{% page-ref page="all-tutorials.md" %}
-
 ## 📝 Apply Now
 
 If you would like to contribute to the Web 3 Knowledge Base and earn tokens in the process, you can [**apply now via this form**](https://forms.gle/v5ksLNBG24cxm1Bs6)!

@@ -1,19 +1,13 @@
 # Table of contents
 
-* [👋 Welcome to Figment Learn](README.md)
+* [👋 Welcome to Figment Docs](README.md)
 
 ## 🚩 Introduction
 
 * [🚀 Why Build on Web 3?](introduction/why-build-on-web3.md)
 * [💻 What is DataHub?](introduction/what-is-datahub.md)
-* [👩‍🏫 What is Figment Learn?](introduction/what-is-figment-learn/README.md)
-  * [Figment Learn Guidelines for Users](introduction/what-is-figment-learn/figment-learn-guidelines-for-users.md)
-
-## 🍎 Figment Learn
-
-* [💡 All Tutorials](figment-learn/all-tutorials.md)
-* [🗺 All Pathways](figment-learn/pathways.md)
-* [✒ Contribute and Earn](figment-learn/contribute.md)
+* [👩‍🏫 What is Figment Learn?](introduction/what-is-figment-learn.md)
+* [✒ Contribute and Earn](introduction/contribute.md)
 
 ## 📖 DataHub Guides <a id="guides"></a>
 

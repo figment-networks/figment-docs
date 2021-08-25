@@ -7,13 +7,6 @@
 * [🚀 Why Build on Web 3?](introduction/why-build-on-web3.md)
 * [💻 What is DataHub?](introduction/what-is-datahub.md)
 
-## 👨‍💻 Figment Learn
-
-* [👩‍🏫 What is Figment Learn?](figment-learn/what-is-figment-learn.md)
-* [✒ Contribute and Earn](figment-learn/contribute.md)
-* [👀 Tutorial Guidelines](figment-learn/tutorial-guidelines/README.md)
-  * [Sample Tutorial Structure](figment-learn/tutorial-guidelines/sample-tutorial-structure.md)
-
 ## 📖 DataHub Guides <a id="guides"></a>
 
 * [📍 DataHub Products](guides/datahub-products/README.md)
@@ -22,6 +15,13 @@
 * [🏭 DataHub Infrastructure](guides/datahub-infrastructure.md)
 * [🏁 Get Started With DataHub](guides/getting-started-with-datahub.md)
 * [🚨 Quotas & Rate Limits](guides/rate-limits.md)
+
+## 👨‍💻 Figment Learn
+
+* [👩‍🏫 What is Figment Learn?](figment-learn/what-is-figment-learn.md)
+* [✒ Contribute and Earn](figment-learn/contribute.md)
+* [👀 Tutorial Guidelines](figment-learn/tutorial-guidelines/README.md)
+  * [Sample Tutorial Structure](figment-learn/tutorial-guidelines/sample-tutorial-structure.md)
 
 ## 📚 Network Documentation
 

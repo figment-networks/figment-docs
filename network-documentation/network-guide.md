@@ -72,13 +72,13 @@ Secret Network is the first blockchain with privacy-preserving smart contracts. 
 
 {% page-ref page="secret/" %}
 
-## ![](https://github.com/figment-networks/datahub-learn/tree/09569d196cdea95621779187e595ce39c3890190/.gitbook/assets/rsz_terra-logo%20%286%29.jpg) Terra
+## ![](../.gitbook/assets/rsz_terra-logo%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%283%29.jpg) Terra
 
 Terra is a blockchain protocol that supports stable programmable payments and open financial infrastructure development. One part of Terra’s value contributions, payments, in essence, replaces the complicated payments value chain, including credit card networks, banks, and payment gateways with a single blockchain layer.
 
 {% page-ref page="terra/" %}
 
-## ![](https://github.com/figment-networks/datahub-learn/tree/09569d196cdea95621779187e595ce39c3890190/.gitbook/assets/2011.png) Tezos
+## ![](https://github.com/figment-networks/datahub-learn/tree/09569d196cdea95621779187e595ce39c3890190/.gitbook/assets/2011.png)![](../.gitbook/assets/2011%20%282%29%20%283%29.png) Tezos
 
 Tezos is a secure, smart contract blockchain platform that uses its built-in governance mechanism for protocol upgrades. Tezos is one of the first blockchain platforms to introduce a formal on-chain governance process.
 

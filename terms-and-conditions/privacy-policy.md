@@ -8,7 +8,7 @@ description: 'By using Learn, you understand and agree with our Privacy Policy'
 
 This Privacy Policy was last updated on 10/26/20.
 
-We at Figment Network Inc. \("Figment", "we", "us"\) respect your privacy and want you to understand how we collect, use, and share data about you. This Privacy Policy covers our data collection practices and describes your rights to access, correct, or restrict our use of your personal data.
+We at Figment Inc. \("Figment", "we", "us"\) respect your privacy and want you to understand how we collect, use, and share data about you. This Privacy Policy covers our data collection practices and describes your rights to access, correct, or restrict our use of your personal data.
 
 This Privacy Policy applies when you create a DataHub Account \("DataHub Account"\) and/or submit any other personal information to Figment.
 

@@ -8,7 +8,7 @@ description: 'By using Learn, you understand and agree to our Terms of Use'
 
 These Terms of Use \("Terms of Use"\) were last updated on 10/26/20.
 
-These Terms of Use are between you and Figment Networks Inc. \("Figment", "we", "us"\), a corporation organized under the laws of Ontario, Canada, having an office at 107 Galley Ave, Toronto, Ontario, M6R 1H2, Canada.
+These Terms of Use are between you and Figment Inc. \("Figment", "we", "us"\), a corporation organized under the laws of Ontario, Canada, having an office at 107 Galley Ave, Toronto, Ontario, M6R 1H2, Canada.
 
 Figment Learn is Figment's proprietary online blockchain community platform for accelerating the pace of innovation in Web 3 blockchain protocols \("Figment Learn"\). Figment Learn allows users \("Users"\) to view free content to learn about exciting new web 3 protocols or blockchains and also to start building or developing on these protocols by completing pathways \("Pathways"\). Figment Learn also enables contributors \("Contributors"\) to create and submit educational content \("Submitted Content"\) to Figment for posting on Figment Learn.
 

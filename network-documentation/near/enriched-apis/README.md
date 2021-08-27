@@ -12,5 +12,11 @@ Enriched APIs complement the common APIs to give its users superpowers in order 
 
 Try them out today with [**DataHub**](https://datahub.figment.io/sign_up?service=polkadot)!
 
-Check out the list of available Enriched APIs on NEAR below.
+Check out the list of available Enriched APIs on NEAR below -
+
+{% page-ref page="indexer-api.md" %}
+
+
+
+
 

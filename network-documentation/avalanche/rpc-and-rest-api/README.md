@@ -8,13 +8,25 @@ description: Learn what Avalanche APIs are available via DataHub and how to use 
 
 Avalanche’s Primary Network contains three blockchains with unique APIs and methods.
 
-**\*\*Learn about the APIs available via Avalanche \[**DataHub\*\*\]\([https://datahub.figment.io/sign\_up?service=avalanche](https://datahub.figment.io/sign_up?service=avalanche)\) below.
+Learn about the APIs available via Avalanche ****[**DataHub**](https://datahub.figment.io/sign_up?service=avalanche) below -
 
-{% page-ref page="platform-api.md" %}
+### Platform Chain \(P-Chain\) API
 
-{% page-ref page="evm-api.md" %}
+You can review the official platform chain \(P-Chain\) API documentation [**HERE**](https://docs.avax.network/build/avalanchego-apis/platform-chain-p-chain-api)\*\*\*\*
 
-{% page-ref page="avm-api.md" %}
+### Contract Chain \(C-Chain\) API
 
-{% page-ref page="info-api.md" %}
+You can review the official contract chain \(C-Chain\) API documentation [**HERE**](https://docs.avax.network/build/avalanchego-apis/contract-chain-c-chain-api)\*\*\*\*
+
+### Exchange Chain \(X-Chain\) API
+
+You can review the official **e**xchange chain \(X-Chain\) API documentation [**HERE**](https://docs.avax.network/build/avalanchego-apis/exchange-chain-x-chain-api)\*\*\*\*
+
+### Info API
+
+You can review the official Info API documentation [**HERE**](https://docs.avax.network/build/avalanchego-apis/info-api)\*\*\*\*
+
+### **Avalanche Indexer API**
+
+{% page-ref page="avalanche-indexer-api.md" %}
 

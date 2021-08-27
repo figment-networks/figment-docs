@@ -18,5 +18,5 @@ Be sure to check out the[ **official Solana documentation**](https://docs.solana
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="rpc-and-rest-api/" %}
+{% page-ref page="rpc-and-rest-api.md" %}
 

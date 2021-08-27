@@ -18,5 +18,5 @@ Be sure to check out the [**official Tezos documentation**](https://tezos.gitlab
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="rpc-and-rest-api-1/" %}
+{% page-ref page="rpc-and-rest-api-1.md" %}
 

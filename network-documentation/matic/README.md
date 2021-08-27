@@ -19,5 +19,5 @@ Be sure to check out the[ **official Polygon \(Matic\) documentation**](https://
 🚀 Let's start building the decentralized web 🚀[    
 ](https://learn.figment.io/network-documentation/polkadot/polkadot-101)
 
-{% page-ref page="rpc-and-rest-api/" %}
+{% page-ref page="rpc-and-rest-api.md" %}
 

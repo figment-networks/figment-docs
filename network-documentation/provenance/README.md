@@ -14,7 +14,7 @@ Be sure to check out the [**official Provenance documentation**](https://docs.pr
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="rpc-and-rest-api/" %}
+{% page-ref page="rpc-and-rest-api.md" %}
 
 
 

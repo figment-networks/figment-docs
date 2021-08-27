@@ -20,7 +20,5 @@ We also invite you to join the Secret community on their [Discord](http://chat.s
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="secret-101.md" %}
-
 {% page-ref page="rpc-and-rest-api/" %}
 

@@ -20,5 +20,3 @@ Be sure to check out the [**official Tezos documentation**](https://tezos.gitlab
 
 {% page-ref page="rpc-and-rest-api-1/" %}
 
-{% page-ref page="tezos-101.md" %}
-

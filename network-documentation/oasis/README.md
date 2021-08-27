@@ -18,7 +18,5 @@ Be sure to check out the[ **official Oasis documentation**](https://docs.oasis.d
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="oasis-101.md" %}
-
 {% page-ref page="rpc-and-rest-api/" %}
 

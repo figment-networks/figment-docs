@@ -18,7 +18,5 @@ Be sure to check out the [**official Avalanche documentation**](https://docs.ava
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="avalanche-101.md" %}
-
 {% page-ref page="rpc-and-rest-api/" %}
 

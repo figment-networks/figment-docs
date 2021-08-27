@@ -18,8 +18,6 @@ Be sure to check out the [**official Terra documentation**](https://docs.terra.m
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="terra-101.md" %}
-
 {% page-ref page="rpc-and-rest-api/" %}
 
 {% page-ref page="enriched-apis/" %}

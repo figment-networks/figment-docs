@@ -16,7 +16,5 @@ Be sure to check out the [**official Filecoin documentation**](https://docs.file
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="filecoin-101.md" %}
-
 {% page-ref page="rpc-and-rest-api/" %}
 

@@ -18,7 +18,5 @@ Be sure to check out the [**official Celo documentation**](https://docs.celo.org
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="celo-101.md" %}
-
 {% page-ref page="rpc-and-rest-api/" %}
 

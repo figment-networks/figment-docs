@@ -18,9 +18,9 @@ Be sure to check out the [**official NEAR documentation**](https://docs.near.org
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="near-101.md" %}
-
 {% page-ref page="rpc-and-rest-api/" %}
+
+{% page-ref page="enriched-apis/" %}
 
 {% page-ref page="near-wallet.md" %}
 

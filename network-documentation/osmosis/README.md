@@ -17,8 +17,6 @@ Be sure to check out the [**official Osmosis documentation**](https://github.com
 🚀 Let's start building the decentralized web 🚀[  
 ](https://learn.figment.io/network-documentation/secret/secret-101)
 
-{% page-ref page="osmosis-101.md" %}
-
 {% page-ref page="rpc-and-rest-api.md" %}
 
 

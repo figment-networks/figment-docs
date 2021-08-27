@@ -29,7 +29,6 @@
 * [🏔 Avalanche](network-documentation/avalanche/README.md)
   * [✏ Avalanche 101](network-documentation/avalanche/avalanche-101.md)
   * [🎮 RPC & REST API](network-documentation/avalanche/rpc-and-rest-api/README.md)
-    * [Platform Chain (P-Chain) API](https://docs.avax.network/build/avalanchego-apis/platform-chain-p-chain-api)
     * [P-Chain API](network-documentation/avalanche/rpc-and-rest-api/platform-api.md)
     * [C-Chain \(EVM\) API](network-documentation/avalanche/rpc-and-rest-api/evm-api.md)
     * [X-Chain \(AVM\) API](network-documentation/avalanche/rpc-and-rest-api/avm-api.md)

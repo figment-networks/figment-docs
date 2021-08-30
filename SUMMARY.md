@@ -16,13 +16,6 @@
 * [🏁 Get Started With DataHub](guides/getting-started-with-datahub.md)
 * [🚨 Quotas & Rate Limits](guides/rate-limits.md)
 
-## 👨‍💻 Figment Learn
-
-* [👩‍🏫 What is Figment Learn?](figment-learn/what-is-figment-learn.md)
-* [✒ Contribute and Earn](figment-learn/contribute.md)
-* [👀 Tutorial Guidelines](figment-learn/tutorial-guidelines/README.md)
-  * [Sample Tutorial Structure](figment-learn/tutorial-guidelines/sample-tutorial-structure.md)
-
 ## 📚 Network Documentation
 
 * [🔭 Network Guide](network-documentation/network-guide.md)

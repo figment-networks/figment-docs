@@ -25,6 +25,8 @@
 * [💰 Celo](network-documentation/celo/README.md)
   * [💼 CELO Wallet](network-documentation/celo/celo-wallet.md)
   * [🎮 RPC & REST API](network-documentation/celo/rpc-and-rest-api.md)
+* [➰Centrifuge](network-documentation/centrifuge/README.md)
+  * [🎮 RPC & REST API](network-documentation/centrifuge/rpc-and-rest-api.md)
 * [🌌 Cosmos](network-documentation/cosmos/README.md)
   * [🎮 RPC & REST API](network-documentation/cosmos/rpc-and-rest-api.md)
   * [🎊 Enriched APIs](network-documentation/cosmos/enriched-apis/README.md)

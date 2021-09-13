@@ -34,7 +34,7 @@ Here's a collection of extra guides to support your learning experience. Let's m
 
 {% page-ref page="rust-learning-resources.md" %}
 
-## **Setup Solana on Windows**
+## **Setup Solana BPF Toolchain on Windows**
 
 {% page-ref page="solana-setup-for-windows.md" %}
 

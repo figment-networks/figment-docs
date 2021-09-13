@@ -33,9 +33,9 @@ To access the filesystem of your [installed Linux distribution](https://docs.mic
 * Run the command [`wsl`](https://docs.microsoft.com/en-us/windows/wsl/reference) from a `cmd.exe` or PowerShell terminal. It is also important to make sure your PATH in the WSL environment includes the location of the Solana release you have installed, such as `:PATH="~/.local/share/solana/install/active_release/bin:$PATH"`.
 * More information on viewing and setting the PATH in Linux is [available here](https://opensource.com/article/17/6/set-path-linux).
 
-Once WSL is installed and you can access it through the command prompt, you can continue to follow the [setup instructions for the Solana CLI and Rust toolchain](https://learn.figment.io/tutorials/deploy-solana-program#set-up-the-solana-c-l-i) in the Solana Pathway. This will enable you to compile Solana programs on a computer running Microsoft Windows.
+Once WSL is installed and you can access it through the command prompt, you can continue to follow the [setup instructions for the Solana CLI and Rust toolchain](https://learn.figment.io/tutorials/deploy-solana-program#set-up-the-solana-c-l-i) in the Solana Pathway. This will enable you to compile Solana programs on a computer running Microsoft Windows, within the WSL environment.
 
-Happy hacking! 😁
+Happy building! 😁
 
 
 

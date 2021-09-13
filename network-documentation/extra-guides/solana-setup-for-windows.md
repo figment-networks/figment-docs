@@ -4,12 +4,15 @@ description: How to setup for the Solana Pathway on Windows
 
 # Setup Solana on Windows
 
-**Windows Users:** The Rust BPF toolchain _is not available for Windows_. This means that compiling Solana programs cannot be performed in a Windows development environment.
-
-The following software is required to set up and complete the **Solana** Pathway
+**Windows Users:** The Rust BPF toolchain _**is not available for Windows**_.   
+This means that compiling Solana programs _cannot_ be performed in a Windows development environment. The following software is required to set up and complete the **Solana** Pathway on a computer running the Microsoft Windows operating system:
 
 * [Docker Desktop](https://docs.figment.io/network-documentation/extra-guides/docker-setup-for-windows)
-* [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
+* [Windows Subsystem for Linux \(WSL\)](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
+
+## **Install Docker Desktop**
+
+{% page-ref page="docker-setup-for-windows.md" %}
 
 ## **Install WSL on Windows**
 

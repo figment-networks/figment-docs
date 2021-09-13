@@ -69,6 +69,7 @@
 * [⚖ Tezos](network-documentation/tezos/README.md)
   * [🎮 RPC & REST API](network-documentation/tezos/rpc-and-rest-api-1.md)
 * [📚 Extra Guides](network-documentation/extra-guides/README.md)
+  * [Figment Learn Pathway Troubleshooting](network-documentation/extra-guides/figment-learn-pathway-troubleshooting.md)
   * [Blockchain Fundamentals](network-documentation/extra-guides/blockchain-fundamentals.md)
   * [Docker Setup for Windows](network-documentation/extra-guides/docker-setup-for-windows.md)
   * [5XX Retry Logic Best Practices](network-documentation/extra-guides/5xx-retry-logic-best-practices/README.md)

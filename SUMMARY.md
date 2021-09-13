@@ -79,7 +79,7 @@
   * [Setting up a fresh JavaScript Project with dotenv](network-documentation/extra-guides/setting-up-a-fresh-javascript-project.md)
   * [Getting started with dotenv and .env files](network-documentation/extra-guides/dotenv-and-.env.md)
   * [Rust Learning Resources](network-documentation/extra-guides/rust-learning-resources.md)
-  * [Setup Solana on windows](network-documentation/extra-guides/solana-setup-for-windows.md)
+  * [Setup Solana on Windows](network-documentation/extra-guides/solana-setup-for-windows.md)
 
 ## 🤔 Other
 

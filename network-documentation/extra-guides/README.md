@@ -18,7 +18,7 @@ Here's a collection of extra guides to support your learning experience. Let's m
 
 {% page-ref page="5xx-retry-logic-best-practices/" %}
 
-
 ## **How to setup and Solana on Windows**
 
 {% page-ref page="solana-setup-for-windows.md" %}
+

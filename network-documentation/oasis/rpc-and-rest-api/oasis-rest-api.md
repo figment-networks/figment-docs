@@ -77,9 +77,9 @@ Return block information by height.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **height** | integer | Block height. Default: 0 = last block |
+| **Parameter** | Type    | Description                           |
+| ------------- | ------- | ------------------------------------- |
+| **height**    | integer | Block height. Default: 0 = last block |
 
 **Example Request**
 
@@ -125,9 +125,9 @@ Get the last X block times.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **limit** | integer \* required | limit of blocks queried |
+| **Parameter** | Type                | Description             |
+| ------------- | ------------------- | ----------------------- |
+| **limit**     | integer \* required | limit of blocks queried |
 
 **Example Request**
 
@@ -157,10 +157,10 @@ Get a summary of block data over a defined period of time.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **interval** | string \* required | Time interval: `hour` or  `day` |
-| **period** | string \* required | Summary period \(i.e. 24 hours\) |
+| **Parameter** | Type               | Description                     |
+| ------------- | ------------------ | ------------------------------- |
+| **interval**  | string \* required | Time interval: `hour` or  `day` |
+| **period**    | string \* required | Summary period (i.e. 24 hours)  |
 
 **Example Request**
 
@@ -273,9 +273,9 @@ Get a list of transactions at a given height.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **height** | integer | Block height. Default: 0 = last |
+| **Parameter** | Type    | Description                     |
+| ------------- | ------- | ------------------------------- |
+| **height**    | integer | Block height. Default: 0 = last |
 
 **Example Request**
 
@@ -355,9 +355,9 @@ Get staking data at a given height.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **height** | integer | Block height. Default: 0 = last |
+| **Parameter** | Type    | Description                     |
+| ------------- | ------- | ------------------------------- |
+| **height**    | integer | Block height. Default: 0 = last |
 
 **Example Request**
 
@@ -384,9 +384,9 @@ Get a list of delegations at a given height.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **height** | integer | Block height. Default: 0 = last |
+| **Parameter** | Type    | Description                     |
+| ------------- | ------- | ------------------------------- |
+| **height**    | integer | Block height. Default: 0 = last |
 
 **Example Request**
 
@@ -446,10 +446,10 @@ Get a list of delegations for an address at a given height.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **address** | string \* required | Address of the account. |
-| **height** | integer | Block height. Default: 0 = last |
+| **Parameter** | Type               | Description                     |
+| ------------- | ------------------ | ------------------------------- |
+| **address**   | string \* required | Address of the account.         |
+| **height**    | integer            | Block height. Default: 0 = last |
 
 **Example Request**
 
@@ -479,9 +479,9 @@ Get a list of unbonding delegations at a given height.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **height** | integer | Block height. Default: 0 = last |
+| **Parameter** | Type    | Description                     |
+| ------------- | ------- | ------------------------------- |
+| **height**    | integer | Block height. Default: 0 = last |
 
 **Example Request**
 
@@ -578,10 +578,10 @@ Get a list of unbonding delegations for an address at a given height.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **address** | string \* required | Address of the account |
-| **height** | integer | Block height. Default: 0 = last |
+| **Parameter** | Type               | Description                     |
+| ------------- | ------------------ | ------------------------------- |
+| **address**   | string \* required | Address of the account          |
+| **height**    | integer            | Block height. Default: 0 = last |
 
 **Example Request**
 
@@ -616,10 +616,10 @@ Get the details for an account at a given height.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **address** | string \* required | Address of the account |
-| **height** | integer | Block height. Default: 0 = last |
+| **Parameter** | Type               | Description                     |
+| ------------- | ------------------ | ------------------------------- |
+| **address**   | string \* required | Address of the account          |
+| **height**    | integer            | Block height. Default: 0 = last |
 
 **Example Request**
 
@@ -648,9 +648,9 @@ Get the list of validators at a given height.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **height** | integer | Block height. Default: 0 = last |
+| **Parameter** | Type    | Description                     |
+| ------------- | ------- | ------------------------------- |
+| **height**    | integer | Block height. Default: 0 = last |
 
 **Example Request**
 
@@ -717,9 +717,9 @@ Get the list of validators for all blocks higher than the provided height.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **height** | integer \* required | Block height. Default:0 = last |
+| **Parameter** | Type                | Description                    |
+| ------------- | ------------------- | ------------------------------ |
+| **height**    | integer \* required | Block height. Default:0 = last |
 
 **Example Request**
 
@@ -816,10 +816,10 @@ Get validator details from its account address.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **address** | string \* required | The validator's address |
-| **sequences\_limit** | integer | Number of sequences to include |
+| **Parameter**        | Type               | Description                    |
+| -------------------- | ------------------ | ------------------------------ |
+| **address**          | string \* required | The validator's address        |
+| **sequences\_limit** | integer            | Number of sequences to include |
 
 **Example Request**
 
@@ -877,11 +877,11 @@ Get a summary of all active validators during a given time period.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **interval** | string \* required | Time interval: `hour` or  `day` |
-| **period** | string \* required | Summary period \(i.e. 24 hours\) |
-| **address** | string | Address of validator |
+| **Parameter** | Type               | Description                     |
+| ------------- | ------------------ | ------------------------------- |
+| **interval**  | string \* required | Time interval: `hour` or  `day` |
+| **period**    | string \* required | Summary period (i.e. 24 hours)  |
+| **address**   | string             | Address of validator            |
 
 **Example Request**
 
@@ -964,11 +964,11 @@ Get all system events for a given account.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **address** | string \* required | Address of the account |
-| **after** | integer | Returns events from blocks after the provided provided height |
-| **kind** | string | Type of system event |
+| **Parameter** | Type               | Description                                                   |
+| ------------- | ------------------ | ------------------------------------------------------------- |
+| **address**   | string \* required | Address of the account                                        |
+| **after**     | integer            | Returns events from blocks after the provided provided height |
+| **kind**      | string             | Type of system event                                          |
 
 **Example Request**
 
@@ -1033,9 +1033,9 @@ Broadcast a transaction.
 
 **Parameters**
 
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| **tx\_raw** | string \* required | Base64 encoded string of a cbor marshalled [transaction.SignedTransaction](https://pkg.go.dev/github.com/oasisprotocol/oasis-core/go/consensus/api/transaction#SignedTransaction) |
+| **Parameter** | Type               | Description                                                                                                                                                                       |
+| ------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **tx\_raw**   | string \* required | Base64 encoded string of a cbor marshalled [transaction.SignedTransaction](https://pkg.go.dev/github.com/oasisprotocol/oasis-core/go/consensus/api/transaction#SignedTransaction) |
 
 **Example Request**
 
@@ -1058,4 +1058,3 @@ oasis--testnet.datahub.figment.io/transactions
  "submitted": true
 }
 ```
-

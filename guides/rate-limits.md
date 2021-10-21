@@ -35,4 +35,3 @@ If this happens, you can confirm on your DataHub Dashboard that you are not over
 If you are getting rate limited, you will need to retry your requests in your application. Since Rate Limits are measured per minute, you could simply wait 60 seconds and try again.
 
 If you need more information about quotas and rate limits, join [**our community**](https://discord.gg/fszyM7K) and one of our experts will help you out!
-

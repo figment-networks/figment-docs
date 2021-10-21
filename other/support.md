@@ -19,4 +19,3 @@ You will find dedicated channels for each network we support and we will make su
 ## Email Support
 
 For more urgent inquiries, you can email us at [datahub@figment.io](mailto:datahub@figment.io) and we will make sure to get back to you as soon as possible!
-

@@ -8,9 +8,9 @@ description: Learn how to interact with Polkadot using DataHub
 
 In this section, you will be able to learn about what makes Polkadot special and how you can leverage available tools to build amazing products!
 
-You can then get started with the available RPC & REST APIs we support [**via DataHub**](https://datahub.figment.io/sign_up?service=polkadot).
+You can then get started with the available RPC & REST APIs we support [**via DataHub**](https://datahub.figment.io/sign\_up?service=polkadot).
 
-Last but not least, if you are looking for guidelines or simply some inspiration, check out available tutorials on [**Learn**](https://learn.figment.io/protocols/polkadot)\*\*\*\*
+Last but not least, if you are looking for guidelines or simply some inspiration, check out available tutorials on [**Learn**](https://learn.figment.io/protocols/polkadot)****
 
 Be sure to check out the[ **official Polkadot documentation**](https://wiki.polkadot.network/en/).
 
@@ -18,7 +18,10 @@ Be sure to check out the[ **official Polkadot documentation**](https://wiki.polk
 
 
 
-{% page-ref page="rpc-and-rest-api.md" %}
+{% content-ref url="rpc-and-rest-api.md" %}
+[rpc-and-rest-api.md](rpc-and-rest-api.md)
+{% endcontent-ref %}
 
-{% page-ref page="enriched-apis/" %}
-
+{% content-ref url="enriched-apis/" %}
+[enriched-apis](enriched-apis/)
+{% endcontent-ref %}

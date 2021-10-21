@@ -1,5 +1,5 @@
 ---
-description: 'Overview of Web 3, the next paradigm in web development'
+description: Overview of Web 3, the next paradigm in web development
 ---
 
 # 🚀 Why Build on Web 3?
@@ -26,11 +26,10 @@ Blockchain technology and Web 3 based protocols are poised to solve the problems
 
 **Censorship Resistant** - Information stored on public blockchains cannot be manipulated or deleted, which gives users and developers the ability to constantly access it.
 
-**Digital Ownership** - By leveraging smart contracts and NFTs \(non-fungible tokens\), developers can create ways for content creators and artists to monetize the full value of their creations.
+**Digital Ownership** - By leveraging smart contracts and NFTs (non-fungible tokens), developers can create ways for content creators and artists to monetize the full value of their creations.
 
 ## 🚆 Moving Forward
 
 In order to succeed, Web 3 will need to rely on its greatest strength, which is the community of builders, leaders, and entrepreneurs that have been inspired by the promise of Web 3. At Figment, our mission is to support the adoption, growth, and long-term success of the Web 3 ecosystem.
 
 We know firsthand how difficult it is to launch a new product or application, and we understand that developers need to have the appropriate resources to capitalize on Web 3’s unique characteristics. This is why we make it simple to build the next generation of the Internet. We provide developers with high-quality developer tools & documentation, a library of written & streamable educational material, and a diverse community in order to ensure success.
-

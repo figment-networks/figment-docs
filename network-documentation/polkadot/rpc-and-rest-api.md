@@ -8,9 +8,8 @@ description: Learn what Polkadot APIs are available via DataHub and how to use t
 
 Polkadot exposes a single RPC to enable the development of applications on the Polkadot protocol.
 
-Learn about the APIs available via Polkadot [**DataHub**](https://datahub.figment.io/sign_up?service=polkadot) below - 
+Learn about the APIs available via Polkadot [**DataHub**](https://datahub.figment.io/sign\_up?service=polkadot) below -&#x20;
 
 ### Polkadot RPC
 
-You can review the official Polkadot RPC documentation [**HERE**](https://polkadot.js.org/docs/substrate/rpc/)\*\*\*\*
-
+You can review the official Polkadot RPC documentation [**HERE**](https://polkadot.js.org/docs/substrate/rpc/)****

@@ -8,24 +8,12 @@ description: Learn how to interact with Figment's NEAR Indexer REST API
 
 Below you can find a list of general service endpoints to check health, current indexer status, etc.
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/" %}
-{% api-method-summary %}
-Service Index
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/" method="get" summary="Service Index" %}
+{% swagger-description %}
 Returns the list of all available endpoints
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "endpoints": {
@@ -52,69 +40,37 @@ Success
   }
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/health" %}
-{% api-method-summary %}
-Health Status
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/health" method="get" summary="Health Status" %}
+{% swagger-description %}
 Returns the current service healthThis endpoint is useful for automated service checks.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Service is healthy
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Service is healthy" %}
 ```javascript
 {
   "healthy": true
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=500 %}
-{% api-method-response-example-description %}
-Service is unhealthy
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="500" description="Service is unhealthy" %}
 ```javascript
 {
   "healthy": false
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/status" %}
-{% api-method-summary %}
-Service Status
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/status" method="get" summary="Service Status" %}
+{% swagger-description %}
 Returns the current service status along with node version and sync status
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "app_name": "near-indexer",
@@ -130,62 +86,34 @@ Success
   "sync_status": "current"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ## Blocks
 
 Below you can find block-related endpoints.
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/height" %}
-{% api-method-summary %}
-Current Block Height
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/height" method="get" summary="Current Block Height" %}
+{% swagger-description %}
 Returns the latest block height and time
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "height": 35401371,
   "time": "2021-04-22T00:43:27.882413Z"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/blocks" %}
-{% api-method-summary %}
-Fetch Blocks
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/blocks" method="get" summary="Fetch Blocks" %}
+{% swagger-description %}
 Returns a collection of blocks
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "id": 35401442,
@@ -203,35 +131,19 @@ Success
   "created_at": "2021-04-22T00:44:42.942385Z"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/blocks/{id}" %}
-{% api-method-summary %}
-Fetch Block
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/blocks/{id}" method="get" summary="Fetch Block" %}
+{% swagger-description %}
 Returns a single block
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="int" required=true %}
+{% swagger-parameter in="path" name="id" type="int" %}
 Block height
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "id": 35401562,
@@ -249,48 +161,28 @@ Success
   "created_at": "2021-04-22T00:46:45.331482Z"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Block not found
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Block not found" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/block\_times" %}
-{% api-method-summary %}
-Block Production Times
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/block_times" method="get" summary="Block Production Times" %}
+{% swagger-description %}
 Returns min/max/avg block production times for a number of recent blocks
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="limit" type="int" required=false %}
+{% swagger-parameter in="query" name="limit" type="int" %}
 Number of past blocks to scan
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "start_height": 35401691,
@@ -302,39 +194,29 @@ Success
   "avg": 0.975569
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/block\_stats" %}
-{% api-method-summary %}
-Block Stats
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/block_stats" method="get" summary="Block Stats" %}
+{% swagger-description %}
 Returns various time-aggregated block statistics
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="bucket" type="string" required=false %}
-Time bucket. Default is `h` - hourly
-{% endapi-method-parameter %}
+{% swagger-parameter in="query" name="bucket" type="string" %}
+Time bucket. Default is 
 
-{% api-method-parameter name="limit" type="int" required=false %}
-Number of entries to return. Default is `24`
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+`h`
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
+ \- hourly
+{% endswagger-parameter %}
 
+{% swagger-parameter in="query" name="limit" type="int" %}
+Number of entries to return. Default is 
+
+`24`
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "time": "2021-04-22T00:00:00+00:00",
@@ -345,33 +227,19 @@ Success
   "transactions_count": 1217
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ## Validators
 
 Below you can find a set of endpoints to get active validators, validator details, events and epoch performance.
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/validators" %}
-{% api-method-summary %}
-Current Validators
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/validators" method="get" summary="Current Validators" %}
+{% swagger-description %}
 Returns a collection of active validators
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "account_id": "binancestaking.poolv1.near",
@@ -388,35 +256,19 @@ Success
   "reward_fee": 10
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/validators/{name}" %}
-{% api-method-summary %}
-Validator Details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/validators/{name}" method="get" summary="Validator Details" %}
+{% swagger-description %}
 Returns validator details
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="name" type="string" required=true %}
+{% swagger-parameter in="path" name="name" type="string" %}
 Validator name
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "account": {
@@ -489,52 +341,32 @@ Success
   }
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Error
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Error" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/validators/{name}/epochs" %}
-{% api-method-summary %}
-Validator Epoch Performance
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/validators/{name}/epochs" method="get" summary="Validator Epoch Performance" %}
+{% swagger-description %}
 Returns validator's performance records
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="page" type="int" required=false %}
+{% swagger-parameter in="query" name="page" type="int" %}
 Results page
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="int" required=false %}
+{% swagger-parameter in="query" name="limit" type="int" %}
 Number of results per page
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "page": 1,
@@ -555,52 +387,32 @@ Success
   ]
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Error
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Error" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/validators/{name}/events" %}
-{% api-method-summary %}
-Validator Events
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/validators/{name}/events" method="get" summary="Validator Events" %}
+{% swagger-description %}
 Returns validator's events
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="page" type="int" required=false %}
+{% swagger-parameter in="query" name="page" type="int" %}
 Results page
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="int" required=false %}
+{% swagger-parameter in="query" name="limit" type="int" %}
 Number of results per page
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "page": 1,
@@ -625,42 +437,24 @@ Success
   ]
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Error
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Error" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/delegations/{name}" %}
-{% api-method-summary %}
-Validator Delegations
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/delegations/{name}" method="get" summary="Validator Delegations" %}
+{% swagger-description %}
 Returns validator's active delegations
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "account": "zulunh.near",
@@ -669,46 +463,28 @@ Success
   "can_withdraw": true
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Error
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Error" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ## Epochs
 
 Below is the list of epoch-related endpoints.
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/epochs" %}
-{% api-method-summary %}
-List Epochs
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/epochs" method="get" summary="List Epochs" %}
+{% swagger-description %}
 Returns a paginated collection of epochs
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "id": "9b4WLoXXYgga9mGRLGsWKuWEk4FsFwbXETao7bDUdLE6",
@@ -721,29 +497,15 @@ Success
   "average_efficiency": 99.9624
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/epochs/{id}" %}
-{% api-method-summary %}
-Epoch Details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/epochs/{id}" method="get" summary="Epoch Details" %}
+{% swagger-description %}
 Returns epoch details
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "id": "9b4WLoXXYgga9mGRLGsWKuWEk4FsFwbXETao7bDUdLE6",
@@ -756,76 +518,64 @@ Success
   "average_efficiency": 99.9624
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Error
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Error" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ## Events
 
 Below is the list of event-related endpoints.
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/events" %}
-{% api-method-summary %}
-List Events
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/events" method="get" summary="List Events" %}
+{% swagger-description %}
 Returns a paginated collection of network events
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="epoch" type="string" required=false %}
+{% swagger-parameter in="query" name="epoch" type="string" %}
 Filter events by epoch
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="height" type="integer" required=false %}
+{% swagger-parameter in="query" name="height" type="integer" %}
 Filter events by block height
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="action" type="string" required=false %}
+{% swagger-parameter in="query" name="action" type="string" %}
 Filter events by action
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="item\_id" type="string" required=false %}
-Filter by entity. Required when `item_type` is set.
-{% endapi-method-parameter %}
+{% swagger-parameter in="query" name="item_id" type="string" %}
+Filter by entity. Required when 
 
-{% api-method-parameter name="item\_type" type="string" required=false %}
-Filter by entity type. Required when `item_id` is set.
-{% endapi-method-parameter %}
+`item_type`
 
-{% api-method-parameter name="page" type="integer" required=false %}
+ is set.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="item_type" type="string" %}
+Filter by entity type. Required when 
+
+`item_id`
+
+ is set.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="page" type="integer" %}
 Results page
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="integer" required=false %}
+{% swagger-parameter in="query" name="limit" type="integer" %}
 Number of results per page
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "page": 1,
@@ -850,29 +600,15 @@ Success
   ]
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/events/{id}" %}
-{% api-method-summary %}
-Event Details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/events/{id}" method="get" summary="Event Details" %}
+{% swagger-description %}
 Returns an individual event details
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "id": 699,
@@ -889,67 +625,59 @@ Success
   "created_at": "2021-04-19T16:40:18.339886Z"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ## Transaction Search
 
 Below is the list of transactions related endpoints.
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/transactions" %}
-{% api-method-summary %}
-Search Transactions
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/transactions" method="get" summary="Search Transactions" %}
+{% swagger-description %}
 Returns a paginated collection of transactions matching input filters.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="block\_hash" type="string" required=false %}
+{% swagger-parameter in="query" name="block_hash" type="string" %}
 Filter transactions by block hash.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="block\_height" type="integer" required=false %}
+{% swagger-parameter in="query" name="block_height" type="integer" %}
 Filter transactions by block height.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="sender" type="string" required=false %}
+{% swagger-parameter in="query" name="sender" type="string" %}
 Filter transactions by sender account name.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="receiver" type="string" required=false %}
+{% swagger-parameter in="query" name="receiver" type="string" %}
 Filter transactions by receiver account name.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="start\_date" type="string" required=false %}
-Time range start date. Supports `YYYY-MM-DD` or RFC3339 format.
-{% endapi-method-parameter %}
+{% swagger-parameter in="query" name="start_date" type="string" %}
+Time range start date. Supports 
 
-{% api-method-parameter name="end\_date" type="string" required=false %}
-Time range end date. Supports `YYYY-MM-DD` or RFC3339 format.
-{% endapi-method-parameter %}
+`YYYY-MM-DD`
 
-{% api-method-parameter name="page" type="integer" required=false %}
+ or RFC3339 format.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="end_date" type="string" %}
+Time range end date. Supports 
+
+`YYYY-MM-DD`
+
+ or RFC3339 format.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="page" type="integer" %}
 Results page
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="integer" required=false %}
+{% swagger-parameter in="query" name="limit" type="integer" %}
 Number of results per page
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "page": 1,
@@ -1008,48 +736,28 @@ Success
   ]
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=500 %}
-{% api-method-response-example-description %}
-Invalid time filter
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="500" description="Invalid time filter" %}
 ```javascript
 {
   "error": "start time is invalid",
   "status": 500
 
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/transactions/{hash}" %}
-{% api-method-summary %}
-Transaction Details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://near--indexer.datahub.figment.io/apikey/APIKEY" path="/transactions/{hash}" method="get" summary="Transaction Details" %}
+{% swagger-description %}
 Returns transaction details for a given transaction hash
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="hash" type="string" required=true %}
+{% swagger-parameter in="path" name="hash" type="string" %}
 Transaction hash
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "id": 1710928,
@@ -1092,21 +800,14 @@ Success
   "success": true
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Transaction not found
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Transaction not found" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

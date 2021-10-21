@@ -73,9 +73,9 @@ Simple Go Lang. Library for retry mechanism - [Check Here](https://github.com/av
 
 The `retryablehttp` package provides a familiar HTTP client interface with automatic retries and exponential backoff. It is a thin wrapper over the standard `net/http` client library and exposes nearly the same public API. This makes `retryablehttp` very easy to drop into existing programs.
 
-`retryablehttp` Performs automatic retries under certain conditions. Mainly, if an error is returned by the client \(connection errors, etc.\), or if a 500-range response code is received \(except 501\), then a retry is invoked after a wait period. Otherwise, the response is returned and left to the caller to interpret.
+`retryablehttp` Performs automatic retries under certain conditions. Mainly, if an error is returned by the client (connection errors, etc.), or if a 500-range response code is received (except 501), then a retry is invoked after a wait period. Otherwise, the response is returned and left to the caller to interpret.
 
-The main difference from `net/http` is that requests which take a request body \(POST/PUT et. al\) can have the body provided in a number of ways \(some more or less efficient\) that allow "rewinding" the request body if the initial request fails so that the full request can be attempted again.
+The main difference from `net/http` is that requests which take a request body (POST/PUT et. al) can have the body provided in a number of ways (some more or less efficient) that allow "rewinding" the request body if the initial request fails so that the full request can be attempted again.
 
 **Example Use**
 
@@ -91,4 +91,3 @@ if err != nil {
 The returned response object is an `*http.Response` the same thing you would usually get from `net/http`. Had the request failed one or more times, the above call would block and retry with exponential backoff.
 
 For more usage and examples see the [godoc ](https://pkg.go.dev/github.com/hashicorp/go-retryablehttp)& [GitHub ](https://github.com/hashicorp/go-retryablehttp/tree/991b9d0a42d13014e3689dd49a94c02be01f4237)
-

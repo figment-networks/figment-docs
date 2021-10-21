@@ -10,42 +10,28 @@ The Miner Reputation System API provides users with all of the necessary informa
 
 By tracking storage capacity, sector faults and deal slashes of every storage miner, the API calculates a reputation score, which can be used by network participants to compare and choose a reliable miner.
 
-Additionally, the API allows users to look up account details \(such as balance\) or retrieve a list of transactions for a given account. It also keeps a history of miner-related events, such as storage capacity changes, sector faults, and deal slashes.
+Additionally, the API allows users to look up account details (such as balance) or retrieve a list of transactions for a given account. It also keeps a history of miner-related events, such as storage capacity changes, sector faults, and deal slashes.
 
-Check out the API documentation below and sign up to [**DataHub**](https://datahub.figment.io/sign_up?service=filecoin) to test it out.
+Check out the API documentation below and sign up to [**DataHub**](https://datahub.figment.io/sign\_up?service=filecoin) to test it out.
 
-{% api-method method="get" host="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/miners" %}
-{% api-method-summary %}
-Get miners
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/miners" method="get" summary="Get miners" %}
+{% swagger-description %}
 Lists all storage miners for a given epoch. If no epoch is given, the data is returned for the most recent epoch.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="height" type="integer" required=false %}
+{% swagger-parameter in="query" name="height" type="integer" %}
 The epoch number
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="page" type="integer" required=false %}
+{% swagger-parameter in="query" name="page" type="integer" %}
 The page number
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="integer" required=false %}
+{% swagger-parameter in="query" name="limit" type="integer" %}
 The record count limit
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```javascript
 {
   "page": 1,
@@ -89,41 +75,23 @@ The record count limit
   ]
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/miners/:address" %}
-{% api-method-summary %}
-Get miner
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/miners/:address" method="get" summary="Get miner" %}
+{% swagger-description %}
 Returns storage miner details for a given epoch. If no epoch is given, the data is returned for the most recent epoch.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="address" type="string" required=true %}
+{% swagger-parameter in="path" name="address" type="string" %}
 The ID address of a storage miner
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endswagger-parameter %}
 
-{% api-method-query-parameters %}
-{% api-method-parameter name="height" type="integer" required=false %}
+{% swagger-parameter in="query" name="height" type="integer" %}
 The epoch number
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```javascript
 {
   "address": "f01000",
@@ -137,65 +105,43 @@ The epoch number
   "score": 543
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="" %}
 ```javascript
 {
   "error": "Not Found"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/miners/:address/events" %}
-{% api-method-summary %}
-Get miner events
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/miners/:address/events" method="get" summary="Get miner events" %}
+{% swagger-description %}
 Lists network events related to a storage miner for a given epoch and kind. If no epoch is given, the data is returned for all epochs. If no kind is given, the data is returned for all event kinds.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="address" type="string" required=true %}
+{% swagger-parameter in="path" name="address" type="string" %}
 The ID address of a storage miner
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endswagger-parameter %}
 
-{% api-method-query-parameters %}
-{% api-method-parameter name="height" type="integer" required=false %}
+{% swagger-parameter in="query" name="height" type="integer" %}
 The epoch number
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="kind" type="string" required=false %}
+{% swagger-parameter in="query" name="kind" type="string" %}
 The event kind
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="page" type="integer" required=false %}
+{% swagger-parameter in="query" name="page" type="integer" %}
 The page number
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="integer" required=false %}
+{% swagger-parameter in="query" name="limit" type="integer" %}
 The record count limit
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```javascript
 {
   "page": 1,
@@ -230,35 +176,19 @@ The record count limit
   ]
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/top\_miners" %}
-{% api-method-summary %}
-Get top miners
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/top_miners" method="get" summary="Get top miners" %}
+{% swagger-description %}
 Lists top 100 storage miners for a given epoch based on their reputation score. If no epoch is given, the data is returned for the most recent epoch.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="height" type="integer" required=false %}
+{% swagger-parameter in="query" name="height" type="integer" %}
 The epoch number
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```javascript
 [
   {
@@ -296,43 +226,27 @@ The epoch number
   }
 ]
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/transactions" %}
-{% api-method-summary %}
-Get transactions
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/transactions" method="get" summary="Get transactions" %}
+{% swagger-description %}
 Lists all transactions for a given epoch. If no epoch is given, the data is returned for all epochs.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="height" type="integer" required=false %}
+{% swagger-parameter in="query" name="height" type="integer" %}
 The epoch number
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="page" type="integer" required=false %}
+{% swagger-parameter in="query" name="page" type="integer" %}
 The page number
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="integer" required=false %}
+{% swagger-parameter in="query" name="limit" type="integer" %}
 The record count limit
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```javascript
 {
   "page": 1,
@@ -383,35 +297,19 @@ The record count limit
   ]
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/accounts/:address" %}
-{% api-method-summary %}
-Get account
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/accounts/:address" method="get" summary="Get account" %}
+{% swagger-description %}
 Returns account details for a given address. The address could be either an ID address or an account key address.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="address" type="string" required=true %}
-The address of an account \(ID or public key\)
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% swagger-parameter in="path" name="address" type="string" %}
+The address of an account (ID or public key)
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```javascript
 {
   "id": "f0100",
@@ -422,61 +320,39 @@ The address of an account \(ID or public key\)
   "transactions_received": 0
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="" %}
 ```javascript
 {
   "error": "actor not found"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/accounts/:address/transactions" %}
-{% api-method-summary %}
-Get account transactions
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/accounts/:address/transactions" method="get" summary="Get account transactions" %}
+{% swagger-description %}
 Lists sent and received transactions for a given account. The address of the account could be either an ID address or an account key address. If no epoch is given, the data is returned for all epochs.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="address" type="string" required=true %}
-The address of an account \(ID or public key\)
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% swagger-parameter in="path" name="address" type="string" %}
+The address of an account (ID or public key)
+{% endswagger-parameter %}
 
-{% api-method-query-parameters %}
-{% api-method-parameter name="height" type="integer" required=false %}
+{% swagger-parameter in="query" name="height" type="integer" %}
 The epoch number
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="page" type="integer" required=false %}
+{% swagger-parameter in="query" name="page" type="integer" %}
 The page number
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="integer" required=false %}
+{% swagger-parameter in="query" name="limit" type="integer" %}
 The record count limit
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```javascript
 {
   "page": 1,
@@ -495,59 +371,39 @@ The record count limit
   ]
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="400" description="" %}
 ```javascript
 {
   "error": "invalid address: unknown address network"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/events" %}
-{% api-method-summary %}
-Get events
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/events" method="get" summary="Get events" %}
+{% swagger-description %}
 Lists all network events for a given epoch and kind. If no epoch is given, the data is returned for all epochs. If no kind is given, the data is returned for all event kinds.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="height" type="integer" required=false %}
+{% swagger-parameter in="query" name="height" type="integer" %}
 The epoch number
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="kind" type="string" required=false %}
+{% swagger-parameter in="query" name="kind" type="string" %}
 The event kind
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="page" type="integer" required=false %}
+{% swagger-parameter in="query" name="page" type="integer" %}
 The page number
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="integer" required=false %}
+{% swagger-parameter in="query" name="limit" type="integer" %}
 The record count limit
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```javascript
 {
   "page": 1,
@@ -594,60 +450,52 @@ The record count limit
   ]
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/health" %}
+{% swagger baseUrl="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/health" method="get" summary="" %}
+{% swagger-description %}
 
-{% api-method method="get" host="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/status" %}
-{% api-method-summary %}
+{% endswagger-description %}
 
-{% endapi-method-summary %}
+{% swagger-parameter in="path" name="" type="string" %}
 
-{% api-method-description %}
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="" %}
+```
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger baseUrl="https://filecoin--mainnet--miner-rep-api.datahub.figment.io" path="/status" method="get" summary="" %}
+{% swagger-description %}
 Returns the status of the synchronization process.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```javascript
 {
   "current_epoch": 340610,
   "last_synced_epoch": 340600
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=500 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="500" description="" %}
 ```javascript
 {
   "error": "driver: bad connection"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ## Event Kinds
 
-| Kind | Description |
-| :--- | :--- |
+| Kind                      | Description                          |
+| ------------------------- | ------------------------------------ |
 | `storage_capacity_change` | A change of miner's storage capacity |
-| `slashed_deal` | A slash of a miner's deal |
-| `sector_fault` | An increase in miner's faults |
-| `sector_recovery` | A decrease in miner's faults |
-
+| `slashed_deal`            | A slash of a miner's deal            |
+| `sector_fault`            | An increase in miner's faults        |
+| `sector_recovery`         | A decrease in miner's faults         |

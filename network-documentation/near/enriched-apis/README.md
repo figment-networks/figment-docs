@@ -10,13 +10,13 @@ The common network APIs should only be the beginning of the journey for Web 3 de
 
 Enriched APIs complement the common APIs to give its users superpowers in order to create the Web 3's killer apps.
 
-Try them out today with [**DataHub**](https://datahub.figment.io/sign_up?service=polkadot)!
+Try them out today with [**DataHub**](https://datahub.figment.io/sign\_up?service=polkadot)!
 
 Check out the list of available Enriched APIs on NEAR below -
 
-{% page-ref page="indexer-api.md" %}
-
-
+{% content-ref url="indexer-api.md" %}
+[indexer-api.md](indexer-api.md)
+{% endcontent-ref %}
 
 
 

@@ -30,18 +30,25 @@ The next consideration we want is how often to retry. We will start with a delay
 
 **Here's an example of the logic we'll be using in pseudo-code:**
 
-* If total attempts &gt; attempts, continue
+* If total attempts > attempts, continue
 * if status code type matches, continue
-* if \(now - delay\) &gt; last attempt, try request
+* if (now - delay) > last attempt, try request
 * else, return to the start
 
 **Let's explore the best practices for NodeJs, Pyhton, Ruby, and Go:**
 
-{% page-ref page="5xx-retry-logic-best-practices-nodejs.md" %}
+{% content-ref url="5xx-retry-logic-best-practices-nodejs.md" %}
+[5xx-retry-logic-best-practices-nodejs.md](5xx-retry-logic-best-practices-nodejs.md)
+{% endcontent-ref %}
 
-{% page-ref page="5xx-retry-logic-best-practices-python.md" %}
+{% content-ref url="5xx-retry-logic-best-practices-python.md" %}
+[5xx-retry-logic-best-practices-python.md](5xx-retry-logic-best-practices-python.md)
+{% endcontent-ref %}
 
-{% page-ref page="5xx-retry-logic-best-practices-ruby.md" %}
+{% content-ref url="5xx-retry-logic-best-practices-ruby.md" %}
+[5xx-retry-logic-best-practices-ruby.md](5xx-retry-logic-best-practices-ruby.md)
+{% endcontent-ref %}
 
-{% page-ref page="5xx-retry-logic-best-practices-go.md" %}
-
+{% content-ref url="5xx-retry-logic-best-practices-go.md" %}
+[5xx-retry-logic-best-practices-go.md](5xx-retry-logic-best-practices-go.md)
+{% endcontent-ref %}

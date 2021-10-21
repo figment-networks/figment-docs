@@ -2,20 +2,21 @@
 description: Learn how to interact with Polygon (Matic) using DataHub
 ---
 
-# ⛽ Polygon \(Matic\)
+# ⛽ Polygon (Matic)
 
-## Welcome to the Polygon \(Matic\) documentation! <a id="welcome-to-the-polkadot-documentation"></a>
+## Welcome to the Polygon (Matic) documentation! <a href="welcome-to-the-polkadot-documentation" id="welcome-to-the-polkadot-documentation"></a>
 
-In this section, you will be able to learn about what makes Polygon \(Matic\) special and how you can leverage available tools to build amazing products!
+In this section, you will be able to learn about what makes Polygon (Matic) special and how you can leverage available tools to build amazing products!
 
-You can then get started with the available RPC & REST APIs we support [**via DataHub**](https://datahub.figment.io/sign_up?service=matic).
+You can then get started with the available RPC & REST APIs we support [**via DataHub**](https://datahub.figment.io/sign\_up?service=matic).
 
-Last but not least, if you are looking for guidelines or simply some inspiration, check out available tutorials on [**Learn**](https://learn.figment.io/protocols/polygon)\*\*\*\*
+Last but not least, if you are looking for guidelines or simply some inspiration, check out available tutorials on [**Learn**](https://learn.figment.io/protocols/polygon)****
 
-Be sure to check out the[ **official Polygon \(Matic\) documentation**](https://docs.matic.network/docs/develop/getting-started)**,** and if you need tokens to build on testnet, you can check out the [**link here**](https://faucet.matic.network/).
+Be sure to check out the[ **official Polygon (Matic) documentation**](https://docs.matic.network/docs/develop/getting-started)**,** and if you need tokens to build on testnet, you can check out the [**link here**](https://faucet.matic.network).
 
-🚀 Let's start building the decentralized web 🚀[    
+🚀 Let's start building the decentralized web 🚀[  \
 ](https://learn.figment.io/network-documentation/polkadot/polkadot-101)
 
-{% page-ref page="rpc-and-rest-api.md" %}
-
+{% content-ref url="rpc-and-rest-api.md" %}
+[rpc-and-rest-api.md](rpc-and-rest-api.md)
+{% endcontent-ref %}

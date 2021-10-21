@@ -8,15 +8,15 @@ description: Learn how to setup your NEAR wallet and store your tokens
 
 [**The original post can be found here**](https://near.org/blog/getting-started-with-the-near-wallet/).
 
-The [**NEAR Wallet**](https://wallet.near.org/) is a non-custodial, web-based wallet for the NEAR blockchain.
+The [**NEAR Wallet**](https://wallet.near.org) is a non-custodial, web-based wallet for the NEAR blockchain.
 
-The wallet is now available to everyone! To get started, go to [**https://wallet.near.org**](https://wallet.near.org/) and click “Create Account”.
+The wallet is now available to everyone! To get started, go to [**https://wallet.near.org**](https://wallet.near.org) and click “Create Account”.
 
 ## Creating an Account
 
 First, choose your account name. Each account created in the NEAR Wallet is appended by `.near`, which is part of the account name. For example, choosing `satoshi` will create the `satoshi.near` account name.
 
-![Create Account](../../.gitbook/assets/image%20%286%29%20%281%29.png)
+![Create Account](<../../.gitbook/assets/image (6) (1).png>)
 
 ## Choosing an Access Method
 
@@ -30,7 +30,7 @@ If you have a Ledger Nano S or X, we **highly** recommend using it! This ensures
 
 ![Connect Ledger](https://near.org/wp-content/uploads/2020/09/Screen-Shot-2020-08-13-at-3.52.10-PM-1024x595.png)
 
-### Recovery \(Seed\) Phrase
+### Recovery (Seed) Phrase
 
 Write down a twelve seed word recovery phrase. If you do not have a Ledger, this is the next best option.
 
@@ -52,7 +52,7 @@ Next, you need to fund your account with NEAR.
 
 To do anything with the NEAR Wallet, you will need at least 2 NEAR. There are several ways to obtain NEAR, including from popular exchanges like Binance and Huobi.
 
-To complete this step, transfer NEAR \(minimum 2 NEAR\) to the 64 character account ID \(your temporary ID\), then return to this page.
+To complete this step, transfer NEAR (minimum 2 NEAR) to the 64 character account ID (your temporary ID), then return to this page.
 
 ![Fund Account with NEAR](https://near.org/wp-content/uploads/2020/09/Screen-Shot-2020-10-19-at-4.31.31-PM-1024x614.png)
 
@@ -62,7 +62,7 @@ Just click the button, and your account is ready to use! You will be redirected 
 
 ## Managing Your Account
 
-On the “Profile” page, you will see a breakdown of your account balance, available recovery options \(not including your seed phrase from the first step\), and the option to add a Ledger hardware device or setup Two Factor Authentication.
+On the “Profile” page, you will see a breakdown of your account balance, available recovery options (not including your seed phrase from the first step), and the option to add a Ledger hardware device or setup Two Factor Authentication.
 
 ![](https://near.org/wp-content/uploads/2020/09/Screen-Shot-2020-10-19-at-4.33.22-PM-1024x599.png)
 
@@ -80,15 +80,15 @@ We currently offer Email or SMS-based Two Factor Authentication.
 
 ## Staking
 
-One of the best ways to put your NEAR tokens to use is to stake them! Staking helps secure the NEAR network and will generate returns on your NEAR tokens. Based on the current total stake \(250 million NEAR staked\), you could earn returns of over 15% per year on your NEAR tokens. If the total stake increases, this rate will go down, and if it decreases, it will go up.
+One of the best ways to put your NEAR tokens to use is to stake them! Staking helps secure the NEAR network and will generate returns on your NEAR tokens. Based on the current total stake (250 million NEAR staked), you could earn returns of over 15% per year on your NEAR tokens. If the total stake increases, this rate will go down, and if it decreases, it will go up.
 
 To stake your NEAR tokens, click on “Staking” in the navigation bar.
 
 ![Staking dashboard](https://near.org/wp-content/uploads/2020/09/Screen-Shot-2020-10-23-at-7.58.27-AM-1024x638.png)
 
-In the NEAR wallet, you can choose to stake your tokens with a validator. These validators run the infrastructure that powers the NEAR network and will do the work on your behalf to generate returns on your NEAR. For this work, most will charge a fee, which is only charged on your rewards \(not your total stake\).
+In the NEAR wallet, you can choose to stake your tokens with a validator. These validators run the infrastructure that powers the NEAR network and will do the work on your behalf to generate returns on your NEAR. For this work, most will charge a fee, which is only charged on your rewards (not your total stake).
 
-Click “Select Validator”, then choose one from the list \(or search for one if you have one in mind\). A complete list with further details of each validator can be found on [https://near-staking.com](https://near-staking.com).
+Click “Select Validator”, then choose one from the list (or search for one if you have one in mind). A complete list with further details of each validator can be found on [https://near-staking.com](https://near-staking.com).
 
 ![Select a Validator](https://near.org/wp-content/uploads/2020/09/Screen-Shot-2020-10-23-at-8.20.53-AM-1024x643.png)
 
@@ -98,13 +98,12 @@ After staking, you will be returned to the dashboard. Here, you can view a summa
 
 ### Unstaking
 
-To unstake, select the validator from “Current Validators” you would like to unstake from. This will take you to the validator summary page. Click “Unstake” to initiate the unstaking process. Unstaking takes 36-48 hours \(3 full epochs\), and your tokens will still be unavailable during this time \(they will show as “Pending Release”\).
+To unstake, select the validator from “Current Validators” you would like to unstake from. This will take you to the validator summary page. Click “Unstake” to initiate the unstaking process. Unstaking takes 36-48 hours (3 full epochs), and your tokens will still be unavailable during this time (they will show as “Pending Release”).
 
-![Validator&apos;s Page](https://near.org/wp-content/uploads/2020/09/Screen-Shot-2020-10-23-at-8.22.32-AM-1024x642.png)
+![Validator's Page](https://near.org/wp-content/uploads/2020/09/Screen-Shot-2020-10-23-at-8.22.32-AM-1024x642.png)
 
 Once 3 epochs have completed, you will see them in “Ready to Withdraw” on the dashboard. Select the validator’s name again, and click the “Withdraw” button to withdraw your tokens from the validator’s account to your own account.
 
 ### Next Steps
 
 Congratulations, you’ve setup a NEAR account, funded it, and successfully staked your NEAR! We will release more tutorials as we add additional functionality to the Wallet.
-

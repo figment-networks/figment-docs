@@ -4,104 +4,100 @@ description: Learn how to use the Transaction Search API on Terra
 
 # Transaction Search
 
-Test out our Transaction Search API today with [**DataHub**](https://datahub.figment.io/sign_up?service=terra)!
+Test out our Transaction Search API today with [**DataHub**](https://datahub.figment.io/sign\_up?service=terra)!
 
-{% api-method method="post" host="https://terra--search.datahub.figment.io/transactions\_search" path=" " %}
-{% api-method-summary %}
-transactions\_search
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://terra--search.datahub.figment.io/transactions_search" path=" " method="post" summary="transactions_search" %}
+{% swagger-description %}
 Transaction Search allows users to filter and query by account, transaction type, and date range. Users can also search by memo field and logs.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="network" type="string" required=true %}
-Network identifier to search in. In this case, `terra`
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="network" type="string" %}
+Network identifier to search in. In this case, 
 
-{% api-method-parameter name="account" type="array" required=false %}
+`terra`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="account" type="array" %}
 The account identifier to look for. This searches for all account IDs which exist in transaction, including senders, recipients, validators, feeders, etc.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="after\_height" type="integer" required=false %}
+{% swagger-parameter in="body" name="after_height" type="integer" %}
 Gets all transactions bigger than given height. Has to be bigger than BeforeHeight
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="after\_time" type="string" required=false %}
-The time of transaction \(if not given by chain API, the same as block\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="after_time" type="string" %}
+The time of transaction (if not given by chain API, the same as block)
+{% endswagger-parameter %}
 
-{% api-method-parameter name="before\_height" type="integer" required=false %}
+{% swagger-parameter in="body" name="before_height" type="integer" %}
 Gets all transactions lower than given height. Has to be lesser than AfterHeight
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="before\_time" type="string" required=false %}
-The time of transaction \(if not given by the chain API, the same as block\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="before_time" type="string" %}
+The time of transaction (if not given by the chain API, the same as block)
+{% endswagger-parameter %}
 
-{% api-method-parameter name="block\_hash" type="string" required=false %}
+{% swagger-parameter in="body" name="block_hash" type="string" %}
 The hash of block to get transaction from
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="chain\_ids" type="array" required=false %}
-ChainID to search in. In this case, `columbus-3` or `columbus-4`
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="chain_ids" type="array" %}
+ChainID to search in. In this case, 
 
-{% api-method-parameter name="epoch" type="string" required=false %}
+`columbus-3`
+
+ or 
+
+`columbus-4`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="epoch" type="string" %}
 Epoch of the transaction
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="hash" type="string" required=false %}
+{% swagger-parameter in="body" name="hash" type="string" %}
 The hash of the transaction
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="height" type="integer" required=false %}
+{% swagger-parameter in="body" name="height" type="integer" %}
 Height of the transactions to get
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="integer" required=false %}
-Limit how many transaction records to get in one request \(default: 100, maximum: 1000\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="limit" type="integer" %}
+Limit how many transaction records to get in one request (default: 100, maximum: 1000)
+{% endswagger-parameter %}
 
-{% api-method-parameter name="memo" type="string" required=false %}
+{% swagger-parameter in="body" name="memo" type="string" %}
 Sets full text search for memo field
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="offset" type="integer" required=false %}
+{% swagger-parameter in="body" name="offset" type="integer" %}
 Offset the next X number of records
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="receiver" type="array" required=false %}
+{% swagger-parameter in="body" name="receiver" type="array" %}
 Looks for transactions that include given account IDs
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="sender" type="array" required=false %}
+{% swagger-parameter in="body" name="sender" type="array" %}
 Looks for transactions that include given account IDs
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="type" type="array" required=false %}
-The list of types of transactions \(see below for full list of parameters\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="type" type="array" %}
+The list of types of transactions (see below for full list of parameters)
+{% endswagger-parameter %}
 
-{% api-method-parameter name="with\_raw" type="boolean" required=false %}
+{% swagger-parameter in="body" name="with_raw" type="boolean" %}
 Include base64 raw request in search response
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="with\_raw\_log" type="boolean" required=false %}
-Include base64 raw log from search response. Defaults to `false`
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% swagger-parameter in="body" name="with_raw_log" type="boolean" %}
+Include base64 raw log from search response. Defaults to 
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success response
-{% endapi-method-response-example-description %}
+`false`
+{% endswagger-parameter %}
 
+{% swagger-response status="200" description="Success response" %}
 ```javascript
 {
   "block_hash": "string",
@@ -264,61 +260,47 @@ Success response
   "has_errors": false
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Bad parameters sent
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="400" description="Bad parameters sent" %}
 ```javascript
 {
   "error": "Bad parameters sent"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=406 %}
-{% api-method-response-example-description %}
-Not acceptable content type
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="406" description="Not acceptable content type" %}
 ```javascript
 {
   "error": "Not acceptable content type"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=500 %}
-{% api-method-response-example-description %}
-Internal/Other server error while processing request
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="500" description="Internal/Other server error while processing request" %}
 ```javascript
 {
   "error": "Something bad happened"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ## **Transaction Types**
 
-List of currently supporter transaction types in cosmos-worker are \(listed by modules\):
+List of currently supporter transaction types in cosmos-worker are (listed by modules):
 
-| **Module** | Type |
-| :--- | :--- |
-| **bank** | `multisend` , `send` |
-| **crisis** | `verify_invariant` |
+| **Module**       | Type                                                                                                        |
+| ---------------- | ----------------------------------------------------------------------------------------------------------- |
+| **bank**         | `multisend` , `send`                                                                                        |
+| **crisis**       | `verify_invariant`                                                                                          |
 | **distribution** | `withdraw_validator_commission`, `set_withdraw_address`, `withdraw_delegator_reward`, `fund_community_pool` |
-| **evidence** | `submit_evidence` |
-| **gov** | `deposit`, `vote`, `submit_proposal` |
-| **slashing** | `unjail` |
-| **staking** | `begin_unbonding`, `edit_validator`, `create_validator` , `delegate`, `begin_redelegate` |
-| **internal** | `error` |
+| **evidence**     | `submit_evidence`                                                                                           |
+| **gov**          | `deposit`, `vote`, `submit_proposal`                                                                        |
+| **slashing**     | `unjail`                                                                                                    |
+| **staking**      | `begin_unbonding`, `edit_validator`, `create_validator` , `delegate`, `begin_redelegate`                    |
+| **internal**     | `error`                                                                                                     |
 
 ## Example Request
 
@@ -422,4 +404,3 @@ List of currently supporter transaction types in cosmos-worker are \(listed by m
 ```
 
 If you need help with this API or simply want to share with other builders, you can [**join our community today**](https://discord.gg/fszyM7K)!
-

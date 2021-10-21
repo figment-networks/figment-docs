@@ -8,13 +8,13 @@ In this section, you will be able to learn about what makes Provenance special a
 
 You can then get started with the available Tendermint RPC & LCD APIs we support [**via DataHub**](https://datahub.figment.io/services/provenance)**.**
 
-Be sure to check out the [**official Provenance documentation**](https://docs.provenance.io/)**.**
+Be sure to check out the [**official Provenance documentation**](https://docs.provenance.io)**.**
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="rpc-and-rest-api.md" %}
-
-
+{% content-ref url="rpc-and-rest-api.md" %}
+[rpc-and-rest-api.md](rpc-and-rest-api.md)
+{% endcontent-ref %}
 
 
 

@@ -8,11 +8,12 @@ description: Learn how to interact with Filecoin using DataHub
 
 In this section, you will be able to learn about what makes Filecoin special and how you can leverage available tools to build amazing products!
 
-You can then get started with the available RPC & REST APIs we support [**via DataHub**](https://datahub.figment.io/).
+You can then get started with the available RPC & REST APIs we support [**via DataHub**](https://datahub.figment.io).
 
-Be sure to check out the [**official Filecoin documentation**](https://docs.filecoin.io/) **for additional information.**
+Be sure to check out the [**official Filecoin documentation**](https://docs.filecoin.io) **for additional information.**
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="rpc-and-rest-api/" %}
-
+{% content-ref url="rpc-and-rest-api/" %}
+[rpc-and-rest-api](rpc-and-rest-api/)
+{% endcontent-ref %}

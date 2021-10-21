@@ -4,104 +4,98 @@ description: Learn how to use the Transaction Search API on Polkadot
 
 # Transaction Search
 
-Test out our Transaction Search API today with [**DataHub**](https://datahub.figment.io/sign_up?service=polkadot)!
+Test out our Transaction Search API today with [**DataHub**](https://datahub.figment.io/sign\_up?service=polkadot)!
 
-{% api-method method="post" host="https://polkadot--search.datahub.figment.io/transactions\_search" path=" " %}
-{% api-method-summary %}
-transactions\_search
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://polkadot--search.datahub.figment.io/transactions_search" path=" " method="post" summary="transactions_search" %}
+{% swagger-description %}
 Transaction Search allows users to filter and query by account, event type, and date range.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="network" type="string" required=true %}
-Network identifier to search in. In this case, `polkadot`
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="network" type="string" %}
+Network identifier to search in. In this case, 
 
-{% api-method-parameter name="account" type="array" required=false %}
+`polkadot`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="account" type="array" %}
 The account identifier to look for. This searches for all account IDs which exist inside transaction events.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="after\_height" type="integer" required=false %}
+{% swagger-parameter in="body" name="after_height" type="integer" %}
 Gets all transactions bigger than given height. Has to be bigger than BeforeHeight
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="after\_time" type="string" required=false %}
-The time of transaction \(if not given by chain API, the same as block\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="after_time" type="string" %}
+The time of transaction (if not given by chain API, the same as block)
+{% endswagger-parameter %}
 
-{% api-method-parameter name="before\_height" type="integer" required=false %}
+{% swagger-parameter in="body" name="before_height" type="integer" %}
 Gets all transactions lower than given height. Has to be lesser than AfterHeight
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="before\_time" type="string" required=false %}
-The time of transaction \(if not given by the chain API, the same as block\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="before_time" type="string" %}
+The time of transaction (if not given by the chain API, the same as block)
+{% endswagger-parameter %}
 
-{% api-method-parameter name="block\_hash" type="string" required=false %}
+{% swagger-parameter in="body" name="block_hash" type="string" %}
 The hash of block to get transaction from
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="chain\_ids" type="array" required=false %}
-ChainID to search in. In this case, `mainnet`
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="chain_ids" type="array" %}
+ChainID to search in. In this case, 
 
-{% api-method-parameter name="epoch" type="string" required=false %}
+`mainnet`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="epoch" type="string" %}
 Era the transaction occurred,
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="hash" type="string" required=false %}
+{% swagger-parameter in="body" name="hash" type="string" %}
 The hash of the transaction
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="height" type="integer" required=false %}
+{% swagger-parameter in="body" name="height" type="integer" %}
 Height of the transactions to get
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="integer" required=false %}
-Limit how many transaction records to get in one request \(default: 100, maximum: 1000\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="limit" type="integer" %}
+Limit how many transaction records to get in one request (default: 100, maximum: 1000)
+{% endswagger-parameter %}
 
-{% api-method-parameter name="memo" type="string" required=false %}
+{% swagger-parameter in="body" name="memo" type="string" %}
 Sets full text search for memo field
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="offset" type="integer" required=false %}
+{% swagger-parameter in="body" name="offset" type="integer" %}
 Offset the next X number of records
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="receiver" type="array" required=false %}
+{% swagger-parameter in="body" name="receiver" type="array" %}
 Looks for transactions that include given account IDs
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="sender" type="array" required=false %}
+{% swagger-parameter in="body" name="sender" type="array" %}
 Looks for transactions that include given account IDs
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="type" type="array" required=false %}
-The list of types of transaction events \(see below for full list of parameters\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="type" type="array" %}
+The list of types of transaction events (see below for full list of parameters)
+{% endswagger-parameter %}
 
-{% api-method-parameter name="with\_raw" type="boolean" required=false %}
-Include base64 raw rtransaction data in search response. Defaults to `false`
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="with_raw" type="boolean" %}
+Include base64 raw rtransaction data in search response. Defaults to 
 
-{% api-method-parameter name="with\_raw\_log" type="boolean" required=false %}
-Include base64 raw events from search response. Defaults to `false`
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+`false`
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success response
-{% endapi-method-response-example-description %}
+{% swagger-parameter in="body" name="with_raw_log" type="boolean" %}
+Include base64 raw events from search response. Defaults to 
 
+`false`
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="Success response" %}
 ```javascript
 {
     "id": "string",
@@ -233,98 +227,84 @@ Success response
     "has_errors": false,
   }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Bad parameters sent
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="400" description="Bad parameters sent" %}
 ```javascript
 {
   "error": "Bad parameters sent"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=406 %}
-{% api-method-response-example-description %}
-Not acceptable content type
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="406" description="Not acceptable content type" %}
 ```javascript
 {
   "error": "Not acceptable content type"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=500 %}
-{% api-method-response-example-description %}
-Internal/Other server error while processing request
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="500" description="Internal/Other server error while processing request" %}
 ```javascript
 {
   "error": "Something bad happened" 
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ## **Transaction Types**
 
-List of currently supported sub event types in polkadot-worker are \(listed by modules\):
+List of currently supported sub event types in polkadot-worker are (listed by modules):
 
-| **Module** | Type |
-| :--- | :--- |
-| **balances** | `balanceset`, `deposit`, `dustlost`, `endowed`, `reserverepatriated`, `reserved`, `transfer`, `unreserved` |
-| **council** | `approved`, `closed`, `disapproved`, `executed`, `proposed`, `voted` |
-| **democracy** | `cancelled`, `delegated`, `preimagenoted`, `preimagereaped`, `proposed`, `started`, `undelegated` |
-| **identity** | `identitycleared`, `identitykilled`, `identityset`, `judgementgiven`, `judgementrequested`, `judgementunrequested`, `registraradded`, `subidentityadded`, `subidentiyremoved`, `subidentityrevoked` |
-| **indices** | `indexassigned`, `indexfreed`, `indexfrozen` |
-| **multisig** | `multisigapproval`, `multisigcancelled`, `multisigexecuted`, `newmultisig` |
-| **proxy** | `bonded`, `reward`, `slash` |
-| **staking** | `bonded`, `reward`, `slash` |
-| **system** | `extrinsicfailed`, `extrinsicsuccess`, `killedaccount`, `newaccount` |
-| **technicalcommittee** | `approved`, `closed`, `disapproved`, `executed`, `memberexecuted`, `proposed`, `voted` |
-| **tips** | `newtip`, `tipclosed`, `tipclosing`, `tipretracted`, `tipslashed` |
-| **treasury** | `proposed`, `rejected` |
-| **utility** | `batchcompleted`, `batchinterrupted` |
-| **vesting** | `vestingupdated`, `vestingcompleted` |
+| **Module**             | Type                                                                                                                                                                                                |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **balances**           | `balanceset`, `deposit`, `dustlost`, `endowed`, `reserverepatriated`, `reserved`, `transfer`, `unreserved`                                                                                          |
+| **council**            | `approved`, `closed`, `disapproved`, `executed`, `proposed`, `voted`                                                                                                                                |
+| **democracy**          | `cancelled`, `delegated`, `preimagenoted`, `preimagereaped`, `proposed`, `started`, `undelegated`                                                                                                   |
+| **identity**           | `identitycleared`, `identitykilled`, `identityset`, `judgementgiven`, `judgementrequested`, `judgementunrequested`, `registraradded`, `subidentityadded`, `subidentiyremoved`, `subidentityrevoked` |
+| **indices**            | `indexassigned`, `indexfreed`, `indexfrozen`                                                                                                                                                        |
+| **multisig**           | `multisigapproval`, `multisigcancelled`, `multisigexecuted`, `newmultisig`                                                                                                                          |
+| **proxy**              | `bonded`, `reward`, `slash`                                                                                                                                                                         |
+| **staking**            | `bonded`, `reward`, `slash`                                                                                                                                                                         |
+| **system**             | `extrinsicfailed`, `extrinsicsuccess`, `killedaccount`, `newaccount`                                                                                                                                |
+| **technicalcommittee** | `approved`, `closed`, `disapproved`, `executed`, `memberexecuted`, `proposed`, `voted`                                                                                                              |
+| **tips**               | `newtip`, `tipclosed`, `tipclosing`, `tipretracted`, `tipslashed`                                                                                                                                   |
+| **treasury**           | `proposed`, `rejected`                                                                                                                                                                              |
+| **utility**            | `batchcompleted`, `batchinterrupted`                                                                                                                                                                |
+| **vesting**            | `vestingupdated`, `vestingcompleted`                                                                                                                                                                |
 
-List of currently supported extrinsic event types in polkadot-worker are \(listed by modules\):
+List of currently supported extrinsic event types in polkadot-worker are (listed by modules):
 
-| **Module** | Type |
-| :--- | :--- |
-| **authorship** | `setuncles` |
-| **babe** | `planconfigchange`, `reportequivocation`, `reportequivocationunsigned` |
-| **balances** | `forcetransfer`, `setbalance`, `transfer`, `transferall`, `transferkeepalive` |
-| **bounties** | `acceptcurator`, `approvebounty`, `awardbounty`, `claimbounty`, `closebounty`, `extendbountyexpiry`, `proposecurator`, `unassigncurator` |
-| **claims** | `attest`, `claim`, `claimattest`, `mintclaim`, `moveclaim` |
-| **council** | `close`, `disapproveproposal`, `execute`, `propose`, `setmembers`, `vote` |
-| **democracy** | `blacklist`, `cancelproposal`, `cancelqueued`, `cancelreferendum`, `clearpublicproposals`, `delegate`, `emergencycancel`, `enactproposal`, `externalproposal`, `externalpropose`, `externalproposedefault`, `fasttrack`, `noteimminentpreimage`, `noteimminentpreimageoperational`, `notepreimage`, `notepreimageoperational`, `propose`, `reappreimage`, `removeothervote`, `removevote`, `second`, `undelegate`, `unlock`, `vetoexternal`, `vote` |
-| **electionprovidermultiphase** | `setemergencyelectionresult`, `setminimumuntrustedsource`, `submitunsigned` |
-| **grandpa** | `notestalled`, `reportequivocation`, `reportequivocationunsigned` |
-| **identity** | `addregistrar`, `addsub`, `cancelrequest`, `clearidentity`, `killidentity`, `providejudgement`, `quitsub`, `removesub`, `renamesub`, `requestjudgement`, `setaccountid`, `setfee`, `setfields`, `setidentity`, `setsubs` |
-| **indices** | `claim`, `forcetransfer`, `free`, `freeze`, `transfer` |
-| **imonline** | `heartbeat` |
-| **multisig** | `approveasmulti`, `asmulti`, `asmultithreshold1`, `cancelasmulti` |
-| **phragmenelection** | `cleandefunctvoters`, `removemember`, `removevoter`, `renouncecandidacy`, `submitcandidacy` |
-| **proxy** | `addproxy`, `announce`, `anonymous`, `killanonymous`, `proxy`, `proxyannounced`, `rejectannouncement`, `removeannouncement`, `removeproxies`, `removeproxy` |
-| **scheduler** | `cancel`, `cancelnamed`, `schedule`, `scheduleafter`, `schedulenamed`, `schedulenamedafter` |
-| **session** | `purgekeys`, `setkeys` |
-| **staking** | `bond`, `bondextra`, `canceldeferredslash`, `chill`, `chillother`, `forcenewera`, `forceneweraalways`, `forcenoeras`, `forceunstake`, `increasevalidatorcount`, `kick`, `nominate`, `payoutstakers`, `reapstash`, `scalevalidatorcount`, `setcontroller`, `sethistorydepth`, `setinvulnerables`, `setvalidatorcount`, `unbond`, `updatestakinglimits`, `validate`, `withdrawunbonded` |
-| **system** | `fillblock`, `killprefix`, `killstorage`, `remark`, `remarkwithevent`, `setchangestrieconfig`, `setcode`, `setcodewithoutchecks`, `setheappages`, `setstorage` |
-| **technicalcommittee** | `close`, `disapproveproposal`, `execute`, `propose`, `setmembers`, `vote` |
-| **technicalmembership** | `addmember`, `changekey`, `clearprime`, `removemember`, `resetmembers`, `setprime`, `swapmember` |
-| **timestamp** | `set` |
-| **tips** | `closetip`, `reportawesome`, `retracttip`, `slashtip`, `tip`, `tipnew` |
-| **treasury** | `approveproposal`, `proposespend`, `rejectproposal` |
-| **utility** | `asderivative`, `batch`, `batchall` |
-| **vesting** | `forcevestedtransfer`, `vest`, `vestother`, `vestedtransfer` |
+| **Module**                     | Type                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **authorship**                 | `setuncles`                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **babe**                       | `planconfigchange`, `reportequivocation`, `reportequivocationunsigned`                                                                                                                                                                                                                                                                                                                                                                              |
+| **balances**                   | `forcetransfer`, `setbalance`, `transfer`, `transferall`, `transferkeepalive`                                                                                                                                                                                                                                                                                                                                                                       |
+| **bounties**                   | `acceptcurator`, `approvebounty`, `awardbounty`, `claimbounty`, `closebounty`, `extendbountyexpiry`, `proposecurator`, `unassigncurator`                                                                                                                                                                                                                                                                                                            |
+| **claims**                     | `attest`, `claim`, `claimattest`, `mintclaim`, `moveclaim`                                                                                                                                                                                                                                                                                                                                                                                          |
+| **council**                    | `close`, `disapproveproposal`, `execute`, `propose`, `setmembers`, `vote`                                                                                                                                                                                                                                                                                                                                                                           |
+| **democracy**                  | `blacklist`, `cancelproposal`, `cancelqueued`, `cancelreferendum`, `clearpublicproposals`, `delegate`, `emergencycancel`, `enactproposal`, `externalproposal`, `externalpropose`, `externalproposedefault`, `fasttrack`, `noteimminentpreimage`, `noteimminentpreimageoperational`, `notepreimage`, `notepreimageoperational`, `propose`, `reappreimage`, `removeothervote`, `removevote`, `second`, `undelegate`, `unlock`, `vetoexternal`, `vote` |
+| **electionprovidermultiphase** | `setemergencyelectionresult`, `setminimumuntrustedsource`, `submitunsigned`                                                                                                                                                                                                                                                                                                                                                                         |
+| **grandpa**                    | `notestalled`, `reportequivocation`, `reportequivocationunsigned`                                                                                                                                                                                                                                                                                                                                                                                   |
+| **identity**                   | `addregistrar`, `addsub`, `cancelrequest`, `clearidentity`, `killidentity`, `providejudgement`, `quitsub`, `removesub`, `renamesub`, `requestjudgement`, `setaccountid`, `setfee`, `setfields`, `setidentity`, `setsubs`                                                                                                                                                                                                                            |
+| **indices**                    | `claim`, `forcetransfer`, `free`, `freeze`, `transfer`                                                                                                                                                                                                                                                                                                                                                                                              |
+| **imonline**                   | `heartbeat`                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **multisig**                   | `approveasmulti`, `asmulti`, `asmultithreshold1`, `cancelasmulti`                                                                                                                                                                                                                                                                                                                                                                                   |
+| **phragmenelection**           | `cleandefunctvoters`, `removemember`, `removevoter`, `renouncecandidacy`, `submitcandidacy`                                                                                                                                                                                                                                                                                                                                                         |
+| **proxy**                      | `addproxy`, `announce`, `anonymous`, `killanonymous`, `proxy`, `proxyannounced`, `rejectannouncement`, `removeannouncement`, `removeproxies`, `removeproxy`                                                                                                                                                                                                                                                                                         |
+| **scheduler**                  | `cancel`, `cancelnamed`, `schedule`, `scheduleafter`, `schedulenamed`, `schedulenamedafter`                                                                                                                                                                                                                                                                                                                                                         |
+| **session**                    | `purgekeys`, `setkeys`                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **staking**                    | `bond`, `bondextra`, `canceldeferredslash`, `chill`, `chillother`, `forcenewera`, `forceneweraalways`, `forcenoeras`, `forceunstake`, `increasevalidatorcount`, `kick`, `nominate`, `payoutstakers`, `reapstash`, `scalevalidatorcount`, `setcontroller`, `sethistorydepth`, `setinvulnerables`, `setvalidatorcount`, `unbond`, `updatestakinglimits`, `validate`, `withdrawunbonded`                                                               |
+| **system**                     | `fillblock`, `killprefix`, `killstorage`, `remark`, `remarkwithevent`, `setchangestrieconfig`, `setcode`, `setcodewithoutchecks`, `setheappages`, `setstorage`                                                                                                                                                                                                                                                                                      |
+| **technicalcommittee**         | `close`, `disapproveproposal`, `execute`, `propose`, `setmembers`, `vote`                                                                                                                                                                                                                                                                                                                                                                           |
+| **technicalmembership**        | `addmember`, `changekey`, `clearprime`, `removemember`, `resetmembers`, `setprime`, `swapmember`                                                                                                                                                                                                                                                                                                                                                    |
+| **timestamp**                  | `set`                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **tips**                       | `closetip`, `reportawesome`, `retracttip`, `slashtip`, `tip`, `tipnew`                                                                                                                                                                                                                                                                                                                                                                              |
+| **treasury**                   | `approveproposal`, `proposespend`, `rejectproposal`                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **utility**                    | `asderivative`, `batch`, `batchall`                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **vesting**                    | `forcevestedtransfer`, `vest`, `vestother`, `vestedtransfer`                                                                                                                                                                                                                                                                                                                                                                                        |
 
 ## Example Request
 
@@ -568,4 +548,3 @@ List of currently supported extrinsic event types in polkadot-worker are \(liste
 ```
 
 If you need help with this API or simply want to share with other builders, you can [**join our community today**](https://discord.gg/fszyM7K)!
-

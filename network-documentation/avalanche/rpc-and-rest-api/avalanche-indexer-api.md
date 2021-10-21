@@ -6,24 +6,12 @@ description: >-
 
 # Avalanche Indexer API
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/" %}
-{% api-method-summary %}
-Service Index
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/" method="get" summary="Service Index" %}
+{% swagger-description %}
 Returns the list of all available endpoints
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "endpoints": [
@@ -62,57 +50,29 @@ Success
   ]
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/health" %}
-{% api-method-summary %}
-Health Status
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/health" method="get" summary="Health Status" %}
+{% swagger-description %}
 Returns the current service healthThis endpoint is useful for automated service checks.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Service is healthy
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Service is healthy" %}
 ```javascript
 {
   "healthy": true
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/status" %}
-{% api-method-summary %}
-Service Status
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/status" method="get" summary="Service Status" %}
+{% swagger-description %}
 Returns the current service status along with node version and sync status
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "app_name": "avalanche-indexer",
@@ -125,39 +85,29 @@ Success
   "sync_time": "2021-04-22T02:11:29.079984Z"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/network\_stats" %}
-{% api-method-summary %}
-Network Stats
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/network_stats" method="get" summary="Network Stats" %}
+{% swagger-description %}
 Returns network statistics for a given time period
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="bucket" type="string" required=false %}
-Time period. Daily - `d`, Hourly - `h`
-{% endapi-method-parameter %}
+{% swagger-parameter in="query" name="bucket" type="string" %}
+Time period. Daily - 
 
-{% api-method-parameter name="limit" type="integer" required=false %}
+`d`
+
+, Hourly - 
+
+`h`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="limit" type="integer" %}
 Number of records to return
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 [
   {
@@ -180,35 +130,19 @@ Success
   }
 ]
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/assets" %}
-{% api-method-summary %}
-Assets list
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/assets" method="get" summary="Assets list" %}
+{% swagger-description %}
 Returns a list of all Avalanche assets
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="type" type="string" required=false %}
+{% swagger-parameter in="query" name="type" type="string" %}
 Filter by asset type
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 [
   {
@@ -220,35 +154,19 @@ Success
   }
 ]
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/assets/{id}" %}
-{% api-method-summary %}
-Asset details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/assets/{id}" method="get" summary="Asset details" %}
+{% swagger-description %}
 Returns asset details for a given ID
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
+{% swagger-parameter in="path" name="id" type="string" %}
 Asset ID
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "id": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z",
@@ -259,29 +177,15 @@ Success
   "transactions_count": 4808311
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/chains" %}
-{% api-method-summary %}
-Chains list
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/chains" method="get" summary="Chains list" %}
+{% swagger-description %}
 Returns list of all chains
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 [
   {
@@ -293,29 +197,15 @@ Success
   }
 ]
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/chain\_sync\_statuses" %}
-{% api-method-summary %}
-Chain indexing statuses
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/chain_sync_statuses" method="get" summary="Chain indexing statuses" %}
+{% swagger-description %}
 Returns current indexing status for primary chains
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 [
   {
@@ -327,29 +217,15 @@ Success
   }
 ]
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/validators" %}
-{% api-method-summary %}
-Active Validators
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/validators" method="get" summary="Active Validators" %}
+{% swagger-description %}
 Returns a collection of active validators
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 [
   {
@@ -377,35 +253,19 @@ Success
   }
 ]
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/validators/{id}" %}
-{% api-method-summary %}
-Validator Details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/validators/{id}" method="get" summary="Validator Details" %}
+{% swagger-description %}
 Returns validator details and associated data
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
+{% swagger-parameter in="path" name="id" type="string" %}
 Validator Node ID
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "delegations": [
@@ -479,39 +339,23 @@ Success
   }
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/delegations" %}
-{% api-method-summary %}
-Active Delegations
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/delegations" method="get" summary="Active Delegations" %}
+{% swagger-description %}
 Returns active delegations records
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="node\_id" type="string" required=false %}
+{% swagger-parameter in="query" name="node_id" type="string" %}
 Filter delegations by validator node ID
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="reward\_address" type="string" required=false %}
+{% swagger-parameter in="query" name="reward_address" type="string" %}
 Filter delegations by a reward address
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 [
   {
@@ -530,35 +374,19 @@ Success
   }
 ]
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/accounts/{address}" %}
-{% api-method-summary %}
-Account Details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/accounts/{address}" method="get" summary="Account Details" %}
+{% swagger-description %}
 Returns account balances
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="address" type="string" required=true %}
-Blockchain address \(X/P/C\)
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% swagger-parameter in="path" name="address" type="string" %}
+Blockchain address (X/P/C)
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "balance": "2295690000",
@@ -567,51 +395,35 @@ Success
   "lockedNotStakeable": "0"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/blocks" %}
-{% api-method-summary %}
-Blocks search
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/blocks" method="get" summary="Blocks search" %}
+{% swagger-description %}
 Returns block matching the search parameters
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="chain" type="string" required=true %}
+{% swagger-parameter in="query" name="chain" type="string" %}
 Chain ID
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="start\_height" type="integer" required=false %}
+{% swagger-parameter in="query" name="start_height" type="integer" %}
 Start height
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="end\_height" type="integer" required=false %}
+{% swagger-parameter in="query" name="end_height" type="integer" %}
 End height
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="type" type="string" required=false %}
+{% swagger-parameter in="query" name="type" type="string" %}
 Block type
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="page" type="integer" required=false %}
+{% swagger-parameter in="query" name="page" type="integer" %}
 Results page
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 [
   {
@@ -624,35 +436,19 @@ Success
   }
 ]
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/blocks/{hash}" %}
-{% api-method-summary %}
-Block details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/blocks/{hash}" method="get" summary="Block details" %}
+{% swagger-description %}
 Returns block details by block hash
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="hash" type="string" required=true %}
+{% swagger-parameter in="path" name="hash" type="string" %}
 Block hash
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "id": "2Bok2WUr92N5jYSs8mmGfChw9sFZ4h83Ttfs4ngjywiqfaJMBw",
@@ -663,84 +459,64 @@ Success
   "timestamp": "2021-07-16T15:25:54.091248Z"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Error
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Error" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/transactions" %}
-{% api-method-summary %}
-Transaction search
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/transactions" method="get" summary="Transaction search" %}
+{% swagger-description %}
 Returns transactions matching the search parameters
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="chain" type="string" required=false %}
+{% swagger-parameter in="query" name="chain" type="string" %}
 Filter by chain ID
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="type" type="string" required=false %}
+{% swagger-parameter in="query" name="type" type="string" %}
 Filter by transaction type. Separate multiple values by comma.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="start\_time" type="string" required=false %}
+{% swagger-parameter in="query" name="start_time" type="string" %}
 Search range start time.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="end\_time" type="string" required=false %}
+{% swagger-parameter in="query" name="end_time" type="string" %}
 Search range end time.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="start\_height" type="string" required=false %}
-Search range start block height \(if applicable\).
-{% endapi-method-parameter %}
+{% swagger-parameter in="query" name="start_height" type="string" %}
+Search range start block height (if applicable).
+{% endswagger-parameter %}
 
-{% api-method-parameter name="block\_hash" type="string" required=false %}
-Filter by block hash \(if applicable\).
-{% endapi-method-parameter %}
+{% swagger-parameter in="query" name="block_hash" type="string" %}
+Filter by block hash (if applicable).
+{% endswagger-parameter %}
 
-{% api-method-parameter name="memo" type="string" required=false %}
+{% swagger-parameter in="query" name="memo" type="string" %}
 Filter by memo text field.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="address" type="string" required=false %}
+{% swagger-parameter in="query" name="address" type="string" %}
 Filter by account address. Separate multiple values by comma.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="asset" type="string" required=false %}
+{% swagger-parameter in="query" name="asset" type="string" %}
 Filter by asset ID.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="page" type="integer" required=false %}
+{% swagger-parameter in="query" name="page" type="integer" %}
 Results page.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 [
   {
@@ -822,48 +598,28 @@ Success
   }
 ]
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Error
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="400" description="Error" %}
 ```javascript
 {
   "error": "invalid transaction type: foo",
   "status": 400
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/transactions/{id}" %}
-{% api-method-summary %}
-Transaction details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/transactions/{id}" method="get" summary="Transaction details" %}
+{% swagger-description %}
 Returns transaction details for a given ID/hash
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
+{% swagger-parameter in="path" name="id" type="string" %}
 Transaction ID/hash
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "id": "62RFqPfHP56tgxByVwp7JeM7uQkBouFyFpwNYxC2KZ2cw1Zxq",
@@ -943,48 +699,28 @@ Success
   }
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Error
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Error" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/transaction\_outputs/{id}" %}
-{% api-method-summary %}
-Transaction output details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/transaction_outputs/{id}" method="get" summary="Transaction output details" %}
+{% swagger-description %}
 Returns transaction output details for a given ID
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
+{% swagger-parameter in="path" name="id" type="string" %}
 Transaction output ID
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "id": "TxTjdRFsFX7FoTqGKytASi576Lv47qSt6xn7B2KA9Df7LkYYX",
@@ -1006,42 +742,24 @@ Success
   "spent_in_tx": null
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Error
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Error" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/transaction\_types" %}
-{% api-method-summary %}
-Transaction type stats
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/transaction_types" method="get" summary="Transaction type stats" %}
+{% swagger-description %}
 Returns available transaction types and their counts
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 [
   {
@@ -1050,8 +768,5 @@ Success
   }
 ]
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

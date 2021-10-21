@@ -4,68 +4,96 @@ description: HTTP API documentation for the Mina Indexer API service provided by
 
 # Indexer API Documentation
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/health" %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/health" method="get" summary="" %}
+{% swagger-description %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/status" %}
-{% api-method-summary %}
+{% endswagger-description %}
 
-{% endapi-method-summary %}
+{% swagger-parameter in="path" name="" type="string" %}
 
-{% api-method-description %}
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="" %}
+```
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/status" method="get" summary="" %}
+{% swagger-description %}
 Returns the current service status along with node version and sync status
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% endapi-method %}
+{% swagger-parameter in="path" name="" type="string" %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/height" %}
+{% endswagger-parameter %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/block" %}
+{% swagger-response status="200" description="" %}
+```
+```
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/blocks" %}
-{% api-method-summary %}
-Blocks Search
-{% endapi-method-summary %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/height" method="get" summary="" %}
+{% swagger-description %}
 
-{% api-method-description %}
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="" type="string" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="" %}
+```
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/block" method="get" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="" type="string" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="" %}
+```
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/blocks" method="get" summary="Blocks Search" %}
+{% swagger-description %}
 Returns a set of blocks that match input parameters.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="min\_height" type="integer" required=false %}
+{% swagger-parameter in="query" name="min_height" type="integer" %}
 Start height
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="max\_height" type="integer" required=false %}
+{% swagger-parameter in="query" name="max_height" type="integer" %}
 End height
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="creator" type="string" required=false %}
+{% swagger-parameter in="query" name="creator" type="string" %}
 Block producer public key
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="integer" required=false %}
+{% swagger-parameter in="query" name="limit" type="integer" %}
 Number of blocks to return
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="sort" type="string" required=false %}
+{% swagger-parameter in="query" name="sort" type="string" %}
 Sort field
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="order" type="string" required=false %}
+{% swagger-parameter in="query" name="order" type="string" %}
 Sort order
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "height": 1490,
@@ -87,35 +115,19 @@ Success
   "snark_jobs_fees": "2632400000"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/blocks/{id}" %}
-{% api-method-summary %}
-Block Details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/blocks/{id}" method="get" summary="Block Details" %}
+{% swagger-description %}
 Returns block details and all associated information, like validators, snarkers, transactions.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
+{% swagger-parameter in="path" name="id" type="string" %}
 Block number or hash
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "block": {
@@ -181,52 +193,32 @@ Success
   ]
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Block does not exist
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Block does not exist" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/block\_stats" %}
-{% api-method-summary %}
-Block Stats
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/block_stats" method="get" summary="Block Stats" %}
+{% swagger-description %}
 Returns aggregated block statistics
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="interval" type="string" required=false %}
+{% swagger-parameter in="query" name="interval" type="string" %}
 Stats interval
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="period" type="integer" required=false %}
+{% swagger-parameter in="query" name="period" type="integer" %}
 Stats period
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "time": "2021-02-18T06:00:00+00:00",
@@ -246,105 +238,68 @@ Success
   "coinbase_amount": "400000000000"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/block\_times" %}
-{% api-method-summary %}
-Block Times
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/block_times" method="get" summary="Block Times" %}
+{% swagger-description %}
 Returns the average block production time for N latest blocks.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="limit" type="integer" required=false %}
+{% swagger-parameter in="query" name="limit" type="integer" %}
 Number of block to include in calculation
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```text
-
+{% swagger-response status="200" description="" %}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/validators" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```text
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/snarkers" %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/validators" method="get" summary="" %}
+{% swagger-description %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/validators/{id}" %}
-{% api-method-summary %}
-Validator stats
-{% endapi-method-summary %}
+{% endswagger-description %}
 
-{% api-method-description %}
+{% swagger-parameter in="path" name="" type="string" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="" %}
+```
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/snarkers" method="get" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="" type="string" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="" %}
+```
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/validators/{id}" method="get" summary="Validator stats" %}
+{% swagger-description %}
 Returns aggregated validator statistics
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="interval" type="string" required=false %}
+{% swagger-parameter in="query" name="interval" type="string" %}
 Stats interval
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="period" type="integer" required=false %}
+{% swagger-parameter in="query" name="period" type="integer" %}
 Stats period
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "time": "2021-03-05T21:00:00Z",
@@ -354,39 +309,23 @@ Success
   "delegations_amount": "22500000000000000"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/delegations" %}
-{% api-method-summary %}
-Active delegations
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/delegations" method="get" summary="Active delegations" %}
+{% swagger-description %}
 Returns active delegations
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="public\_key" type="string" required=false %}
+{% swagger-parameter in="query" name="public_key" type="string" %}
 Account public key
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="delegate" type="string" required=false %}
+{% swagger-parameter in="query" name="delegate" type="string" %}
 Delegate account public key
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "public_key": "B62qpawbpmboCYmenkXaCQuQDSKBR8PXkDw1MTjkZTUrRcVPLzd6Hnr",
@@ -394,79 +333,81 @@ Success
   "balance": "20000000000000"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/transactions" %}
-{% api-method-summary %}
-Transaction Search
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/transactions" method="get" summary="Transaction Search" %}
+{% swagger-description %}
 Returns transactions that match search input parameters.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="height" type="integer" required=false %}
-Block height. Can't be used with `block_hash`.
-{% endapi-method-parameter %}
+{% swagger-parameter in="query" name="height" type="integer" %}
+Block height. Can't be used with 
 
-{% api-method-parameter name="block\_hash" type="string" required=false %}
+`block_hash`
+
+.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="block_hash" type="string" %}
 Block hash.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="account" type="string" required=false %}
+{% swagger-parameter in="query" name="account" type="string" %}
 Transaction sender or receiver.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="sender" type="string" required=false %}
+{% swagger-parameter in="query" name="sender" type="string" %}
 Sender public key.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="receiver" type="string" required=false %}
+{% swagger-parameter in="query" name="receiver" type="string" %}
 Receiver public key.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="type" type="string" required=false %}
+{% swagger-parameter in="query" name="type" type="string" %}
 Transaction type. Supports multiple comma-separate values.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="memo" type="string" required=false %}
+{% swagger-parameter in="query" name="memo" type="string" %}
 Transaction memo.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="start\_time" type="string" required=false %}
-Period start time. Format `YYYY-MM-DD`.
-{% endapi-method-parameter %}
+{% swagger-parameter in="query" name="start_time" type="string" %}
+Period start time. Format 
 
-{% api-method-parameter name="end\_time" type="string" required=false %}
-Period end time. Format: `YYYY-MM-DD`
-{% endapi-method-parameter %}
+`YYYY-MM-DD`
 
-{% api-method-parameter name="after\_id" type="integer" required=false %}
-Start transaction ID. Can't be used with `before_id`.
-{% endapi-method-parameter %}
+.
+{% endswagger-parameter %}
 
-{% api-method-parameter name="before\_id" type="integer" required=false %}
-End transaction ID. Can't be used with `after_id`.
-{% endapi-method-parameter %}
+{% swagger-parameter in="query" name="end_time" type="string" %}
+Period end time. Format: 
 
-{% api-method-parameter name="limit" type="integer" required=false %}
+`YYYY-MM-DD`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="after_id" type="integer" %}
+Start transaction ID. Can't be used with 
+
+`before_id`
+
+.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="before_id" type="integer" %}
+End transaction ID. Can't be used with 
+
+`after_id`
+
+.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="limit" type="integer" %}
 Number of transactions to return
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "id": 58413,
@@ -487,61 +428,37 @@ Success
   "secondary_sequence_number": null
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Input error
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="400" description="Input error" %}
 ```javascript
 {
   "error": "Invalid input",
   "status": 400
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=500 %}
-{% api-method-response-example-description %}
-Server error
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="500" description="Server error" %}
 ```javascript
 {
   "error": "Something went wrong",
   "status": 500
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/transactions/{hash}" %}
-{% api-method-summary %}
-Transaction Details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/transactions/{hash}" method="get" summary="Transaction Details" %}
+{% swagger-description %}
 Returns transaction details
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="hash" type="string" required=true %}
+{% swagger-parameter in="path" name="hash" type="string" %}
 Transaction hash
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "id": 58413,
@@ -562,48 +479,28 @@ Success
   "secondary_sequence_number": null
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Not Found
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Not Found" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/accounts/{id}" %}
-{% api-method-summary %}
-Account Details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/accounts/{id}" method="get" summary="Account Details" %}
+{% swagger-description %}
 Returns information about account
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
+{% swagger-parameter in="path" name="id" type="string" %}
 Account public key
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success" %}
 ```javascript
 {
   "public_key": "B62qmL7bWrMRuYr8hCT9p7L7jUho7oajSTohtFYSr8XYM3QoWyf8VL6",
@@ -618,21 +515,14 @@ Success
   "last_time": "2021-02-21T12:06:00-06:00"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Account not found
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Account not found" %}
 ```javascript
 {
   "error": "record not found",
   "status": 404
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

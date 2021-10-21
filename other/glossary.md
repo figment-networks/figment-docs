@@ -4,7 +4,7 @@ description: Get more information about terms found in our documentation.
 
 # 🧾 Glossary
 
-## **\#**
+## **#**
 
 **51% Attack**
 
@@ -36,7 +36,7 @@ The Attack Surface describes all of the different points where an attacker could
 
 The ATOM token is the native staking currency of the Cosmos Hub. Validators use the ATOM tokens to stake and secure the zones within Cosmos.
 
-**ATH**  
+**ATH**\
 It stands for All-Time-High. It used to point to the highest value/price of cryptocurrencies ever reached in history.
 
 **AVAX**
@@ -66,7 +66,7 @@ A blockchain is a digital, public ledger that records online transactions. Block
 
 Inspired or derived from HODL. A term referring to keeping your heads down and focusing on building your product.
 
-**Byzantine Fault Tolerant \(BFT\) Consensus**
+**Byzantine Fault Tolerant (BFT) Consensus**
 
 A form of consensus algorithm in which up to a third of participants can be faulty or malicious.
 
@@ -108,21 +108,21 @@ Cryptography is a method of protecting information and communications through th
 
 **DApp**
 
-Decentralized applications \(dApps\) are digital applications or programs that exist and run on a blockchain or P2P network of computers instead of a single computer, and are outside the purview and control of a single authority. They are usually powered by smart contracts.
+Decentralized applications (dApps) are digital applications or programs that exist and run on a blockchain or P2P network of computers instead of a single computer, and are outside the purview and control of a single authority. They are usually powered by smart contracts.
 
-**Decentralized Autonomous Cooperative \(DAC\)**
+**Decentralized Autonomous Cooperative (DAC)**
 
 An organization that is controlled by shareholders rather than a central authority.
 
-**Decentralized Autonomous Organization \(DAO\)**
+**Decentralized Autonomous Organization (DAO)**
 
 A DAO is represented as rules encoded as a computer program that is transparent, controlled by the organization members and not influenced by a central government. It decides which decision will be made by a decentralized organization.
 
-**Decentralized Exchange \(DEX\)**
+**Decentralized Exchange (DEX)**
 
-Decentralized exchanges \(DEX\) are a type of cryptocurrency exchange that allows for direct peer-to-peer cryptocurrency transactions to take place online securely and without the need of an intermediary.
+Decentralized exchanges (DEX) are a type of cryptocurrency exchange that allows for direct peer-to-peer cryptocurrency transactions to take place online securely and without the need of an intermediary.
 
-**Decentralized Finance \(DeFi\)**
+**Decentralized Finance (DeFi)**
 
 A new form of finance that does not rely on central financial intermediaries such as brokerages, exchanges, or banks, and instead utilizes smart contracts on blockchains, the most common being Ethereum. DeFi platforms allow people to lend or borrow funds from others, speculate on price movements on a range of assets using derivatives, trade cryptocurrencies, insure against risks, and earn interest in a savings-like account
 
@@ -134,15 +134,15 @@ When crypto coins are spent more than once. Mainly happens due to 51% attack.
 
 **Eclipse Attack**
 
-An Eclipse Attack is a means of attacking a decentralized network through which an attacker seeks to isolate and attack a specific user\(s\), rather than attack the whole network.
+An Eclipse Attack is a means of attacking a decentralized network through which an attacker seeks to isolate and attack a specific user(s), rather than attack the whole network.
 
 **ERC-20**
 
-ERC20 is an official protocol for proposing improvements to the Ethereum \(ETH\) network. Proposed by Fabian Vogelsteller in November 2015.
+ERC20 is an official protocol for proposing improvements to the Ethereum (ETH) network. Proposed by Fabian Vogelsteller in November 2015.
 
 **ERC-721**
 
-An NFT \(Non-Fungible Token\) based on Ethereum. Which means every token is unique and not interchangeable.
+An NFT (Non-Fungible Token) based on Ethereum. Which means every token is unique and not interchangeable.
 
 **EVM**
 
@@ -188,7 +188,7 @@ Gwei is a denomination of Ether. One gwei equals 0.000000001 or 10^-9 ETH.
 
 **Halving**
 
-When the reward for mining crypto assets \(like Bitcoin\) decreased to one half of its previous value.
+When the reward for mining crypto assets (like Bitcoin) decreased to one half of its previous value.
 
 **Hash**
 
@@ -216,11 +216,11 @@ The past transactions and blocks. Note that the state is a deterministic functio
 
 Immutability can be defined as the ability of a blockchain ledger to remain unchanged, for a blockchain to remain unaltered and indelible.
 
-**Initial Coin Offering \(ICO\)**
+**Initial Coin Offering (ICO)**
 
 A method to raise funds in which new projects sell their cryptocurrency to investors.
 
-**Initial Exchange Offering \(IEO\)**
+**Initial Exchange Offering (IEO)**
 
 A method to raise funds by reducing the risk for token purchasers by offering a trusted intermediary between the project team and the user.
 
@@ -244,7 +244,7 @@ A client that downloads only a small part of the blockchain, allowing users of l
 
 **Lighting Network**
 
-The Lightning Network is a "layer 2" payment protocol that operates on top of a blockchain-based cryptocurrency \(like bitcoin\). It is intended to enable fast transactions among participating nodes.
+The Lightning Network is a "layer 2" payment protocol that operates on top of a blockchain-based cryptocurrency (like bitcoin). It is intended to enable fast transactions among participating nodes.
 
 **Luna**
 
@@ -294,9 +294,9 @@ Multisignature refers to requiring multiple keys to authorize a transaction, rat
 
 A node is a computer participating in the network's consensus.
 
-**Non-Fungible Token \(NFT\)**
+**Non-Fungible Token (NFT)**
 
-A non-fungible token \(NFT\) is a cryptocurrency token that is indivisible and unique. NFTs offer myriad options for creating and trading digital assets — such as original artwork and blockchain-integrated collectible games like CryptoKitties.
+A non-fungible token (NFT) is a cryptocurrency token that is indivisible and unique. NFTs offer myriad options for creating and trading digital assets — such as original artwork and blockchain-integrated collectible games like CryptoKitties.
 
 ## O
 
@@ -310,11 +310,11 @@ An interaction that takes place solely through a transaction being executed on t
 
 **Oracles**
 
-For smart contracts, oracles are a middle-ware product in which data outside of the blockchain \(such as real-world data from weather to stocks\) is connected to it. That data is then used for conditions of smart contracts.
+For smart contracts, oracles are a middle-ware product in which data outside of the blockchain (such as real-world data from weather to stocks) is connected to it. That data is then used for conditions of smart contracts.
 
 **Open Source Software**
 
-Open-source software \(OSS\) is software that is distributed under a license with its source code, making it available for use, modification, and distribution with its original rights.
+Open-source software (OSS) is software that is distributed under a license with its source code, making it available for use, modification, and distribution with its original rights.
 
 ## P
 
@@ -362,7 +362,7 @@ A stablecoin is a new class of cryptocurrencies that attempts to offer price sta
 
 The set of data that a blockchain network strictly needs to keep track of and that represents data currently relevant to applications on the chain.
 
-In a currency, this is simply balances; in more complex applications this could refer to other data structures that the application in question needs to keep track of \(eg. who has what domain name, what is the status of a given contract, etc\).
+In a currency, this is simply balances; in more complex applications this could refer to other data structures that the application in question needs to keep track of (eg. who has what domain name, what is the status of a given contract, etc).
 
 ## T
 
@@ -380,7 +380,7 @@ A transaction queries or modifies the state of a blockchain.
 
 ## U
 
-**UTXO \(Unspent Transaction Output\)**
+**UTXO (Unspent Transaction Output)**
 
 A UTXO is the amount of digital currency remaining after a cryptocurrency transaction is executed. UTXOs are processed continuously and are responsible for beginning and ending each transaction.
 
@@ -392,7 +392,7 @@ A validator is a node participating in the consensus protocol. Validators work t
 
 **Virtual Machines**
 
-A Virtual Machine defines the application-level logic of a blockchain. In technical terms, it defines a state machine. It specifies the state that is held, the state transition function, and the transactions that clients can issue in order to query/modify the state. Developers create Virtual Machines that implements some functionality and then create a blockchain that runs the Virtual Machine. Every blockchain runs \(is an instance of\) a Virtual Machine.
+A Virtual Machine defines the application-level logic of a blockchain. In technical terms, it defines a state machine. It specifies the state that is held, the state transition function, and the transactions that clients can issue in order to query/modify the state. Developers create Virtual Machines that implements some functionality and then create a blockchain that runs the Virtual Machine. Every blockchain runs (is an instance of) a Virtual Machine.
 
 ## W
 
@@ -408,5 +408,4 @@ A wrapped token is an asset hosted on the Ethereum blockchain with a price that 
 
 **Zero-Knowledge Proof**
 
-Zero-Knowledge Proofs \(ZKPs\) allow parties to verify the data and transaction without revealing that data. The goal is to prove a statement without leaking extra information.
-
+Zero-Knowledge Proofs (ZKPs) allow parties to verify the data and transaction without revealing that data. The goal is to prove a statement without leaking extra information.

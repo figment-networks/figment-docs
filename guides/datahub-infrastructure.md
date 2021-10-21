@@ -34,15 +34,14 @@ DataHub runs many different kinds of nodes and indexers, for example:
 
 * Full nodes
 * Archive nodes
-* Higher level RPC/REST services \(like Cosmos LCD\)
+* Higher level RPC/REST services (like Cosmos LCD)
 * Services like Transaction Search
 
 Each of these types of nodes is run as a pool, meaning for example there will be 5 identical copies of a full node running together that can all service requests. The pool can tolerate failures of multiple individual nodes and still function correctly.
 
 The main job of this layer is to either:
 
-1. Find and return the correct data \(read\)
-2. Submit a transaction \(write\)
+1. Find and return the correct data (read)
+2. Submit a transaction (write)
 
-\*\*\*\*[**Sign up now**](https://datahub.figment.io/sign_up) \_\*\*\_to start building in minutes and discover the superpowers Datahub can offer you!
-
+\*\*\*\*[**Sign up now**](https://datahub.figment.io/sign\_up) \_\*\*\_to start building in minutes and discover the superpowers Datahub can offer you!

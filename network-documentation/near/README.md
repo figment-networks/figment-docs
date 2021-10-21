@@ -8,17 +8,22 @@ description: Learn how to interact with NEAR using DataHub
 
 In this section, you will be able to learn about what makes NEAR special and how you can leverage available tools to build amazing products!
 
-You can then get started with the available RPC & REST APIs we support [**via DataHub**](https://datahub.figment.io/sign_up?service=near).
+You can then get started with the available RPC & REST APIs we support [**via DataHub**](https://datahub.figment.io/sign\_up?service=near).
 
-Last but not least, if you are looking for guidelines or simply some inspiration, check out available tutorials on [**Learn**](https://learn.figment.io/protocols/near)\*\*\*\*
+Last but not least, if you are looking for guidelines or simply some inspiration, check out available tutorials on [**Learn**](https://learn.figment.io/protocols/near)****
 
-Be sure to check out the [**official NEAR documentation**](https://docs.near.org/docs/roles/developer/quickstart) and if you need tokens to build on testnet, you can check out the ****link [here](https://wallet.testnet.near.org).
+Be sure to check out the [**official NEAR documentation**](https://docs.near.org/docs/roles/developer/quickstart) and if you need tokens to build on testnet, you can check out the** **link [here](https://wallet.testnet.near.org).
 
 🚀 Let's start building the decentralized web 🚀
 
-{% page-ref page="rpc-and-rest-api.md" %}
+{% content-ref url="rpc-and-rest-api.md" %}
+[rpc-and-rest-api.md](rpc-and-rest-api.md)
+{% endcontent-ref %}
 
-{% page-ref page="enriched-apis/" %}
+{% content-ref url="enriched-apis/" %}
+[enriched-apis](enriched-apis/)
+{% endcontent-ref %}
 
-{% page-ref page="near-wallet.md" %}
-
+{% content-ref url="near-wallet.md" %}
+[near-wallet.md](near-wallet.md)
+{% endcontent-ref %}

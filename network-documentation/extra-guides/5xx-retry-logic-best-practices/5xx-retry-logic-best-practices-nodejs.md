@@ -86,7 +86,7 @@ function fetchRetry(url, options = {}, retries = 3, backoff = 300) {
 }
 ```
 
-To handle the "wait" mechanic before retrying the request, you can use `setTimeout`. First, we add our new configuration argument \(1\). Then, set up the `setTimeout` and use the `backoff` value as the delay. Finally, when the retry occurs we also pass in the back-off with a modifier. In this case, `backoff * 2`. This means each new retry will wait twice as long as the previous.
+To handle the "wait" mechanic before retrying the request, you can use `setTimeout`. First, we add our new configuration argument (1). Then, set up the `setTimeout` and use the `backoff` value as the delay. Finally, when the retry occurs we also pass in the back-off with a modifier. In this case, `backoff * 2`. This means each new retry will wait twice as long as the previous.
 
 ### **Add retry to Node's native http module**
 
@@ -114,7 +114,7 @@ https.get(url, res => {
 })
 ```
 
-To summarize, it requests a url. If the statusCode isn't in a defined "success range" \(Fetch has the ok property to handle this\) it throws an error. Otherwise, it builds a response and logs to the console. Let's look at what this looks like "promisified". To make it easier to follow, we'll leave off some of the additional error handling.
+To summarize, it requests a url. If the statusCode isn't in a defined "success range" (Fetch has the ok property to handle this) it throws an error. Otherwise, it builds a response and logs to the console. Let's look at what this looks like "promisified". To make it easier to follow, we'll leave off some of the additional error handling.
 
 ```ruby
 function retryGet(url) {
@@ -173,7 +173,7 @@ Source & for more details - [Check Here](https://hackernoon.com/how-to-improve-y
 
 ## **Method 2 - Add Retries to API Calls using Async Await in NodeJS**
 
-Async functions are available natively in Node and are denoted by the async keyword in their declaration. They always return a promise, even if you don’t explicitly write them to do so. Also, the await keyword is only available inside async functions at the moment - it cannot be used in the global scope.  
+Async functions are available natively in Node and are denoted by the async keyword in their declaration. They always return a promise, even if you don’t explicitly write them to do so. Also, the await keyword is only available inside async functions at the moment - it cannot be used in the global scope.\
 \_\*\*\_In an async function, you can await any Promise or catch its rejection cause.
 
 \_\*\*\_So if you had some logic implemented with promises:
@@ -330,4 +330,3 @@ asyncLoop(0, 10, function(err, results) {
 ```
 
 Pass your error condition in place of range and check it inside the loop.
-

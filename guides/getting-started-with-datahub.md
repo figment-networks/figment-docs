@@ -20,11 +20,11 @@ When completed, you will receive an invite link such as:
 
 **Step 2:** You are then able to click on the “documentation” button to get more info regarding the integration.
 
-![](../.gitbook/assets/dhaa.png)
+![](../.gitbook/assets/dhaa.PNG)
 
 ## **3. Accessing a Network**
 
-In this example, we’ll access the Celo Mainnet at [https://celo-mainnet.datahub.figment.network/](https://celo-mainnet.datahub.figment.network/)
+In this example, we’ll access the Celo Mainnet at [https://celo-mainnet.datahub.figment.network/](https://celo-mainnet.datahub.figment.network)
 
 **Step 1**: When clicking on the “documentation” button, you will be provided with the URL for this service. This URL should be a drop in replacement for any other full node URL you are currently using with the addition of the DataHub API key to access it.
 
@@ -36,7 +36,7 @@ curl -H "Authorization: $YOUR\_API\_KEY" [https://celo-mainnet.datahub.figment.i
 
 Or you can specify your API key as a prefix to the path like, /apikey/YOUR\_API\_KEY/the/path. If choosing this option, the full path for curl would look like:
 
-curl [https://celo-mainnet.datahub.figment.network/apikey/YOUR\_API\_KEY/the/path](https://celo-mainnet.datahub.figment.network/apikey/YOUR_API_KEY/the/path)
+curl [https://celo-mainnet.datahub.figment.network/apikey/YOUR\_API\_KEY/the/path](https://celo-mainnet.datahub.figment.network/apikey/YOUR\_API\_KEY/the/path)
 
 **Step 3**: Documentation for all available endpoints for each network can be found linked within DataHub page for each network.
 
@@ -46,7 +46,6 @@ curl [https://celo-mainnet.datahub.figment.network/apikey/YOUR\_API\_KEY/the/pat
 
 This will display a new “API Key” and also the “Old Key”. To help with a smooth release process, both keys will be valid until the Old Key is removed by clicking the “remove” button.
 
-\*\*\*\*[**Sign up now**](https://datahub.figment.io/sign_up) \_\*\*\_to start building in minutes and discover the superpowers Datahub can offer you!
+\*\*\*\*[**Sign up now**](https://datahub.figment.io/sign\_up) \_\*\*\_to start building in minutes and discover the superpowers Datahub can offer you!
 
 [**Subscribe**](https://datahub.figment.io/subscribe) to the DataHub newsletter to be the first to know about new protocols launches and new features!
-

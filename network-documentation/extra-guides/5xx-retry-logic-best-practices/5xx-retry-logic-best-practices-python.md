@@ -54,8 +54,8 @@ Using pip install retry.
 
 **Features**
 
-* No external dependency \(stdlib only\).
-* \(Optionally\) Preserve function signatures \(pip install decorator\).
+* No external dependency (stdlib only).
+* (Optionally) Preserve function signatures (pip install decorator).
 * Original traceback, easy to debug.
 
 **Installation**
@@ -167,4 +167,3 @@ if __name__ == '__main__':
 Get the code [HERE](https://gist.github.com/FBosler/be10229aba491a8c912e3a1543bbc74e).
 
 Get more details [HERE](https://towardsdatascience.com/are-you-using-python-with-apis-learn-how-to-use-a-retry-decorator-27b6734c3e6).
-

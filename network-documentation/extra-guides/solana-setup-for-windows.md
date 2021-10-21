@@ -4,23 +4,25 @@ description: How to setup for the Solana Pathway on Windows
 
 # Setup Solana BPF Toolchain on Windows
 
-The Rust BPF toolchain is _not available_ for Windows.  
+The Rust BPF toolchain is _not available_ for Windows.\
 This means that compiling Solana programs cannot be performed in a Windows development environment. The following software is required to set up and complete the **Solana** Pathway on a computer running the Microsoft Windows operating system:
 
 * [Docker Desktop](https://docs.figment.io/network-documentation/extra-guides/docker-setup-for-windows)
-* [Windows Subsystem for Linux \(WSL\)](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
+* [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
 
 ## **Install Docker Desktop**
 
-{% page-ref page="docker-setup-for-windows.md" %}
+{% content-ref url="docker-setup-for-windows.md" %}
+[docker-setup-for-windows.md](docker-setup-for-windows.md)
+{% endcontent-ref %}
 
 ## **Install WSL on Windows**
 
 Windows 10 Home machines must meet the following requirements to install Docker Desktop:
 
-* Install Windows 10, version 1903 or higher. 
+* Install Windows 10, version 1903 or higher.&#x20;
 * The following **hardware** prerequisites are required to successfully run WSL2 on Windows 10 Home:
-  * 64 bit processor with [Second Level Address Translation \(SLAT\)](https://en.wikipedia.org/wiki/Second_Level_Address_Translation)
+  * 64 bit processor with [Second Level Address Translation (SLAT)](https://en.wikipedia.org/wiki/Second\_Level\_Address\_Translation)
   * 4GB system RAM
   * BIOS-level hardware virtualization support must be enabled in the BIOS settings. For more information, refer to the [Virtualization](https://docs.docker.com/desktop/windows/troubleshoot/#virtualization) troubleshooting topic.
 * Enable the WSL2 feature on Windows. For detailed instructions, refer to the [Microsoft documentation](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
@@ -37,6 +39,4 @@ To access the filesystem of your [installed Linux distribution](https://docs.mic
 Once WSL is installed and you can access it through the Windows command prompt, you can continue to follow the [setup instructions for the Rust toolchain](https://learn.figment.io/tutorials/deploy-solana-program#set-up-the-solana-c-l-i) in the Solana Pathway. This will enable you to compile Solana programs on a computer running Microsoft Windows, within the WSL environment.
 
 Happy building! 😁
-
-
 

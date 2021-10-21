@@ -4,48 +4,42 @@ description: Learn how to use the Rewards API on Cosmos
 
 # Rewards API
 
-Test out our Rewards API today with [**DataHub**](https://datahub.figment.io/sign_up?service=cosmos)!
+Test out our Rewards API today with [**DataHub**](https://datahub.figment.io/sign\_up?service=cosmos)!
 
-{% api-method method="get" host="https://cosmos--search.datahub.figment.io/rewards" path=" " %}
-{% api-method-summary %}
-rewards
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://cosmos--search.datahub.figment.io/rewards" path=" " method="get" summary="rewards" %}
+{% swagger-description %}
 Rewards enpoint allows users to query daily reward summaries for an account.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="network" type="string" required=true %}
-Network identifier \(eg. `cosmos`\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="network" type="string" %}
+Network identifier (eg. 
 
-{% api-method-parameter name="chain\_id" type="string" required=true %}
-The chain id \(eg. `cosmoshub-4`\)
-{% endapi-method-parameter %}
+`cosmos`
 
-{% api-method-parameter name="account" type="string" required=true %}
+)
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="chain_id" type="string" %}
+The chain id (eg. 
+
+`cosmoshub-4`
+
+)
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="account" type="string" %}
 The account identifier
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="start\_time" type="string" required=true %}
+{% swagger-parameter in="body" name="start_time" type="string" %}
 The start time in UTC. Daily reward summaries will be calculated in 24 hour periods from the start time.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="end\_time" type="string" required=true %}
+{% swagger-parameter in="body" name="end_time" type="string" %}
 The end time in UTC.
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Success response
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Success response" %}
 ```javascript
 [
     {
@@ -62,34 +56,24 @@ Success response
     }
 ]
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-Bad parameters sent
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="400" description="Bad parameters sent" %}
 ```javascript
 {
   "error": "Bad parameters sent"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=500 %}
-{% api-method-response-example-description %}
-Internal/Other server error while processing request
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="500" description="Internal/Other server error while processing request" %}
 ```javascript
 {
   "error": "Something bad happened" 
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ## Example Request
 
@@ -148,4 +132,3 @@ Internal/Other server error while processing request
 ```
 
 If you need help with this API or simply want to share with other builders, you can [**join our community today**](https://discord.gg/fszyM7K)!
-

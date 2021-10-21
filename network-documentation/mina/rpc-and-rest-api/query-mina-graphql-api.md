@@ -6,7 +6,7 @@ description: Learn how to query the Mina GraphQL API using DataHub
 
 You don't need any tooling or clients to communicate with Mina GraphQL API. Simply head over to DataHub service page and grab your API token, then open up GraphQL UI:
 
-[https://mina-mainnet--graphql.datahub.figment.io/apikey/REPLACE\_YOUR\_API\_KEY/graphql](https://mina-mainnet--graphql.datahub.figment.io/apikey/REPLACE_YOUR_API_KEY/graphql)
+[https://mina-mainnet--graphql.datahub.figment.io/apikey/REPLACE\_YOUR\_API\_KEY/graphql](https://mina-mainnet--graphql.datahub.figment.io/apikey/REPLACE\_YOUR\_API\_KEY/graphql)
 
 Make sure to replace the API key in the link!
 
@@ -353,4 +353,3 @@ Example output:
   }
 }
 ```
-

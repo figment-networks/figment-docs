@@ -7,7 +7,7 @@
 * [🚀 Why Build on Web 3?](introduction/why-build-on-web3.md)
 * [💻 What is DataHub?](introduction/what-is-datahub.md)
 
-## 📖 DataHub Guides <a id="guides"></a>
+## 📖 DataHub Guides <a href="guides" id="guides"></a>
 
 * [📍 DataHub Products](guides/datahub-products/README.md)
   * [Transaction Search API](guides/datahub-products/transaction-search-api.md)
@@ -35,6 +35,8 @@
 * [💾 Filecoin](network-documentation/filecoin/README.md)
   * [🎮 RPC & REST API](network-documentation/filecoin/rpc-and-rest-api/README.md)
     * [Miner Reputation System API](network-documentation/filecoin/rpc-and-rest-api/miner-reputation-system-api.md)
+* [🐦 Kusama](network-documentation/kusama/README.md)
+  * [🎮 RPC & REST API](network-documentation/kusama/rpc-and-rest-api.md)
 * [📱 Mina](network-documentation/mina/README.md)
   * [🎮 RPC & REST API](network-documentation/mina/rpc-and-rest-api/README.md)
     * [Indexer API Documentation](network-documentation/mina/rpc-and-rest-api/indexer-api-documentation.md)
@@ -54,7 +56,7 @@
   * [🎊 Enriched APIs](network-documentation/polkadot/enriched-apis/README.md)
     * [Indexer API](network-documentation/polkadot/enriched-apis/polkadot-rest-api.md)
     * [Transaction Search](network-documentation/polkadot/enriched-apis/transaction-search.md)
-* [⛽ Polygon \(Matic\)](network-documentation/matic/README.md)
+* [⛽ Polygon (Matic)](network-documentation/matic/README.md)
   * [🎮 RPC & REST API](network-documentation/matic/rpc-and-rest-api.md)
 * [🅿 Provenance](network-documentation/provenance/README.md)
   * [🎮 RPC & REST API](network-documentation/provenance/rpc-and-rest-api.md)
@@ -93,4 +95,3 @@
 * [Terms & Conditions DataHub](terms-and-conditions/terms-and-conditions-datahub.md)
 * [Privacy Policy](terms-and-conditions/privacy-policy.md)
 * [Contributor Terms](terms-and-conditions/contributor-terms.md)
-

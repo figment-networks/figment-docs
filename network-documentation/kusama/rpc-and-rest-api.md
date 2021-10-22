@@ -12,4 +12,4 @@ Learn about the APIs available via Kusama [**DataHub**](https://datahub.figment.
 
 ### Kusama RPC
 
-You can review the Kusama RPC documentation [**HERE**](https://guide.kusama.network/docs/build-node-interaction/)** **and check the official Kusama documentation [**HERE**](https://guide.kusama.network/docs/kusama-getting-started)****
+You can review the Kusama RPC documentation [**HERE**](https://guide.kusama.network/docs/build-node-interaction/)**.**

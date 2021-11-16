@@ -15,6 +15,7 @@
 * [🏭 DataHub Infrastructure](guides/datahub-infrastructure.md)
 * [🏁 Get Started With DataHub](guides/getting-started-with-datahub.md)
 * [🚨 Quotas & Rate Limits](guides/rate-limits.md)
+* [🛣 DataHub 2.0 Transition Guide](guides/datahub-2.0-transition-guide.md)
 
 ## 📚 Network Documentation
 

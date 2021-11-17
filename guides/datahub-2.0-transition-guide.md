@@ -32,17 +32,13 @@ With the launch of Apps, we had to create new plans that would separate analytic
 App plans are separate from the protocol plans you are used to, which are still in place.
 {% endhint %}
 
-### No interruption during the transition&#x20;
+### No interruption during the migration
 
-To make your transition to the new platform seamless, we have created individual Apps for all your existing protocols with the same API keys and payment plans you were already using. This way, you will be able to seamlessly transition to the new platform!&#x20;
+To make your transition to the new platform seamless, we have an App that holds all your existing protocols with the same API keys and payment plans you were already using. This way, you will be able to seamlessly transition to the new platform!&#x20;
 
-**To leverage the full power of DataHub 2.0, you should: **
+Your App will be on a Free plan if you had only one protocol on DataHub 1.0, and a Beta plan if you had multiple protocols. Neither offer the advantages of paid App plans such as longer log retention and higher levels of support so make sure to upgrade your App to leverage the full power of DataHub 2.0.&#x20;
 
-1. Select one App to become the command center for your project
-2. Upgrade the App's plan to the level of service you are looking for
-3. Add all your other protocols to this App and upgrade them to the right plan for you
-4. Make sure to switch your API keys for all protocol services to the new one obtained in the App
-5. Delete other Apps to remove unnecessary subscriptions
+
 
 {% hint style="info" %}
 Reach out to <mark style="color:blue;">datahub@figment.io</mark> if you run into any issues, our team will be happy to assist you in this transition!

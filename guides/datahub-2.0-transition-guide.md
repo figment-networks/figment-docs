@@ -36,7 +36,10 @@ App plans are separate from the protocol plans you are used to, which are still 
 
 To make your transition to the new platform seamless, we have an App that holds all your existing protocols with the same API keys and payment plans you were already using. This way, you will be able to seamlessly transition to the new platform!&#x20;
 
-Your App will be on a Free plan if you had only one protocol on DataHub 1.0, and a Beta plan if you had multiple protocols. Neither offer the advantages of paid App plans such as longer log retention and higher levels of support so make sure to upgrade your App to leverage the full power of DataHub 2.0.&#x20;
+**What to do next: **
+
+1. Your App will be on a Free plan if you had only one protocol on DataHub 1.0, and a Beta plan if you had multiple protocols. Neither offer the advantages of paid App plans such as longer log retention and higher levels of support so make sure to upgrade your App to leverage the full power of DataHub 2.0.&#x20;
+2.  All your API keys have been migrated but you only need one! You can change the API key for all your endpoints to the same key and delete the others for simplicity.&#x20;
 
 
 

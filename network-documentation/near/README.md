@@ -12,7 +12,7 @@ You can then get started with the available RPC & REST APIs we support [**via Da
 
 Last but not least, if you are looking for guidelines or simply some inspiration, check out available tutorials on [**Learn**](https://learn.figment.io/protocols/near)****
 
-Be sure to check out the [**official NEAR documentation**](https://docs.near.org/docs/roles/developer/quickstart) and if you need tokens to build on testnet, you can check out the** **link [here](https://wallet.testnet.near.org).
+Be sure to check out the [**official NEAR documentation**](https://docs.near.org/docs/roles/developer/quickstart) and if you need tokens to build on testnet, you can check out the **** link [here](https://wallet.testnet.near.org).
 
 🚀 Let's start building the decentralized web 🚀
 

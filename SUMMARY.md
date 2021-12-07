@@ -7,7 +7,7 @@
 * [🚀 Why Build on Web 3?](introduction/why-build-on-web3.md)
 * [💻 What is DataHub?](introduction/what-is-datahub.md)
 
-## 📖 DataHub Guides <a href="guides" id="guides"></a>
+## 📖 DataHub Guides <a href="#guides" id="guides"></a>
 
 * [📍 DataHub Products](guides/datahub-products/README.md)
   * [Transaction Search API](guides/datahub-products/transaction-search-api.md)
@@ -16,6 +16,7 @@
 * [🏁 Get Started With DataHub](guides/getting-started-with-datahub.md)
 * [🚨 Quotas & Rate Limits](guides/rate-limits.md)
 * [🛣 DataHub 2.0 Transition Guide](guides/datahub-2.0-transition-guide.md)
+* [💵 DataHub 2.0 Pricing Model](guides/datahub-2.0-pricing-model.md)
 
 ## 📚 Network Documentation
 

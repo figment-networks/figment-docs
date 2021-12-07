@@ -8,7 +8,7 @@ description: Learn what Solana APIs are available via DataHub and how to use the
 
 Solana exposes a single JSON RPC to enable the development of applications on the Solana protocol.
 
-Learn about the APIs available via Solana [**DataHub**](https://datahub.figment.io/sign\_up?service=solana)** **below -&#x20;
+Learn about the APIs available via Solana [**DataHub**](https://datahub.figment.io/sign\_up?service=solana) **** below -&#x20;
 
 ### Solana RPC
 

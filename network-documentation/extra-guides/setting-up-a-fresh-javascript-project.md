@@ -18,7 +18,7 @@ Official releases of Node.js can be [downloaded from the official site](https://
 
 Once the installation is complete, or if you already have Node.js installed, type the command `node -v` inside a terminal window (such as `bash`, `zsh`, `cmd.exe` or PowerShell) to check the currently installed version.
 
-Most modern JavaScript APIs will target Node.js v12+. Using a version manager such as** **[**nvm**](https://github.com/nvm-sh/nvm) or [**fnm**](https://github.com/Schniz/fnm) is strongly encouraged, as it allows developers to quickly switch between Node.js versions as needed.
+Most modern JavaScript APIs will target Node.js v12+. Using a version manager such as **** [**nvm**](https://github.com/nvm-sh/nvm) or [**fnm**](https://github.com/Schniz/fnm) is strongly encouraged, as it allows developers to quickly switch between Node.js versions as needed.
 
 ## Initialize the project directory
 
@@ -38,7 +38,7 @@ These commands accomplish the following :
 * `mkdir` creates our project directory, the directory name can be changed to anything suitable - it does not need to remain `samplecode`.
 * &#x20;The `cd` command changes into the newly created directory (making it the working directory).
 * &#x20;Run the node package manager - `npm` , optionally with the `-y` flag to skip the prompts and generate a default `package.json` .
-* &#x20;Install the** **[**dotenv**](https://www.npmjs.com/package/dotenv) package, which will allow us to access environmental variables in our code. \
+* &#x20;Install the **** [**dotenv**](https://www.npmjs.com/package/dotenv) package, which will allow us to access environmental variables in our code. \
   \
   Assuming no errors during the installation of dotenv, the project directory will now contain these files and directories in the following structure :
 
@@ -78,9 +78,9 @@ Since we used the `--save` flag when installing, it will be much easier to see w
 }
 ```
 
-For anybody unfamiliar with environment variables, refer to our guide on** **[**dotenv and .env**](dotenv-and-.env.md) at this point to understand the package and what it is used for.
+For anybody unfamiliar with environment variables, refer to our guide on **** [**dotenv and .env**](dotenv-and-.env.md) at this point to understand the package and what it is used for.
 
-* _**If we are choosing to use the more modern**_** **[**ES6 `import` syntax**](https://www.digitalocean.com/community/tutorials/js-modules-es6)_,_ when developing we will need\
+* _**If we are choosing to use the more modern**_** ** [**ES6 `import` syntax**](https://www.digitalocean.com/community/tutorials/js-modules-es6)_,_ when developing we will need\
   to add a line to our `package.json` in order to prevent a`SyntaxError: Cannot use import statement outside a module` .\
   \
   The `import` keyword was introduced in Node.js v12, a language feature to simplify the use of modules. Alternatively, we could use an `.mjs` file extension for all of our JavaScript files, however adding this line to `package.json` enables us to keep the `.js` file extension and saves a lot of  hassle with configuration :&#x20;
@@ -93,7 +93,7 @@ For anybody unfamiliar with environment variables, refer to our guide on** **[**
 {% endtab %}
 {% endtabs %}
 
-* _**If we are choosing to use the older, slightly more common **_**`require()`**_** syntax**_, then it is unnecessary to add this line to `package.json` .&#x20;
+* _**If we are choosing to use the older, slightly more common**_** `require()` **_**syntax**_, then it is unnecessary to add this line to `package.json` .&#x20;
 
 With these steps completed, we now have a project directory that is prepared to have other dependencies installed into it using `npm install` or `yarn add` .
 

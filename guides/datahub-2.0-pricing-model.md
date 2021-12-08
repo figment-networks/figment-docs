@@ -18,7 +18,7 @@ Each integrated protocol like The Graph will have their own add-ons to complemen
 
 ### Introducing DataHub 2.0 App plans&#x20;
 
-With the launch of Apps, we had to create new plans that would separate analytics and support from the protocol plans so that you could unify your level of service across your App, no matter the plans you choose for our RPC services.
+With the launch of Apps, we created new plans that separate analytics and support from the protocol plans so that you could unify your level of service across your App, no matter the plans you choose for our RPC services.
 
 App plans unlock:&#x20;
 
@@ -28,15 +28,15 @@ App plans unlock:&#x20;
 
 ![App Plans manage your entire project](../.gitbook/assets/pricing4.PNG)
 
-### Moving to Metered-Billing for RPC Services
+### Moving to Metered Billing for RPC Services
 
-We have decided to move to metered-billing with volume discounts so we can grow with our customers and make it easier for them to get access to the capacity required for their scale at any given time.
+We have decided to move to metered billing with volume discounts so we can grow with our customers and make it easier for them to get access to the capacity required for their scale at any given time.
 
 We are hence simplifying our model to three plans: Free, Pro (with the ability to unlock auto-scaling), and Enterprise.
 
 ![Metered-billing plans allow you to pay only for what you need](../.gitbook/assets/pricing5.PNG)
 
-![Volume discounts allow you to scale without limits](../.gitbook/assets/pricing6.PNG)
+![Volume discount brackets](../.gitbook/assets/pricing7.PNG)
 
 The new Pro plan starts with 6m requests included per month for $50/month. Users have the option to be capped at this capacity or to unlock auto-scaling with volume discounts, which will follow the pricing from the table above. At any time users will be able to modify their subscription to capped capacity or auto-scaling.
 

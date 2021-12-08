@@ -6,11 +6,11 @@ description: Transitioning to fully modular pricing model
 
 ## DataHub 2.0 Pricing Guide&#x20;
 
-DataHub is evolving and so is its pricing! We are moving to a modular pricing model so your App can truly scale with your needs. We are introducing App plans, which allow you to manage your project, and we are simplifying the protocol plans to move to metered-billing with volume discounts so you can pay for exactly what you need. We will also be introducing add-ons for integrated protocols such as The Graph.
+DataHub is evolving and so is its pricing! We are moving to a modular pricing model so your App can truly scale with your needs. We are introducing App plans, which allow you to manage your project, and we are simplifying the protocol plans to move to metered-billing with volume discounts so you can pay for exactly what you need. We will also be gradually introducing add-ons for integrated protocols such as The Graph.
 
 An App is composed of an App plan, and one to multiple protocols (RPC services). The number of protocols you have within an App depends on the App plan, as well as the level of support and analytics you will obtain across these protocols.
 
-Each protocol service has its own plan to provide you with full control over how you grow across protocols.
+Each protocol has its own plan to provide you with full control over how you grow across protocols.
 
 Each integrated protocol like The Graph will have their own add-ons to complement access to the protocol.
 

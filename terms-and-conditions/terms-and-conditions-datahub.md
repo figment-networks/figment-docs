@@ -113,7 +113,7 @@ In this Agreement:
 ## 7. Charges&#x20;
 
 1. The Customer shall pay the Charges to the Provider in accordance with this Agreement.
-2. The Provider may elect to vary any element of the Charges by giving to the Customer not less than 30 days' written notice of the variation expiring on any anniversary of the date of execution of this Agreement.
+2. The Provider may elect to vary any element of the Charges by giving to the Customer not less than 7 days' written notice of the variation expiring on any anniversary of the date of execution of this Agreement.
 
 ## 8. Payments
 

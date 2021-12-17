@@ -24,6 +24,8 @@
 * [🏔 Avalanche](network-documentation/avalanche/README.md)
   * [🎮 RPC & REST API](network-documentation/avalanche/rpc-and-rest-api/README.md)
     * [Avalanche Indexer API](network-documentation/avalanche/rpc-and-rest-api/avalanche-indexer-api.md)
+* [💠 Binance Smart Chain](network-documentation/binance-smart-chain/README.md)
+  * [🎮 RPC & REST API](network-documentation/binance-smart-chain/rpc-and-rest-api.md)
 * [💰 Celo](network-documentation/celo/README.md)
   * [💼 CELO Wallet](network-documentation/celo/celo-wallet.md)
   * [🎮 RPC & REST API](network-documentation/celo/rpc-and-rest-api.md)

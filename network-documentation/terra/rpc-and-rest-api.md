@@ -16,4 +16,4 @@ You can review the official Tendermint RPC documentation [**HERE**](https://docs
 
 ### Terra LCD
 
-You can review the official Terra LCD documentation [**HERE**](https://fcd.terra.dev/swagger)****
+You can review the official Terra LCD documentation [**HERE**](https://lcd.terra.dev/swagger/)****

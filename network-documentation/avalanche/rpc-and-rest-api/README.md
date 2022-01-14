@@ -12,19 +12,19 @@ Learn about the APIs available via Avalanche **** [**DataHub**](https://datahub.
 
 ### Platform Chain (P-Chain) API
 
-You can review the official platform chain (P-Chain) API documentation [**HERE**](https://docs.avax.network/build/avalanchego-apis/platform-chain-p-chain-api)****
+You can review the official platform chain (P-Chain) API documentation [**HERE**](https://docs.avax.network/build/avalanchego-apis/p-chain)****
 
 ### Contract Chain (C-Chain) API
 
-You can review the official contract chain (C-Chain) API documentation [**HERE**](https://docs.avax.network/build/avalanchego-apis/contract-chain-c-chain-api)****
+You can review the official contract chain (C-Chain) API documentation [**HERE**](https://docs.avax.network/build/avalanchego-apis/c-chain)****
 
 ### Exchange Chain (X-Chain) API
 
-You can review the official **e**xchange chain (X-Chain) API documentation [**HERE**](https://docs.avax.network/build/avalanchego-apis/exchange-chain-x-chain-api)****
+You can review the official **e**xchange chain (X-Chain) API documentation [**HERE**](https://docs.avax.network/build/avalanchego-apis/x-chain)****
 
 ### Info API
 
-You can review the official Info API documentation [**HERE**](https://docs.avax.network/build/avalanchego-apis/info-api)****
+You can review the official Info API documentation [**HERE**](https://docs.avax.network/build/avalanchego-apis/info)****
 
 ### **Avalanche Indexer API**
 

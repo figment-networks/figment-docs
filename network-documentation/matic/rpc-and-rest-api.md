@@ -14,7 +14,7 @@ Learn about the API available via Polygon (Matic) [**DataHub**](https://datahub.
 
 ### Matic.js
 
-You can review the official Matic.js documentation [**HERE**](https://maticnetwork.github.io/matic.js/docs/) **** and on [**GitHub**](https://github.com/maticnetwork/matic.js)****
+You can review the official Matic.js documentation[ **HERE**](https://maticnetwork.github.io/matic.js/docs/get-started) **** and on [**GitHub**](https://github.com/maticnetwork/matic.js)****
 
 ### Web3 API
 

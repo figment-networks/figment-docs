@@ -34,11 +34,11 @@ We have decided to move to metered billing with volume discounts so we can grow 
 
 We are hence simplifying our model to three plans: Free, Pro (with the ability to unlock auto-scaling), and Enterprise.
 
-![Metered-billing plans allow you to pay only for what you need](../.gitbook/assets/pricing5.PNG)
+![Metered-billing plans allow you to pay only for what you need](../.gitbook/assets/protocol\_plans.png)
 
-![Volume discount brackets](../.gitbook/assets/pricing7.PNG)
+![Volume discount brackets](../.gitbook/assets/protocol\_tiers.png)
 
-The new Pro plan starts with 6m requests included per month for $50/month. Users have the option to be capped at this capacity or to unlock auto-scaling with volume discounts, which will follow the pricing from the table above. At any time users will be able to modify their subscription to capped capacity or auto-scaling.
+The new Pro plan starts with 15m requests included per month for $50/month. Users have the option to be capped at this capacity or to unlock auto-scaling with volume discounts, which will follow the pricing from the table above. At any time users will be able to modify their subscription to capped capacity or auto-scaling.
 
 The new Enterprise plans also have the option for auto-scaling for customers who prefer having a variable subscription instead of a fixed deal.
 

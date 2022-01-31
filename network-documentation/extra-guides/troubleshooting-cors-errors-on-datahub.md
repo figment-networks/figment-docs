@@ -39,7 +39,7 @@ There are multiple [**CORS proxies** ](https://gist.github.com/jimmywarting/ac1b
 * [**nginx proxy Template**](https://gist.github.com/mkornatz/24e573923d6340b1aca8487225eb65e2)
 
 1. **Use a serverless function** - Using a serverless function is another more effective way to handle the CORS errors and proxy our requests and here in this we build our own functions or micro-infrastructure to call a web service and interact using APIs. Azure, AWS & GCP are most popular for running serverless functions.\
-   Sharing some examples of serverless functions built and shared by our Super DEVs & Figment Community Members ![:slight\_smile:](https://emoji.discourse-cdn.com/twitter/slight\_smile.png?v=10)
+   Sharing some examples of serverless functions built and shared by our community members.
 
 i. Azure Function for CORS proxy by [Florian Uhde](https://github.com/floAr) - Check the [Gist HERE](https://gist.github.com/floAr/95db6ed96b1b0cf70a0513698a3979f7)
 

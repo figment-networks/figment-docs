@@ -94,7 +94,7 @@ exports.handler = async (event) => {
 
 iii. Template if you want to host your own nginx server - [**DataHub CORS Development Proxy**](https://github.com/figment-networks/datahub-cors-dev-proxy)
 
-If you have any other solution for the same feel free to contribute by adding it to this thread or link to your solution on GitHub etc. Thanks in advance, we appreciate your contribution.
+If you have any other solution for the same feel free to share it with us on our [discord server](https://figment.io/devchat). Thanks in advance, we appreciate your contribution.
 
 _References -_
 

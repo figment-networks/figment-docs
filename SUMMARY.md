@@ -77,6 +77,7 @@
 * [📚 Extra Guides](network-documentation/extra-guides/README.md)
   * [Blockchain Fundamentals](network-documentation/extra-guides/blockchain-fundamentals.md)
   * [Docker Setup for Windows](network-documentation/extra-guides/docker-setup-for-windows.md)
+  * [Troubleshooting CORS Errors on DataHub](network-documentation/extra-guides/troubleshooting-cors-errors-on-datahub.md)
   * [5XX Retry Logic Best Practices](network-documentation/extra-guides/5xx-retry-logic-best-practices/README.md)
     * [5XX Retry Logic Best Practices - NodeJS](network-documentation/extra-guides/5xx-retry-logic-best-practices/5xx-retry-logic-best-practices-nodejs.md)
     * [5XX Retry Logic Best Practices - Python](network-documentation/extra-guides/5xx-retry-logic-best-practices/5xx-retry-logic-best-practices-python.md)

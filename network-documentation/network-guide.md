@@ -46,8 +46,8 @@ Cosmos provides tools that make it easy to build a new, custom-designed blockcha
 
 Filecoin is a peer-to-peer network that stores files, with built-in economic incentives to ensure files are stored reliably over time. Users pay to store their files on storage miners. Storage miners are computers responsible for storing files and proving they have stored the files correctly over time. Anyone who wants to store their files or get paid for storing other users’ files can join Filecoin. Available storage, and the price of that storage, is not controlled by any single company. Instead, Filecoin facilitates open markets for storing and retrieving files that anyone can participate in.
 
-{% content-ref url="filecoin/" %}
-[filecoin](filecoin/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## ![](../.gitbook/assets/1\_Gc0Dp8vfVm6BwwN51NUqEw.png) Mina
@@ -135,6 +135,6 @@ Terra is a blockchain protocol that supports stable programmable payments and op
 
 Tezos is a secure, smart contract blockchain platform that uses its built-in governance mechanism for protocol upgrades. Tezos is one of the first blockchain platforms to introduce a formal on-chain governance process.
 
-{% content-ref url="tezos/" %}
-[tezos](tezos/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

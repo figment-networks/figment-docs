@@ -42,14 +42,6 @@ Cosmos provides tools that make it easy to build a new, custom-designed blockcha
 [cosmos](cosmos/)
 {% endcontent-ref %}
 
-## ![](../.gitbook/assets/Filecoin\_Logo.png) Filecoin
-
-Filecoin is a peer-to-peer network that stores files, with built-in economic incentives to ensure files are stored reliably over time. Users pay to store their files on storage miners. Storage miners are computers responsible for storing files and proving they have stored the files correctly over time. Anyone who wants to store their files or get paid for storing other users’ files can join Filecoin. Available storage, and the price of that storage, is not controlled by any single company. Instead, Filecoin facilitates open markets for storing and retrieving files that anyone can participate in.
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 ## ![](../.gitbook/assets/1\_Gc0Dp8vfVm6BwwN51NUqEw.png) Mina
 
 Mina is the first cryptocurrency protocol with a succinct blockchain. Current cryptocurrencies like Bitcoin and Ethereum store hundreds of gigabytes of data, and as time goes on, their blockchains will only increase in size. With Mina, however, no matter how much the usage grows, the blockchain always stays the same size - about 22kb (the size of a few tweets). This means participants can quickly sync and verify the network.
@@ -129,12 +121,4 @@ Terra is a blockchain protocol that supports stable programmable payments and op
 
 {% content-ref url="terra/" %}
 [terra](terra/)
-{% endcontent-ref %}
-
-## ![](https://github.com/figment-networks/datahub-learn/tree/09569d196cdea95621779187e595ce39c3890190/.gitbook/assets/2011.png)![](<../.gitbook/assets/2011 (2) (3) (4).png>) Tezos
-
-Tezos is a secure, smart contract blockchain platform that uses its built-in governance mechanism for protocol upgrades. Tezos is one of the first blockchain platforms to introduce a formal on-chain governance process.
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}

@@ -95,8 +95,8 @@ Polygon (Matic) Network is a sidechain-based scaling solution for public blockch
 Provenance is a public blockchain network designed and developed to support [financial service industry](https://docs.provenance.io/ecosystem/financial-services-blockchain) needs by providing a **ledger**, **registry**, and **exchange** across multiple financial assets and markets. \
 The Provenance blockchain is based on the Cosmos SDK and the Tendermint blockchain application platforms.
 
-{% content-ref url="provenance/" %}
-[provenance](provenance/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## ![](../.gitbook/assets/logo1.png) Secret

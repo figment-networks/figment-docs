@@ -8,7 +8,7 @@ description: Understand how quotas and rate limits work in DataHub and how to ma
 
 A Quota measures how many total requests you can make across _all your services_ in one day.
 
-A Rate Limit measures how many requests you can make against a _specific endpoint_ in one minute.
+A Rate Limit measures how many requests you can make against a _specific endpoint_ in one second.
 
 If you go over your Quota for the day, you'll need to upgrade your plan.
 
@@ -32,6 +32,6 @@ DataHub will return status code `HTTP 429` "Too Many Requests" when you are gett
 
 If this happens, you can confirm on your DataHub Dashboard that you are not over your Quota and that you are instead getting rate limited.
 
-If you are getting rate limited, you will need to retry your requests in your application. Since Rate Limits are measured per minute, you could simply wait 60 seconds and try again.
+If you are getting rate limited, you will need to retry your requests in your application. Since Rate Limits are measured per second, you could simply wait for a second and try again.
 
 If you need more information about quotas and rate limits, join [**our community**](https://discord.gg/fszyM7K) and one of our experts will help you out!

@@ -377,7 +377,7 @@ Filter delegations by a reward address
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/accounts/{address}" method="get" summary="Account Details" %}
+{% swagger baseUrl="https://avalanche--mainnet--indexer.datahub.figment.io/apikey/APIKEY" path="/address/{address}" method="get" summary="Account Details" %}
 {% swagger-description %}
 Returns account balances
 {% endswagger-description %}

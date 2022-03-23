@@ -16,6 +16,6 @@ You can review the official Tendermint RPC documentation [**HERE**](https://docs
 
 ### Osmosis REST/LCD
 
-You can review the official Osmosis LCD documentation [**HERE**](https://api-osmosis.imperator.co/swagger)****
+You can review the official Osmosis LCD documentation [**HERE**](https://osmosis.stakesystems.io/swagger/#)****
 
-**Check the official Osmosis Documentation -** [**HERE**](rpc-and-rest-api.md#time-to-play)****
+**Check the official Osmosis Documentation -** [**HERE**](https://docs.osmosis.zone)****

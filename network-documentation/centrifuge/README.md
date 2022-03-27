@@ -2,9 +2,9 @@
 description: Learn how to interact with Centrifuge using DataHub
 ---
 
-# ➰Centrifuge
+# ➰ Centrifuge
 
-## Welcome to the Centrifuge documentation! <a href="welcome-to-the-celo-documentation" id="welcome-to-the-celo-documentation"></a>
+## Welcome to the Centrifuge documentation! <a href="#welcome-to-the-celo-documentation" id="welcome-to-the-celo-documentation"></a>
 
 In this section, you will be able to learn how to build start building with Centrifuge!
 

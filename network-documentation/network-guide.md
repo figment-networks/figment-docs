@@ -34,12 +34,36 @@ Celo is a smart contract blockchain network. The technology uses a phone-number-
 [celo](celo/)
 {% endcontent-ref %}
 
+## ![](../.gitbook/assets/download.svg) Centrifuge
+
+**Centrifuge** is a network that provides access to fast, cheap capital for small businesses and stable yield for investors. **Centrifuge Chain is the home for real-world assets (RWA) on-chain.** It is a Proof-of-Stake blockchain built on [Substrate](https://www.parity.io/what-is-substrate/) that enables users to bring their assets on-chain as non-fungible tokens (NFTs).
+
+{% content-ref url="centrifuge/" %}
+[centrifuge](centrifuge/)
+{% endcontent-ref %}
+
 ## ![](../.gitbook/assets/rsz\_1cosmoslogo\_1.png) Cosmos
 
 Cosmos provides tools that make it easy to build a new, custom-designed blockchain that may interoperate with an arbitrary number of others in the Cosmos network. Its transactions are fast and low-cost, and the network is scalable. Cosmos is intended to break the silos of blockchain economies by enabling assets to be transferred between one another. A custom Cosmos blockchain can be securely connected with other blockchains, increasing the rate of adoption and liquidity.
 
 {% content-ref url="cosmos/" %}
 [cosmos](cosmos/)
+{% endcontent-ref %}
+
+## ![](../.gitbook/assets/eth-diamond-black.png) Ethereum
+
+Ethereum is a decentralized, open-source blockchain with smart contract functionality. It's a marketplace of financial services, games and apps that can't steal your data or censor you. Ethereum is one of the largest and most popular blockchain networks among developers.
+
+{% content-ref url="ethereum/" %}
+[ethereum](ethereum/)
+{% endcontent-ref %}
+
+## ![](../.gitbook/assets/kusama.png) Kusama
+
+Kusama is an early release of Polkadot: a scalable, multichain network for radical innovation. Kusama serves as a proving ground that allows teams and developers to build and deploy a parachain, and experiment with Polkadot’s governance and NPoS functionality in a real environment.
+
+{% content-ref url="kusama/" %}
+[kusama](kusama/)
 {% endcontent-ref %}
 
 ## ![](../.gitbook/assets/1\_Gc0Dp8vfVm6BwwN51NUqEw.png) Mina
@@ -88,15 +112,6 @@ Polygon (Matic) Network is a sidechain-based scaling solution for public blockch
 
 {% content-ref url="matic/" %}
 [matic](matic/)
-{% endcontent-ref %}
-
-## ![](../.gitbook/assets/Provenance.jpg) Provenance
-
-Provenance is a public blockchain network designed and developed to support [financial service industry](https://docs.provenance.io/ecosystem/financial-services-blockchain) needs by providing a **ledger**, **registry**, and **exchange** across multiple financial assets and markets. \
-The Provenance blockchain is based on the Cosmos SDK and the Tendermint blockchain application platforms.
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## ![](../.gitbook/assets/logo1.png) Secret

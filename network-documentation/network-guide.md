@@ -58,6 +58,14 @@ Ethereum is a decentralized, open-source blockchain with smart contract function
 [ethereum](ethereum/)
 {% endcontent-ref %}
 
+## ![](<../.gitbook/assets/logomark blue-without-background.svg>) Fantom
+
+Fantom is a high-performance, scalable, EVM-compatible, and secure smart-contract platform. Fantom’s mainnet deployment—Fantom Opera—is built on Fantom’s consensus mechanism, [Lachesis](https://www.fantom.foundation/lachesis-consensus-algorithm/). Fantom is a leaderless, asynchronous, and byzantine fault-tolerant Layer 1 blockchain protocol.
+
+{% content-ref url="fantom/" %}
+[fantom](fantom/)
+{% endcontent-ref %}
+
 ## ![](../.gitbook/assets/kusama.png) Kusama
 
 Kusama is an early release of Polkadot: a scalable, multichain network for radical innovation. Kusama serves as a proving ground that allows teams and developers to build and deploy a parachain, and experiment with Polkadot’s governance and NPoS functionality in a real environment.

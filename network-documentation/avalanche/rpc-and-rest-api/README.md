@@ -8,7 +8,7 @@ description: Learn what Avalanche APIs are available via DataHub and how to use 
 
 Avalanche’s Primary Network contains three blockchains with unique APIs and methods.
 
-Learn about the APIs available via Avalanche **** [**DataHub**](https://datahub.figment.io/sign\_up?service=avalanche) below -
+Learn about the APIs available via Avalanche **** [**DataHub**](https://datahub.figment.io/auth/login) below -
 
 ### Platform Chain (P-Chain) API
 

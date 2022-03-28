@@ -38,6 +38,8 @@
     * [Rewards API](network-documentation/cosmos/enriched-apis/rewards-api.md)
 * [💎 Ethereum](network-documentation/ethereum/README.md)
   * [🎮 RPC & REST API](network-documentation/ethereum/rpc-and-rest-api.md)
+* [🧊 Fantom](network-documentation/fantom/README.md)
+  * [🎮 RPC & REST API](network-documentation/fantom/rpc-and-rest-api.md)
 * [🐦 Kusama](network-documentation/kusama/README.md)
   * [🎮 RPC & REST API](network-documentation/kusama/rpc-and-rest-api.md)
 * [📱 Mina](network-documentation/mina/README.md)

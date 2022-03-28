@@ -35,7 +35,7 @@ secretcli config node http://localhost:1234
 #Note - Just make sure to set <YOUR_DATAHUB_API_KEY> to your API key.
 ```
 
-Learn about the APIs available via Secret [**DataHub**](https://datahub.figment.io/sign\_up?service=secret) below -
+Learn about the APIs available via Secret [**DataHub** ](https://datahub.figment.io/signup)below -
 
 ### Tendermint RPC
 

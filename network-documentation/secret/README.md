@@ -8,7 +8,7 @@ description: Learn how to interact with the Secret Network using DataHub
 
 In this section, you will be able to learn about what makes Secret special and how you can leverage available tools to build amazing products!
 
-You can then get started with the available RPC & REST APIs we support [**via DataHub**](https://datahub.figment.io/sign\_up?service=secret).
+You can then get started with the available RPC & REST APIs we support [**via DataHub**](https://datahub.figment.io/signup).
 
 Last but not least, if you are looking for guidelines or simply some inspiration, check out available tutorials on [**Learn**](https://learn.figment.io/protocols/secret)****
 

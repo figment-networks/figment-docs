@@ -21,6 +21,8 @@
 ## 📚 Network Documentation
 
 * [🔭 Network Guide](network-documentation/network-guide.md)
+* [🅰 Arbitrum](network-documentation/arbitrum/README.md)
+  * [🎮 RPC & REST API](network-documentation/arbitrum/rpc-and-rest-api.md)
 * [🏔 Avalanche](network-documentation/avalanche/README.md)
   * [🎮 RPC & REST API](network-documentation/avalanche/rpc-and-rest-api/README.md)
     * [Avalanche Indexer API](network-documentation/avalanche/rpc-and-rest-api/avalanche-indexer-api.md)

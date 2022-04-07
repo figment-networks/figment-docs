@@ -18,6 +18,14 @@ You should always be able to obtain testnet tokens via a faucet. You can find th
 
 When you are ready to move to a production environment, you can deploy your application on the network's mainnet. On mainnet, you will be able to process real-world public transactions and events and start attracting real users to get you to the next level.
 
+## ![](../.gitbook/assets/arbitrum.svg) Arbitrum
+
+Arbitrum is a suite of Ethereum scaling solutions that enable high-throughput, low-cost smart contracts while remaining trustlessly secure. Arbitrum has three modes: AnyTrust Channels, AnyTrust Sidechains, and Arbitrum Rollup.
+
+{% content-ref url="arbitrum/" %}
+[arbitrum](arbitrum/)
+{% endcontent-ref %}
+
 ## ![](../.gitbook/assets/avalanche\_token\_round-300x300.png) Avalanche
 
 Avalanche is a layer one protocol by Ava Labs that offers high-throughput, fast finality, and unprecedented decentralization. Developers are able to launch their own public or private blockchains (called subnets), create and trade digital assets, and build scalable smart contracts and decentralized applications.

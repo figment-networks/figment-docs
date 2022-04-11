@@ -6,7 +6,7 @@ description: Learn how to use the Transaction Search API on Terra
 
 Test out our Transaction Search API today with [**DataHub**](https://datahub.figment.io/sign\_up?service=terra)!
 
-{% swagger baseUrl="https://terra--search.datahub.figment.io/transactions_search" path=" " method="post" summary="transactions_search" %}
+{% swagger baseUrl="https://terra--search.datahub.figment.io/apikey/ADD_API_KEY/transactions_search" path=" " method="post" summary="transactions_search" %}
 {% swagger-description %}
 Transaction Search allows users to filter and query by account, transaction type, and date range. Users can also search by memo field and logs.
 {% endswagger-description %}

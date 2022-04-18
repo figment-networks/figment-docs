@@ -4,7 +4,7 @@ description: HTTP API documentation for the Mina Indexer API service provided by
 
 # Indexer API Documentation
 
-{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/health" method="get" summary="" %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/health" method="get" summary="Health" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -19,7 +19,7 @@ description: HTTP API documentation for the Mina Indexer API service provided by
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/status" method="get" summary="" %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/status" method="get" summary="Status" %}
 {% swagger-description %}
 Returns the current service status along with node version and sync status
 {% endswagger-description %}
@@ -34,7 +34,7 @@ Returns the current service status along with node version and sync status
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/height" method="get" summary="" %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/height" method="get" summary="Height" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -49,7 +49,7 @@ Returns the current service status along with node version and sync status
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/block" method="get" summary="" %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/block" method="get" summary="Block" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -256,7 +256,7 @@ Number of block to include in calculation
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/validators" method="get" summary="" %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/validators" method="get" summary="Validators" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -271,7 +271,7 @@ Number of block to include in calculation
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/snarkers" method="get" summary="" %}
+{% swagger baseUrl="https://mina--devnet--indexer.datahub.figment.io/apikey/YOURAPIKEY" path="/snarkers" method="get" summary="Snarkers" %}
 {% swagger-description %}
 
 {% endswagger-description %}

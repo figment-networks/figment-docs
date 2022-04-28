@@ -14,14 +14,19 @@ Access-Control-Allow-Origin headers, _Allowed Origins,_ could have one or many d
 
 #### CORS request example
 
-An example of a cross-origin request: the front-end JavaScript code served from https://domain-a.com uses XMLHttpRequest to make a request for https://domain-b.com/data.json. For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts.&#x20;
+An example of a cross-origin request: the front-end JavaScript code served from `https://domain-a.com` uses XMLHttpRequest to make a request for `https://domain-b.com/data.json`. For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts.&#x20;
 
 #### CORS error example
 
-CORS Errors are common when you’re working with APIs but it’s very important to handle them effectively due to several security reasons.
+CORS Errors are common when you’re working with APIs and it’s important to handle them effectively due to security reasons.
 
 ```shell
-Access to fetch at 'https://solana--mainnet--rpc.datahub.figment.io/' from origin 'http://localhost:3000' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+Access to fetch at 'https://solana--mainnet--rpc.datahub.figment.io/' 
+from origin 'http://localhost:3000' has been blocked by CORS policy: 
+Response to preflight request doesn't pass access control check: No 
+'Access-Control-Allow-Origin' header is present on the requested 
+resource. If an opaque response serves your needs, set the request's 
+mode to 'no-cors' to fetch the resource with CORS disabled.
 ```
 
 ## **Add Allowed Origin**

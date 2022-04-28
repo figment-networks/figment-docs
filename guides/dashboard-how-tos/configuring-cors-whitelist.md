@@ -32,7 +32,7 @@ mode to 'no-cors' to fetch the resource with CORS disabled.
 ## **Add Allowed Origin**
 
 1. Navigate to your App settings.
-2. In the Allowed Origins section, add a domain address, that includes protocol, hostname, and optionally port. Example: `http://localhost:9000` or `wss://uniswap.org`
+2. In the Allowed Origins section, add a domain address, that includes protocol, hostname, and optionally port. Example: `http://localhost:9000` or `wss://uniswap.org`.
 3. Click Save and save your changes to the Allowed Origins list. If you see errors upon saving you need to fix them first and click Save to revalidate and save.
 
 ## **Delete Allowed Origin**

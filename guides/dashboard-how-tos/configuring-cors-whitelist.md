@@ -10,7 +10,7 @@ description: Manage Allowed Origins for your DataHub Apps to prevent CORS errors
 
 #### Allowed Origins
 
-Access-Control-Allow-Origin headers, _Allowed Origins,_ could have one or many domain addresses that you may whitelist in DataHub to comply with the default CORS policy: you need to whitelist all domains that could be a part of a cross-origin request.
+Access-Control-Allow-Origin headers, _Allowed Origins,_ could have one or many domain addresses that you may whitelist in DataHub to comply with the default DataHub CORS policy: you need to whitelist all domains that could be a part of a cross-origin request.
 
 #### CORS request example
 

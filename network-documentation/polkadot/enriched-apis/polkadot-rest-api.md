@@ -206,3 +206,78 @@ polkadot--indexer.datahub.figment.io/account_rewards/14j3azi9gKGx2de7ADL3dkzZXFz
     ]
 }
 ```
+
+### `GET /rewards/:stash_account`
+
+**Description**
+
+Get daily rewards for account
+
+**Parameters**
+
+| **Parameter**      | Type   | Description                                               |
+| ------------------ | ------ | --------------------------------------------------------- |
+| **stash\_account** | string | account (required)                                        |
+| **start**          | int    | the starting era \[Default: 1 = first] (optional)         |
+| **end**            | int    | the ending era (if unspecified, returns latest)(optional) |
+
+**Example Request**
+
+```javascript
+polkadot--indexer.datahub.figment.io/rewards/14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6?start=515
+```
+
+**Example JSON output**
+
+```javascript
+[
+    {
+        "era": 515,
+        "start_height": 7470032,
+        "end_height": 7484284,
+        "time": "2021-10-30T11:36:18Z",
+        "stash_account": "14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6",
+        "validator_stash_account": "14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6",
+        "amount": "271425882428",
+        "kind": "commission",
+        "claimed": false,
+        "tx_hash": ""
+    },
+    {
+        "era": 515,
+        "start_height": 7470032,
+        "end_height": 7484284,
+        "time": "2021-10-30T11:36:18Z",
+        "stash_account": "14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6",
+        "validator_stash_account": "14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6",
+        "amount": "467783870",
+        "kind": "reward",
+        "claimed": false,
+        "tx_hash": ""
+    },
+    {
+        "era": 516,
+        "start_height": 7484284,
+        "end_height": 7498534,
+        "time": "2021-10-31T11:36:18Z",
+        "stash_account": "14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6",
+        "validator_stash_account": "14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6",
+        "amount": "287268430670",
+        "kind": "commission",
+        "claimed": false,
+        "tx_hash": ""
+    },
+    {
+        "era": 516,
+        "start_height": 7484284,
+        "end_height": 7498534,
+        "time": "2021-10-31T11:36:18Z",
+        "stash_account": "14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6",
+        "validator_stash_account": "14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6",
+        "amount": "499703722",
+        "kind": "reward",
+        "claimed": false,
+        "tx_hash": ""
+    }
+]
+```

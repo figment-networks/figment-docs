@@ -26,7 +26,7 @@ Gets account balance details for given height
 **Example Request**
 
 ```javascript
-polkadot--mainnet.datahub.figment.io/account/138QdRbUTB9eNY94Q4Mj5r39FkgMiyHCAy8UFMNA5gvtrfSB
+polkadot--indexer.datahub.figment.io/account/138QdRbUTB9eNY94Q4Mj5r39FkgMiyHCAy8UFMNA5gvtrfSB
 ```
 
 **Example JSON output**
@@ -56,7 +56,7 @@ Gets latest account balances, latest identity associated with the account (displ
 **Example Request**
 
 ```javascript
-polkadot--mainnet.datahub.figment.io/account_details/138QdRbUTB9eNY94Q4Mj5r39FkgMiyHCAy8UFMNA5gvtrfSB
+polkadot--indexer.datahub.figment.io/account_details/138QdRbUTB9eNY94Q4Mj5r39FkgMiyHCAy8UFMNA5gvtrfSB
 ```
 
 **Example JSON output**
@@ -166,7 +166,7 @@ Returns all rewards claimed for an account for given time period from `start` to
 **Example Request**
 
 ```javascript
-polkadot--mainnet.datahub.figment.io/account_rewards/14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6?start=2020-12-31 19:00:00&end=2021-01-05 19:00:00
+polkadot--indexer.datahub.figment.io/account_rewards/14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6?start=2020-12-31 19:00:00&end=2021-01-05 19:00:00
 ```
 
 **Example JSON output**

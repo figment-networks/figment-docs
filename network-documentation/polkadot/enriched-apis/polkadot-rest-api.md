@@ -153,64 +153,6 @@ polkadot--indexer.datahub.figment.io/account_details/138QdRbUTB9eNY94Q4Mj5r39Fkg
 
 **Description**
 
-Returns all rewards claimed for an account for given time period from `start` to `end`.
-
-**Parameters**
-
-| **Parameter**      | Type   | Description                                                           |
-| ------------------ | ------ | --------------------------------------------------------------------- |
-| **stash\_account** | string | stash\_account (required)                                             |
-| **start**          | time   | start time of period (required). Format must be `2006-01-02 15:04:05` |
-| **end**            | time   | end time of period. Format must be `2006-01-02 15:04:05`              |
-
-**Example Request**
-
-```javascript
-polkadot--indexer.datahub.figment.io/rewards/14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6?start=2020-12-31 19:00:00&end=2021-01-05 19:00:00
-```
-
-**Example JSON output**
-
-```javascript
-{
-    "account": "14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6",
-    "start_time": "2020-12-31T19:00:00Z",
-    "end_time": "2021-01-05T19:00:00Z",
-    "total_amount": "1270938854186",
-    "rewards": [
-        {
-            "height": 3154341,
-            "time": "2021-01-01T15:41:30Z",
-            "amount": "245262058286"
-        },
-        {
-            "height": 3173470,
-            "time": "2021-01-02T23:50:12Z",
-            "amount": "261067618832"
-        },
-        {
-            "height": 3183757,
-            "time": "2021-01-03T17:07:30Z",
-            "amount": "266370419312"
-        },
-        {
-            "height": 3199045,
-            "time": "2021-01-04T18:44:36Z",
-            "amount": "228440465091"
-        },
-        {
-            "height": 3212255,
-            "time": "2021-01-05T16:53:06Z",
-            "amount": "269798292665"
-        }
-    ]
-}
-```
-
-### `GET /rewards/:stash_account`
-
-**Description**
-
 Get daily rewards for account
 
 **Parameters**

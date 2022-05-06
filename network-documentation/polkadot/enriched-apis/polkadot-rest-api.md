@@ -149,7 +149,7 @@ polkadot--indexer.datahub.figment.io/account_details/138QdRbUTB9eNY94Q4Mj5r39Fkg
 }
 ```
 
-### `GET /account_rewards/:stash_account`
+### `GET /rewards/:stash_account`
 
 **Description**
 
@@ -166,7 +166,7 @@ Returns all rewards claimed for an account for given time period from `start` to
 **Example Request**
 
 ```javascript
-polkadot--indexer.datahub.figment.io/account_rewards/14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6?start=2020-12-31 19:00:00&end=2021-01-05 19:00:00
+polkadot--indexer.datahub.figment.io/rewards/14j3azi9gKGx2de7ADL3dkzZXFzTTUy1t3RND21PymHRXRp6?start=2020-12-31 19:00:00&end=2021-01-05 19:00:00
 ```
 
 **Example JSON output**

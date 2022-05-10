@@ -60,6 +60,4 @@ Or you can specify your API key as a prefix to the path like, `/apikey/YOUR_API_
 curl https://solana--devnet.datahub.figment.io/apikey/YOUR_API_KEY/health
 ```
 
-****[**Sign up now**](https://datahub-beta.figment.io/auth/login) to start building in minutes and discover the superpowers Datahub can offer you!
-
-[**Subscribe**](https://datahub.figment.io/subscribe) to the DataHub newsletter to be the first to know about new protocols launches and new features!
+****[**Sign up now**](https://datahub.figment.io/signup) to start building in minutes and discover the superpowers Datahub can offer you!

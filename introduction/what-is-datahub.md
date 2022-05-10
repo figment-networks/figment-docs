@@ -35,6 +35,4 @@ We are also launching Enriched APIs to complement the available RPC and REST API
 | **Exchanges & Custodians** | Focus on building strong feature sets while staying connected to the Web 3 ecosystem                         |
 | **Block Explorers**        | Guarantee that your explorer is reliable at all times for your users that depend on it                       |
 
-[**Sign up now**](https://datahub.figment.io) to start building in minutes and discover the superpowers Datahub can offer you!
-
-[**Subscribe**](https://datahub.figment.io/subscribe) to the DataHub newsletter to be the first to know about new protocols launches and new features!
+[**Sign up now**](https://datahub.figment.io/signup) to start building in minutes and discover the superpowers Datahub can offer you!

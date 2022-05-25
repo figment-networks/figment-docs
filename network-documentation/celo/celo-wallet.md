@@ -10,8 +10,8 @@ The Celo Wallet provides an easy way to send, receive, and save Celo Assets. Thi
 
 CELO has two different types of wallets as follows -
 
-1. [The Celo web wallet](https://celowallet.app)
-2. [The Valora mobile wallet](https://valoraapp.com)
+1. [The Celo web wallet](https://celowallet.app/)
+2. [The Valora mobile wallet](https://valoraapp.com/)
 
 Here we will discuss the setup and functionality of both types of wallets.
 
@@ -19,7 +19,7 @@ Here we will discuss the setup and functionality of both types of wallets.
 
 Creating your account on the \_\*\*\_CELO Web wallet is very easy and can be done in just a couple of clicks.
 
-The Celo Wallet is a free, open-source wallet for the [Celo network](https://celo.org). It was created by [J M Rossy](https://twitter.com/RossyWrote) and [Brian Schwalm](https://www.linkedin.com/in/brianschwalm/). The source code for the wallet can be found [on Github](https://github.com/celo-tools/celo-web-wallet) and includes answers to [Frequently Asked Questions](https://github.com/celo-tools/celo-web-wallet/blob/master/FAQ.md).
+The Celo Wallet is a free, open-source wallet for the [Celo network](https://celo.org/). It was created by [J M Rossy](https://twitter.com/RossyWrote) and [Brian Schwalm](https://www.linkedin.com/in/brianschwalm/). The source code for the wallet can be found [on Github](https://github.com/celo-tools/celo-web-wallet) and includes answers to [Frequently Asked Questions](https://github.com/celo-tools/celo-web-wallet/blob/master/FAQ.md).
 
 Setup CELO Web Wallet - Firstly, you have to go to [https://celowallet.app/setup](https://celowallet.app/setup) and you’ll see a web page with two options - **Create New Account** and **Use Existing Account**.
 
@@ -51,7 +51,7 @@ Valora is a global payments app that allows you to exchange and securely store v
 
 Valora is available for download on the [App Store](https://apps.apple.com/app/id1520414263) and [Play Store.](https://play.google.com/store/apps/details?id=co.clabs.valora\&hl=en\_US\&gl=US) Efforts are ongoing worldwide to increase support and adoption for Valora. Currently, the Valora app is available in most countries.
 
-**Create A Valora Account -** To get started, please download the Valora app. It is available in the Play Store and the App Store (links available on Valora’s [home page](https://valoraapp.com)).
+**Create A Valora Account -** To get started, please download the Valora app. It is available in the Play Store and the App Store (links available on Valora’s [home page](https://valoraapp.com/)).
 
 Once you’ve downloaded Valora you can open it and start the process for creating your Valora account:
 
@@ -80,4 +80,4 @@ Check out this Illustration to visualize all the steps mentioned above -
 
 ![Celo Wallet Verification](../../.gitbook/assets/5.gif)
 
-Learn more about Valora [HERE](https://valoraapp.com)
+Learn more about Valora [HERE](https://valoraapp.com/)

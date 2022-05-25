@@ -8,9 +8,9 @@ description: Learn how to setup your NEAR wallet and store your tokens
 
 [**The original post can be found here**](https://near.org/blog/getting-started-with-the-near-wallet/).
 
-The [**NEAR Wallet**](https://wallet.near.org) is a non-custodial, web-based wallet for the NEAR blockchain.
+The [**NEAR Wallet**](https://wallet.near.org/) is a non-custodial, web-based wallet for the NEAR blockchain.
 
-The wallet is now available to everyone! To get started, go to [**https://wallet.near.org**](https://wallet.near.org) and click “Create Account”.
+The wallet is now available to everyone! To get started, go to [**https://wallet.near.org**](https://wallet.near.org/) and click “Create Account”.
 
 ## Creating an Account
 

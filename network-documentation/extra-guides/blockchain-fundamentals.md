@@ -10,7 +10,7 @@ description: >-
 
 It's critical to understand the underlying structure and function of blockchain technology before one begins to develop for it.
 
-Whether you're here from a more traditional software background, are starting completely from scratch, or simply want to refresh your knowledge of the basics, [Blockchain at Berkeley](https://blockchain.berkeley.edu) is glad to offer the lectures and slides from our Blockchain Fundamentals course!
+Whether you're here from a more traditional software background, are starting completely from scratch, or simply want to refresh your knowledge of the basics, [Blockchain at Berkeley](https://blockchain.berkeley.edu/) is glad to offer the lectures and slides from our Blockchain Fundamentals course!
 
 We focus mainly on Bitcoin as a motivational example for blockchain technologies at large. A full playlist of the course can be found [here](https://youtube.com/playlist?list=PLSONl1AVlZNWzsyZfhd9yDJRuGv3WPBck).
 

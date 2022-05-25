@@ -10,7 +10,7 @@ In this section, you will be able to learn how to build start building with Cent
 
 You can get started with the available RPC APIs we support [**via DataHub**](https://datahub.figment.io/sign\_up?service=celo).
 
-Be sure to check out the [**official Centrifuge documentation**](https://docs.centrifuge.io)**.**
+Be sure to check out the [**official Centrifuge documentation**](https://docs.centrifuge.io/)**.**
 
 🚀 Let's start building the decentralized web 🚀
 

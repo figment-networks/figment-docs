@@ -134,7 +134,7 @@ To stop receiving promotional communications from us, you can opt-out by using t
 
 The browser or device you use may allow you to control cookies and other types of local data storage. Your wireless device may also allow you to control whether location or other data is collected and shared.
 
-To get information and control cookies used for tailored advertising from participating companies, see the consumer opt-out pages for the [Network Advertising Initiative](http://www.networkadvertising.org/choices) and [Digital Advertising Alliance](http://www.aboutads.info/choices/), or if you're located in the European Union, visit the [Your Online Choices](http://www.youronlinechoices.eu) site. To opt-out of Google's display advertising or customize Google Display Network ads, visit the [Google Ads Settings page](https://www.google.com/settings/ads).
+To get information and control cookies used for tailored advertising from participating companies, see the consumer opt-out pages for the [Network Advertising Initiative](http://www.networkadvertising.org/choices) and [Digital Advertising Alliance](http://www.aboutads.info/choices/), or if you're located in the European Union, visit the [Your Online Choices](http://www.youronlinechoices.eu/) site. To opt-out of Google's display advertising or customize Google Display Network ads, visit the [Google Ads Settings page](https://www.google.com/settings/ads).
 
 To opt-out of allowing Google Analytics to use your data for analytics or enrichment, see the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).
 
@@ -187,7 +187,7 @@ As is the case for all of its Users, Figment does not sell its users' personal i
 
 ### 7.3 Users in Australia
 
-If you are an Australia resident and you have a complaint, you may refer it to the office of the Australian Information Commissioner ("OAIC"). You can contact OAIC by visiting [www.oaic.gov.au](http://www.oaic.gov.au); forwarding an email to [enquiries@oaic.gov.au](mailto:enquiries@oaic.gov.au); telephoning 1300 363 992; or writing to OAIC at GPO Box 5218, Sydney NSW 2001.
+If you are an Australia resident and you have a complaint, you may refer it to the office of the Australian Information Commissioner ("OAIC"). You can contact OAIC by visiting [www.oaic.gov.au](http://www.oaic.gov.au/); forwarding an email to [enquiries@oaic.gov.au](mailto:enquiries@oaic.gov.au); telephoning 1300 363 992; or writing to OAIC at GPO Box 5218, Sydney NSW 2001.
 
 ### 7.4 Users Outside of Canada
 

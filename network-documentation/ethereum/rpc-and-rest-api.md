@@ -8,7 +8,7 @@ description: Learn what Ethereum APIs are available via DataHub and how to use t
 
 Ethereum exposes both RPC and WS endpoints which are both necessary for the development of applications on the Ethereum network.
 
-Learn about the APIs available via Ethereum [**DataHub**](https://datahub.figment.io) below -&#x20;
+Learn about the APIs available via Ethereum [**DataHub**](https://datahub.figment.io/) below -&#x20;
 
 ### Ethereum RPC & WebSocket (WS)
 

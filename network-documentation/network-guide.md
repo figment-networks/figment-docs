@@ -18,7 +18,7 @@ You should always be able to obtain testnet tokens via a faucet. You can find th
 
 When you are ready to move to a production environment, you can deploy your application on the network's mainnet. On mainnet, you will be able to process real-world public transactions and events and start attracting real users to get you to the next level.
 
-## ![](../.gitbook/assets/arbitrum.svg) Arbitrum
+## <img src="../.gitbook/assets/arbitrum.svg" alt="" data-size="line"> Arbitrum
 
 Arbitrum is a suite of Ethereum scaling solutions that enable high-throughput, low-cost smart contracts while remaining trustlessly secure. Arbitrum has three modes: AnyTrust Channels, AnyTrust Sidechains, and Arbitrum Rollup.
 
@@ -26,7 +26,7 @@ Arbitrum is a suite of Ethereum scaling solutions that enable high-throughput, l
 [arbitrum](arbitrum/)
 {% endcontent-ref %}
 
-## ![](../.gitbook/assets/avalanche\_token\_round-300x300.png) Avalanche
+## <img src="../.gitbook/assets/avalanche_token_round-300x300.png" alt="" data-size="line"> Avalanche
 
 Avalanche is a layer one protocol by Ava Labs that offers high-throughput, fast finality, and unprecedented decentralization. Developers are able to launch their own public or private blockchains (called subnets), create and trade digital assets, and build scalable smart contracts and decentralized applications.
 
@@ -34,7 +34,7 @@ Avalanche is a layer one protocol by Ava Labs that offers high-throughput, fast 
 [avalanche](avalanche/)
 {% endcontent-ref %}
 
-## ![](<../.gitbook/assets/37552875 (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (6).png>) Celo
+## <img src="../.gitbook/assets/37552875 (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (6).png" alt="" data-size="line"> Celo
 
 Celo is a smart contract blockchain network. The technology uses a phone-number-based identity system with address-based encryption and eigentrust-based reputation. Their first application is a social payments system that can be used on a smartphone.
 
@@ -42,7 +42,7 @@ Celo is a smart contract blockchain network. The technology uses a phone-number-
 [celo](celo/)
 {% endcontent-ref %}
 
-## ![](../.gitbook/assets/download.svg) Centrifuge
+## <img src="../.gitbook/assets/download.svg" alt="" data-size="line"> Centrifuge
 
 **Centrifuge** is a network that provides access to fast, cheap capital for small businesses and stable yield for investors. **Centrifuge Chain is the home for real-world assets (RWA) on-chain.** It is a Proof-of-Stake blockchain built on [Substrate](https://www.parity.io/what-is-substrate/) that enables users to bring their assets on-chain as non-fungible tokens (NFTs).
 
@@ -50,7 +50,7 @@ Celo is a smart contract blockchain network. The technology uses a phone-number-
 [centrifuge](centrifuge/)
 {% endcontent-ref %}
 
-## ![](../.gitbook/assets/rsz\_1cosmoslogo\_1.png) Cosmos
+## <img src="../.gitbook/assets/rsz_1cosmoslogo_1.png" alt="" data-size="line"> Cosmos
 
 Cosmos provides tools that make it easy to build a new, custom-designed blockchain that may interoperate with an arbitrary number of others in the Cosmos network. Its transactions are fast and low-cost, and the network is scalable. Cosmos is intended to break the silos of blockchain economies by enabling assets to be transferred between one another. A custom Cosmos blockchain can be securely connected with other blockchains, increasing the rate of adoption and liquidity.
 
@@ -58,7 +58,7 @@ Cosmos provides tools that make it easy to build a new, custom-designed blockcha
 [cosmos](cosmos/)
 {% endcontent-ref %}
 
-## ![](../.gitbook/assets/eth-diamond-black.png) Ethereum
+## <img src="../.gitbook/assets/eth-diamond-black.png" alt="" data-size="line"> Ethereum
 
 Ethereum is a decentralized, open-source blockchain with smart contract functionality. It's a marketplace of financial services, games and apps that can't steal your data or censor you. Ethereum is one of the largest and most popular blockchain networks among developers.
 
@@ -66,7 +66,7 @@ Ethereum is a decentralized, open-source blockchain with smart contract function
 [ethereum](ethereum/)
 {% endcontent-ref %}
 
-## ![](<../.gitbook/assets/logomark blue-without-background.svg>) Fantom
+## <img src="../.gitbook/assets/logomark blue-without-background.svg" alt="" data-size="line"> Fantom
 
 Fantom is a high-performance, scalable, EVM-compatible, and secure smart-contract platform. Fantom’s mainnet deployment—Fantom Opera—is built on Fantom’s consensus mechanism, [Lachesis](https://www.fantom.foundation/lachesis-consensus-algorithm/). Fantom is a leaderless, asynchronous, and byzantine fault-tolerant Layer 1 blockchain protocol.
 
@@ -74,7 +74,7 @@ Fantom is a high-performance, scalable, EVM-compatible, and secure smart-contrac
 [fantom](fantom/)
 {% endcontent-ref %}
 
-## ![](../.gitbook/assets/kusama.png) Kusama
+## <img src="../.gitbook/assets/kusama.png" alt="" data-size="line"> Kusama
 
 Kusama is an early release of Polkadot: a scalable, multichain network for radical innovation. Kusama serves as a proving ground that allows teams and developers to build and deploy a parachain, and experiment with Polkadot’s governance and NPoS functionality in a real environment.
 
@@ -82,7 +82,7 @@ Kusama is an early release of Polkadot: a scalable, multichain network for radic
 [kusama](kusama/)
 {% endcontent-ref %}
 
-## ![](../.gitbook/assets/1\_Gc0Dp8vfVm6BwwN51NUqEw.png) Mina
+## <img src="../.gitbook/assets/1_Gc0Dp8vfVm6BwwN51NUqEw.png" alt="" data-size="line"> Mina
 
 Mina is the first cryptocurrency protocol with a succinct blockchain. Current cryptocurrencies like Bitcoin and Ethereum store hundreds of gigabytes of data, and as time goes on, their blockchains will only increase in size. With Mina, however, no matter how much the usage grows, the blockchain always stays the same size - about 22kb (the size of a few tweets). This means participants can quickly sync and verify the network.
 
@@ -90,7 +90,7 @@ Mina is the first cryptocurrency protocol with a succinct blockchain. Current cr
 [mina](mina/)
 {% endcontent-ref %}
 
-## ![](../.gitbook/assets/tnear\_icon\_1.png) NEAR
+## <img src="../.gitbook/assets/tnear_icon_1.png" alt="" data-size="line"> NEAR
 
 NEAR is a decentralized application platform that is secure enough to manage high-value assets like money or identity and performant enough to make them useful for everyday people, putting the power of the Open Web in their hands.
 
@@ -106,7 +106,7 @@ The Oasis Network is the first privacy-enabled blockchain platform for open fina
 [oasis](oasis/)
 {% endcontent-ref %}
 
-## ![](../.gitbook/assets/osmo.png) Osmosis
+## <img src="../.gitbook/assets/osmo.png" alt="" data-size="line"> Osmosis
 
 Osmosis is an advanced AMM protocol built using the Cosmos SDK that will allow developers to design, build, and deploy their own customized AMMs.
 
@@ -114,7 +114,7 @@ Osmosis is an advanced AMM protocol built using the Cosmos SDK that will allow d
 [osmosis](osmosis/)
 {% endcontent-ref %}
 
-## ![](../.gitbook/assets/4129.png) Polkadot
+## <img src="../.gitbook/assets/4129.png" alt="" data-size="line"> Polkadot
 
 Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, trust-free environment. It is built to connect and secure unique blockchains, whether they be public, permission-less networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet where independent blockchains can exchange information under common security guarantees.
 
@@ -122,7 +122,7 @@ Polkadot enables scalability by allowing specialized blockchains to communicate 
 [polkadot](polkadot/)
 {% endcontent-ref %}
 
-## ![](../.gitbook/assets/polygon.png) Polygon
+## <img src="../.gitbook/assets/polygon.png" alt="" data-size="line"> Polygon
 
 Polygon (Matic) Network is a sidechain-based scaling solution for public blockchains. It is based on an adapted implementation of Plasma framework. Polygon (Matic) provides scalability while ensuring a superior user experience in a secured and decentralized manner.
 
@@ -130,7 +130,7 @@ Polygon (Matic) Network is a sidechain-based scaling solution for public blockch
 [matic](matic/)
 {% endcontent-ref %}
 
-## ![](../.gitbook/assets/logo1.png) Secret
+## <img src="../.gitbook/assets/logo1.png" alt="" data-size="line"> Secret
 
 Secret Network is the first blockchain with privacy-preserving smart contracts. That means applications built on Secret can utilize encrypted data without revealing it to anyone, even the nodes in the network. For the first time, Secret Network allows developers to build powerful, permissionless, privacy-preserving applications - Secret Apps.
 
@@ -138,18 +138,10 @@ Secret Network is the first blockchain with privacy-preserving smart contracts. 
 [secret](secret/)
 {% endcontent-ref %}
 
-## ![](<../.gitbook/assets/solana (2) (2) (2) (2) (1) (2) (2) (2) (2) (2) (1) (3).png>) Solana
+## <img src="../.gitbook/assets/solana (2) (2) (2) (2) (1) (2) (2) (2) (2) (2) (1) (3).png" alt="" data-size="line"> Solana
 
 Solana is an open-source project implementing a new, high-performance, permissionless blockchain. Solana features a new timestamp system called Proof-of-History (PoH) that enables automatically ordered transactions. It also uses a Proof of Stake (PoS) consensus algorithm to help secure the network.
 
 {% content-ref url="solana/" %}
 [solana](solana/)
-{% endcontent-ref %}
-
-## ![](<../.gitbook/assets/rsz\_terra-logo (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (1) (2).jpg>) Terra
-
-Terra is a blockchain protocol that supports stable programmable payments and open financial infrastructure development. One part of Terra’s value contributions, payments, in essence, replaces the complicated payments value chain, including credit card networks, banks, and payment gateways with a single blockchain layer.
-
-{% content-ref url="terra/" %}
-[terra](terra/)
 {% endcontent-ref %}

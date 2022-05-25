@@ -12,7 +12,7 @@ You can then get started with the available RPC & REST APIs we support [**via Da
 
 Last but not least, if you are looking for guidelines or simply some inspiration, check out available tutorials on [**Learn**](https://learn.figment.io/protocols/oasis)****
 
-Be sure to check out the[ **official Oasis documentation**](https://docs.oasis.dev/general/) and if you need tokens to build on testnet, please log in to the Oasis Dashboard at [dashboard.oasiscloud.io](https://dashboard.oasiscloud.io).
+Be sure to check out the[ **official Oasis documentation**](https://docs.oasis.dev/general/) and if you need tokens to build on testnet, please log in to the Oasis Dashboard at [dashboard.oasiscloud.io](https://dashboard.oasiscloud.io/).
 
 🚀 Let's start building the decentralized web 🚀
 

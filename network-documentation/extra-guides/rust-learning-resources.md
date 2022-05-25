@@ -28,7 +28,7 @@ The Rust Language Cheat Sheet has a good section of [Coding Guides](https://chea
 * [A Gentle Introduction to Rust](https://stevedonovan.github.io/rust-gentle-intro/) - Steve Donovan covers Beginner to Intermediate Rust
 * [24 Days Of Rust](http://zsiciarz.github.io/24daysofrust/index.html) - An older resource from 2014 - 2016 but still worth a read
 * [What is Rust and why Rust?](https://www.oreilly.com/content/why-rust/) by O'Reilly
-* [This Week in Rust](https://this-week-in-rust.org) - curated newsletter with latest articles, news and updates from the Rust community.
+* [This Week in Rust](https://this-week-in-rust.org/) - curated newsletter with latest articles, news and updates from the Rust community.
 * [The Rust subreddit](https://www.reddit.com/r/rust/) - a place for all things Rust: from beginner questions to advanced low level concepts, game development, wasm, web frameworks, etc.;
 
 ## Intermediate

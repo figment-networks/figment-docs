@@ -12,7 +12,7 @@ You can then get started with the available RPC & REST APIs we support [**via Da
 
 Last but not least, if you are looking for guidelines or simply some inspiration, check out available tutorials on [**Learn**](https://learn.figment.io/protocols/celo)****
 
-Be sure to check out the [**official Celo documentation**](https://docs.celo.org) and if you need tokens to build on testnet, you can check out the [**link here**](https://celo.org/developers/faucet).
+Be sure to check out the [**official Celo documentation**](https://docs.celo.org/) and if you need tokens to build on testnet, you can check out the [**link here**](https://celo.org/developers/faucet).
 
 🚀 Let's start building the decentralized web 🚀
 

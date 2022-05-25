@@ -12,7 +12,7 @@ You can then get started with the available RPC & REST APIs we support [**via Da
 
 Last but not least, if you are looking for guidelines or simply some inspiration, check out available tutorials on [**Learn**](https://learn.figment.io/protocols/cosmos)****
 
-Be sure to check out the [**official Cosmos documentation**](https://docs.cosmos.network) **** and if you need tokens to build on testnet, you can check out the **** link [**here**](https://github.com/cosmos/faucet)&#x20;
+Be sure to check out the [**official Cosmos documentation**](https://docs.cosmos.network/) **** and if you need tokens to build on testnet, you can check out the **** link [**here**](https://github.com/cosmos/faucet)&#x20;
 
 🚀 Let's start building the decentralized web 🚀
 

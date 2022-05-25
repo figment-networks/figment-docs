@@ -31,7 +31,7 @@ There are two major ways to handle CORS errors effectively so you don’t expose
 There are multiple [**CORS proxies** ](https://gist.github.com/jimmywarting/ac1be6ea0297c16c477e17f8fbe51347)(Must Check) out there that you can use for free. Some of them are
 
 * [cors-anywhere](https://github.com/Rob--W/cors-anywhere)
-* [Crossorigin.me ](http://crossorigin.me)is easy to use — you simply prepend [https://crossorigin.me/ ](https://crossorigin.me)to your request URL (Not Recommended for Production).
+* [Crossorigin.me ](http://crossorigin.me/)is easy to use — you simply prepend [https://crossorigin.me/ ](https://crossorigin.me/)to your request URL (Not Recommended for Production).
 * Cloudflare Workers - [CORS header proxy ](https://developers.cloudflare.com/workers/examples/cors-header-proxy)Doc.
   * [CORS Header Proxy Template](https://github.com/cloudflare/template-registry/blob/f2a21ff87a4f9c60ce1d426e9e8d2e6807b786fd/templates/javascript/cors\_header\_proxy.js)
   * [**Cloudflare worker Template by Figment**](https://gist.github.com/ajcronk/d97fc7e5f1f1d9754753b28e8dd187b1)

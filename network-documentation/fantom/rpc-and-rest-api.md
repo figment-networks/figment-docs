@@ -12,4 +12,4 @@ Learn about the APIs available via Fantom [**DataHub**](https://datahub.figment.
 
 ### Fantom RPC & WebSocket (WS)
 
-You can review the official Fantom RPC/WS documentation [**HERE**](https://docs.fantom.foundation).
+You can review the official Fantom RPC/WS documentation [**HERE**](https://docs.fantom.foundation/).

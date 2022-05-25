@@ -4,7 +4,7 @@ description: Learn how to build Web 3 with DataHub
 
 # 👋 Welcome to Figment Docs
 
-![](<.gitbook/assets/vhhp1wL4\_400x400 (1).jpg>) At Figment, our mission is to support the adoption, growth and long-term success of the Web 3 ecosystem. This is Figment’s unique approach: we make it simple to build on the next generation of blockchain technology. We provide enterprise-grade node and staking infrastructure, the Hubble Web 3 explorer, and developer tools while also actively participating in community & governance.
+<img src=".gitbook/assets/vhhp1wL4_400x400 (1).jpg" alt="" data-size="line"> At Figment, our mission is to support the adoption, growth and long-term success of the Web 3 ecosystem. This is Figment’s unique approach: we make it simple to build on the next generation of blockchain technology. We provide enterprise-grade node and staking infrastructure, the Hubble Web 3 explorer, and developer tools while also actively participating in community & governance.
 
 Here you'll find the documentation for DataHub, our blockchain development platform, and all protocols supported.&#x20;
 

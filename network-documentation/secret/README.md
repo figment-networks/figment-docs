@@ -4,6 +4,10 @@ description: Learn how to interact with the Secret Network using DataHub
 
 # 🤫 Secret
 
+{% hint style="info" %}
+**Important update on DataHub -** After much consideration, we have made the difficult decision to deprecate the Secret Network. DataHub were early supporter of the Secret ecosystem, however to ensure we continue to offer the highest level of service and support to our customers, we have decided to focus on our highest priority protocols. The deprecation is expected to occur at 31st May, 2022, after which all Secret services will be removed and no longer accessible using DataHub.
+{% endhint %}
+
 ## Welcome to the Secret documentation!
 
 In this section, you will be able to learn about what makes Secret special and how you can leverage available tools to build amazing products!

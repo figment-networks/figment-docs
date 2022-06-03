@@ -134,8 +134,8 @@ Polygon (Matic) Network is a sidechain-based scaling solution for public blockch
 
 Secret Network is the first blockchain with privacy-preserving smart contracts. That means applications built on Secret can utilize encrypted data without revealing it to anyone, even the nodes in the network. For the first time, Secret Network allows developers to build powerful, permissionless, privacy-preserving applications - Secret Apps.
 
-{% content-ref url="secret/" %}
-[secret](secret/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## <img src="../.gitbook/assets/solana (2) (2) (2) (2) (1) (2) (2) (2) (2) (2) (1) (3).png" alt="" data-size="line"> Solana

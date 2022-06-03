@@ -67,8 +67,6 @@
     * [Transaction Search](network-documentation/polkadot/enriched-apis/transaction-search.md)
 * [⛽ Polygon (Matic)](network-documentation/matic/README.md)
   * [🎮 RPC & REST API](network-documentation/matic/rpc-and-rest-api.md)
-* [🤫 Secret](network-documentation/secret/README.md)
-  * [🎮 RPC & REST API](network-documentation/secret/rpc-and-rest-api.md)
 * [🔋 Solana](network-documentation/solana/README.md)
   * [🎮 RPC & REST API](network-documentation/solana/rpc-and-rest-api.md)
 * [📚 Extra Guides](network-documentation/extra-guides/README.md)

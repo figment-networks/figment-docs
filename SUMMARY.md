@@ -15,8 +15,6 @@
 * [🏭 DataHub Infrastructure](guides/datahub-infrastructure.md)
 * [🏁 Get Started With DataHub](guides/getting-started-with-datahub.md)
 * [🚨 Quotas & Rate Limits](guides/rate-limits.md)
-* [🛣 DataHub 2.0 Transition Guide](guides/datahub-2.0-transition-guide.md)
-* [💵 DataHub 2.0 Pricing Model](guides/datahub-2.0-pricing-model.md)
 * [💡 Dashboard how-tos](guides/dashboard-how-tos/README.md)
   * [Configuring CORS whitelist](guides/dashboard-how-tos/configuring-cors-whitelist.md)
 
